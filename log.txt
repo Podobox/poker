@@ -1,0 +1,13188 @@
+Traceback (most recent call last):
+  File "/home/madness/Documents/projet/poker/poker.py", line 27, in <module>
+    poker_texas_holdem(2)
+  File "/home/madness/Documents/projet/poker/poker.py", line 25, in poker_texas_holdem
+    print("Le joueur gagnant est: ", affiche_gagnant(joueurs, combi_joueurs, cards))
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madness/Documents/projet/poker/eval.py", line 230, in affiche_gagnant
+    best_card.append(meilleure_carte(deck[i]))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madness/Documents/projet/poker/eval.py", line 164, in meilleure_carte
+    print("Function meilleure_carte, meilleure carte: ", max(cards))
+                                                         ^^^^^^^^^^
+ValueError: max() iterable argument is empty
+
+Joueur 1:
+K de Carreau
+K de Pique
+Main évaluée: Paire
+
+Joueur 2:
+J de Carreau
+8 de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+Q de Coeur
+5 de Coeur
+J de Coeur
+
+Joueur 1:
+K de Carreau
+K de Pique
+Main évaluée: Paire
+
+Joueur 2:
+J de Carreau
+8 de Coeur
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+Q de Coeur
+5 de Coeur
+J de Coeur
+10 de Carreau
+
+Joueur 1:
+K de Carreau
+K de Pique
+Main évaluée: Paire
+
+Joueur 2:
+J de Carreau
+8 de Coeur
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+Q de Coeur
+5 de Coeur
+J de Coeur
+10 de Carreau
+A de Carreau
+
+Joueur 1:
+K de Carreau
+K de Pique
+Main évaluée: Quinte
+
+Joueur 2:
+J de Carreau
+8 de Coeur
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+K de Coeur
+J de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+8 de Coeur
+3 de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+4 de Coeur
+6 de Coeur
+8 de Pique
+
+Joueur 1:
+K de Coeur
+J de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+8 de Coeur
+3 de Carreau
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+4 de Coeur
+6 de Coeur
+8 de Pique
+6 de Trèfle
+
+Joueur 1:
+K de Coeur
+J de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+8 de Coeur
+3 de Carreau
+Main évaluée: Double Paire
+
+River:
+(press enter to continue)
+4 de Coeur
+6 de Coeur
+8 de Pique
+6 de Trèfle
+6 de Carreau
+
+Joueur 1:
+K de Coeur
+J de Coeur
+Main évaluée: Brelan
+
+Joueur 2:
+8 de Coeur
+3 de Carreau
+Main évaluée: Full
+Le joueur gagnant est:  2
+
+Joueur 1:
+J de Carreau
+Q de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Carreau
+10 de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+10 de Trèfle
+2 de Carreau
+6 de Coeur
+
+Joueur 1:
+J de Carreau
+Q de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Carreau
+10 de Coeur
+Main évaluée: Double Paire
+
+Turn:
+(press enter to continue)
+10 de Trèfle
+2 de Carreau
+6 de Coeur
+4 de Coeur
+
+Joueur 1:
+J de Carreau
+Q de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Carreau
+10 de Coeur
+Main évaluée: Double Paire
+
+River:
+(press enter to continue)
+10 de Trèfle
+2 de Carreau
+6 de Coeur
+4 de Coeur
+A de Coeur
+
+Joueur 1:
+J de Carreau
+Q de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Carreau
+10 de Coeur
+Main évaluée: Double Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+7 de Coeur
+4 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+2 de Pique
+4 de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+J de Carreau
+J de Trèfle
+8 de Trèfle
+
+Joueur 1:
+7 de Coeur
+4 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+2 de Pique
+4 de Coeur
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+J de Carreau
+J de Trèfle
+8 de Trèfle
+5 de Coeur
+
+Joueur 1:
+7 de Coeur
+4 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+2 de Pique
+4 de Coeur
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+J de Carreau
+J de Trèfle
+8 de Trèfle
+5 de Coeur
+J de Coeur
+
+Joueur 1:
+7 de Coeur
+4 de Pique
+Main évaluée: Brelan
+
+Joueur 2:
+2 de Pique
+4 de Coeur
+Main évaluée: Brelan
+Function meilleure_carte, cards:  [4, 5, 7, 8, 11, 11, 11]
+Function meilleure_carte, meilleure carte:  11
+Function meilleure_carte, cards:  [2, 4, 5, 8, 11, 11, 11]
+Function meilleure_carte, meilleure carte:  11
+Function meilleure_carte, cards:  [4, 5, 7, 8]
+Function meilleure_carte, meilleure carte:  8
+Function meilleure_carte, cards:  [2, 4, 5, 8]
+Function meilleure_carte, meilleure carte:  8
+Function meilleure_carte, cards:  [4, 5, 7]
+Function meilleure_carte, meilleure carte:  7
+Function meilleure_carte, cards:  [2, 4, 5]
+Function meilleure_carte, meilleure carte:  5
+Best_card : [7, 5]
+Le joueur gagnant est:  1
+
+Joueur 1:
+6 de Pique
+9 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+A de Coeur
+A de Carreau
+Main évaluée: Paire
+
+Flop:
+(press enter to continue)
+K de Trèfle
+10 de Carreau
+3 de Trèfle
+
+Joueur 1:
+6 de Pique
+9 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+A de Coeur
+A de Carreau
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+K de Trèfle
+10 de Carreau
+3 de Trèfle
+Q de Carreau
+
+Joueur 1:
+6 de Pique
+9 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+A de Coeur
+A de Carreau
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+K de Trèfle
+10 de Carreau
+3 de Trèfle
+Q de Carreau
+3 de Coeur
+
+Joueur 1:
+6 de Pique
+9 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+A de Coeur
+A de Carreau
+Main évaluée: Double Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+3 de Carreau
+K de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+7 de Pique
+10 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+K de Coeur
+2 de Coeur
+J de Carreau
+
+Joueur 1:
+3 de Carreau
+K de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+7 de Pique
+10 de Pique
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+K de Coeur
+2 de Coeur
+J de Carreau
+Q de Trèfle
+
+Joueur 1:
+3 de Carreau
+K de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+7 de Pique
+10 de Pique
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+K de Coeur
+2 de Coeur
+J de Carreau
+Q de Trèfle
+A de Pique
+
+Joueur 1:
+3 de Carreau
+K de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+7 de Pique
+10 de Pique
+Main évaluée: Quinte
+Le joueur gagnant est:  2
+
+Joueur 1:
+A de Carreau
+J de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+7 de Coeur
+4 de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+10 de Trèfle
+5 de Carreau
+8 de Carreau
+
+Joueur 1:
+A de Carreau
+J de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+7 de Coeur
+4 de Coeur
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+10 de Trèfle
+5 de Carreau
+8 de Carreau
+9 de Trèfle
+
+Joueur 1:
+A de Carreau
+J de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+7 de Coeur
+4 de Coeur
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+10 de Trèfle
+5 de Carreau
+8 de Carreau
+9 de Trèfle
+K de Pique
+
+Joueur 1:
+A de Carreau
+J de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+7 de Coeur
+4 de Coeur
+Main évaluée: Carte Haute
+Function meilleure_carte, cards:  [10, 5, 8, 9, 14, 11, 13]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [10, 4, 5, 7, 8, 9, 13]
+Function meilleure_carte, meilleure carte:  13
+Best_card : [14, 13]
+Le joueur gagnant est:  1
+
+Joueur 1:
+2 de Carreau
+4 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+10 de Trèfle
+6 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+8 de Carreau
+3 de Trèfle
+3 de Carreau
+
+Joueur 1:
+2 de Carreau
+4 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+10 de Trèfle
+6 de Trèfle
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+8 de Carreau
+3 de Trèfle
+3 de Carreau
+2 de Pique
+
+Joueur 1:
+2 de Carreau
+4 de Coeur
+Main évaluée: Double Paire
+
+Joueur 2:
+10 de Trèfle
+6 de Trèfle
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+8 de Carreau
+3 de Trèfle
+3 de Carreau
+2 de Pique
+A de Pique
+
+Joueur 1:
+2 de Carreau
+4 de Coeur
+Main évaluée: Double Paire
+
+Joueur 2:
+10 de Trèfle
+6 de Trèfle
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+10 de Trèfle
+8 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+A de Pique
+7 de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+10 de Carreau
+K de Trèfle
+6 de Pique
+
+Joueur 1:
+10 de Trèfle
+8 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+A de Pique
+7 de Carreau
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+10 de Carreau
+K de Trèfle
+6 de Pique
+7 de Pique
+
+Joueur 1:
+10 de Trèfle
+8 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+A de Pique
+7 de Carreau
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+10 de Carreau
+K de Trèfle
+6 de Pique
+7 de Pique
+A de Trèfle
+
+Joueur 1:
+10 de Trèfle
+8 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+A de Pique
+7 de Carreau
+Main évaluée: Double Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+5 de Trèfle
+9 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+5 de Carreau
+7 de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+A de Pique
+J de Carreau
+Q de Pique
+
+Joueur 1:
+5 de Trèfle
+9 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+5 de Carreau
+7 de Carreau
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+A de Pique
+J de Carreau
+Q de Pique
+5 de Pique
+
+Joueur 1:
+5 de Trèfle
+9 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+5 de Carreau
+7 de Carreau
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+A de Pique
+J de Carreau
+Q de Pique
+5 de Pique
+7 de Trèfle
+
+Joueur 1:
+5 de Trèfle
+9 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+5 de Carreau
+7 de Carreau
+Main évaluée: Double Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+10 de Trèfle
+K de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+3 de Trèfle
+6 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+7 de Carreau
+3 de Carreau
+5 de Pique
+
+Joueur 1:
+10 de Trèfle
+K de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+3 de Trèfle
+6 de Pique
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+7 de Carreau
+3 de Carreau
+5 de Pique
+8 de Pique
+
+Joueur 1:
+10 de Trèfle
+K de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+3 de Trèfle
+6 de Pique
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+7 de Carreau
+3 de Carreau
+5 de Pique
+8 de Pique
+9 de Coeur
+
+Joueur 1:
+10 de Trèfle
+K de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+3 de Trèfle
+6 de Pique
+Main évaluée: Quinte
+Le joueur gagnant est:  2
+
+Joueur 1:
+4 de Coeur
+K de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+2 de Pique
+6 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+9 de Coeur
+8 de Coeur
+J de Trèfle
+
+Joueur 1:
+4 de Coeur
+K de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+2 de Pique
+6 de Trèfle
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+9 de Coeur
+8 de Coeur
+J de Trèfle
+4 de Trèfle
+
+Joueur 1:
+4 de Coeur
+K de Pique
+Main évaluée: Paire
+
+Joueur 2:
+2 de Pique
+6 de Trèfle
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+9 de Coeur
+8 de Coeur
+J de Trèfle
+4 de Trèfle
+J de Carreau
+
+Joueur 1:
+4 de Coeur
+K de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+2 de Pique
+6 de Trèfle
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+7 de Coeur
+2 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+5 de Carreau
+9 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+J de Pique
+Q de Carreau
+A de Pique
+
+Joueur 1:
+7 de Coeur
+2 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+5 de Carreau
+9 de Pique
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+J de Pique
+Q de Carreau
+A de Pique
+6 de Trèfle
+
+Joueur 1:
+7 de Coeur
+2 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+5 de Carreau
+9 de Pique
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+J de Pique
+Q de Carreau
+A de Pique
+6 de Trèfle
+Q de Coeur
+
+Joueur 1:
+7 de Coeur
+2 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+5 de Carreau
+9 de Pique
+Main évaluée: Paire
+Function meilleure_carte, cards:  [2, 6, 7, 14, 11, 12, 12]
+Function meilleure_carte, meilleure carte:  12
+Function meilleure_carte, cards:  [5, 6, 9, 14, 11, 12, 12]
+Function meilleure_carte, meilleure carte:  12
+Function meilleure_carte, cards:  [2, 6, 7, 14, 11]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [5, 6, 9, 14, 11]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [2, 6, 7, 14]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [5, 6, 9, 14]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [2, 6, 7]
+Function meilleure_carte, meilleure carte:  7
+Function meilleure_carte, cards:  [5, 6, 9]
+Function meilleure_carte, meilleure carte:  9
+Best_card : [7, 9]
+Le joueur gagnant est:  2
+
+Joueur 1:
+2 de Coeur
+9 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+7 de Trèfle
+K de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+Q de Carreau
+4 de Coeur
+A de Pique
+
+Joueur 1:
+2 de Coeur
+9 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+7 de Trèfle
+K de Trèfle
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+Q de Carreau
+4 de Coeur
+A de Pique
+10 de Coeur
+
+Joueur 1:
+2 de Coeur
+9 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+7 de Trèfle
+K de Trèfle
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+Q de Carreau
+4 de Coeur
+A de Pique
+10 de Coeur
+2 de Trèfle
+
+Joueur 1:
+2 de Coeur
+9 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+7 de Trèfle
+K de Trèfle
+Main évaluée: Carte Haute
+Le joueur gagnant est:  1
+
+Joueur 1:
+J de Trèfle
+3 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+A de Pique
+2 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+7 de Pique
+K de Pique
+Q de Carreau
+
+Joueur 1:
+J de Trèfle
+3 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+A de Pique
+2 de Pique
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+7 de Pique
+K de Pique
+Q de Carreau
+6 de Trèfle
+
+Joueur 1:
+J de Trèfle
+3 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+A de Pique
+2 de Pique
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+7 de Pique
+K de Pique
+Q de Carreau
+6 de Trèfle
+10 de Pique
+
+Joueur 1:
+J de Trèfle
+3 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+A de Pique
+2 de Pique
+Main évaluée: Flush
+Le joueur gagnant est:  2
+
+Joueur 1:
+2 de Pique
+3 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+Q de Coeur
+4 de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+2 de Carreau
+4 de Pique
+9 de Trèfle
+
+Joueur 1:
+2 de Pique
+3 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+Q de Coeur
+4 de Carreau
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+2 de Carreau
+4 de Pique
+9 de Trèfle
+8 de Carreau
+
+Joueur 1:
+2 de Pique
+3 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+Q de Coeur
+4 de Carreau
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+2 de Carreau
+4 de Pique
+9 de Trèfle
+8 de Carreau
+3 de Pique
+
+Joueur 1:
+2 de Pique
+3 de Trèfle
+Main évaluée: Double Paire
+
+Joueur 2:
+Q de Coeur
+4 de Carreau
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+3 de Carreau
+10 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Coeur
+6 de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+5 de Coeur
+3 de Coeur
+5 de Carreau
+
+Joueur 1:
+3 de Carreau
+10 de Coeur
+Main évaluée: Double Paire
+
+Joueur 2:
+9 de Coeur
+6 de Coeur
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+5 de Coeur
+3 de Coeur
+5 de Carreau
+6 de Carreau
+
+Joueur 1:
+3 de Carreau
+10 de Coeur
+Main évaluée: Double Paire
+
+Joueur 2:
+9 de Coeur
+6 de Coeur
+Main évaluée: Double Paire
+
+River:
+(press enter to continue)
+5 de Coeur
+3 de Coeur
+5 de Carreau
+6 de Carreau
+10 de Trèfle
+
+Joueur 1:
+3 de Carreau
+10 de Coeur
+Main évaluée: Double Paire
+
+Joueur 2:
+9 de Coeur
+6 de Coeur
+Main évaluée: Double Paire
+Function meilleure_carte, cards:  [10, 10, 3, 3, 5, 5, 6]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  [10, 3, 5, 5, 6, 6, 9]
+Function meilleure_carte, meilleure carte:  6
+Best_card : [10, 6]
+Le joueur gagnant est:  1
+
+Joueur 1:
+10 de Carreau
+4 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+5 de Trèfle
+8 de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+4 de Carreau
+3 de Trèfle
+7 de Carreau
+
+Joueur 1:
+10 de Carreau
+4 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+5 de Trèfle
+8 de Coeur
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+4 de Carreau
+3 de Trèfle
+7 de Carreau
+J de Coeur
+
+Joueur 1:
+10 de Carreau
+4 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+5 de Trèfle
+8 de Coeur
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+4 de Carreau
+3 de Trèfle
+7 de Carreau
+J de Coeur
+Q de Pique
+
+Joueur 1:
+10 de Carreau
+4 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+5 de Trèfle
+8 de Coeur
+Main évaluée: Carte Haute
+Le joueur gagnant est:  1
+
+Joueur 1:
+2 de Coeur
+Q de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+K de Pique
+10 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+9 de Carreau
+6 de Pique
+Q de Coeur
+
+Joueur 1:
+2 de Coeur
+Q de Pique
+Main évaluée: Paire
+
+Joueur 2:
+K de Pique
+10 de Pique
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+9 de Carreau
+6 de Pique
+Q de Coeur
+4 de Carreau
+
+Joueur 1:
+2 de Coeur
+Q de Pique
+Main évaluée: Paire
+
+Joueur 2:
+K de Pique
+10 de Pique
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+9 de Carreau
+6 de Pique
+Q de Coeur
+4 de Carreau
+K de Coeur
+
+Joueur 1:
+2 de Coeur
+Q de Pique
+Main évaluée: Paire
+
+Joueur 2:
+K de Pique
+10 de Pique
+Main évaluée: Paire
+Function meilleure_carte, cards:  [2, 4, 6, 9, 13, 12, 12]
+Function meilleure_carte, meilleure carte:  12
+Function meilleure_carte, cards:  [10, 4, 6, 9, 13, 13, 12]
+Function meilleure_carte, meilleure carte:  13
+Best_card : [12, 13]
+Le joueur gagnant est:  2
+
+Joueur 1:
+4 de Pique
+10 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+4 de Trèfle
+3 de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+2 de Coeur
+9 de Carreau
+9 de Coeur
+
+Joueur 1:
+4 de Pique
+10 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+4 de Trèfle
+3 de Carreau
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+2 de Coeur
+9 de Carreau
+9 de Coeur
+K de Trèfle
+
+Joueur 1:
+4 de Pique
+10 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+4 de Trèfle
+3 de Carreau
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+2 de Coeur
+9 de Carreau
+9 de Coeur
+K de Trèfle
+5 de Trèfle
+
+Joueur 1:
+4 de Pique
+10 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+4 de Trèfle
+3 de Carreau
+Main évaluée: Paire
+Function meilleure_carte, cards:  [10, 2, 4, 5, 9, 9, 13]
+Function meilleure_carte, meilleure carte:  9
+Function meilleure_carte, cards:  [2, 3, 4, 5, 9, 9, 13]
+Function meilleure_carte, meilleure carte:  9
+Function meilleure_carte, cards:  [10, 2, 4, 5, 13]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [2, 3, 4, 5, 13]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [10, 2, 4, 5]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  [2, 3, 4, 5]
+Function meilleure_carte, meilleure carte:  5
+Best_card : [10, 5]
+Le joueur gagnant est:  1
+
+Joueur 1:
+7 de Trèfle
+4 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+7 de Coeur
+9 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+8 de Pique
+J de Coeur
+Q de Carreau
+
+Joueur 1:
+7 de Trèfle
+4 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+7 de Coeur
+9 de Trèfle
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+8 de Pique
+J de Coeur
+Q de Carreau
+3 de Coeur
+
+Joueur 1:
+7 de Trèfle
+4 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+7 de Coeur
+9 de Trèfle
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+8 de Pique
+J de Coeur
+Q de Carreau
+3 de Coeur
+9 de Coeur
+
+Joueur 1:
+7 de Trèfle
+4 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+7 de Coeur
+9 de Trèfle
+Main évaluée: Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+Q de Trèfle
+2 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+10 de Coeur
+Q de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+A de Carreau
+10 de Pique
+7 de Carreau
+
+Joueur 1:
+Q de Trèfle
+2 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+10 de Coeur
+Q de Coeur
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+A de Carreau
+10 de Pique
+7 de Carreau
+9 de Trèfle
+
+Joueur 1:
+Q de Trèfle
+2 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+10 de Coeur
+Q de Coeur
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+A de Carreau
+10 de Pique
+7 de Carreau
+9 de Trèfle
+3 de Pique
+
+Joueur 1:
+Q de Trèfle
+2 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+10 de Coeur
+Q de Coeur
+Main évaluée: Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+K de Carreau
+8 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+J de Coeur
+J de Carreau
+Main évaluée: Paire
+
+Flop:
+(press enter to continue)
+5 de Coeur
+A de Trèfle
+10 de Coeur
+
+Joueur 1:
+K de Carreau
+8 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+J de Coeur
+J de Carreau
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+5 de Coeur
+A de Trèfle
+10 de Coeur
+7 de Coeur
+
+Joueur 1:
+K de Carreau
+8 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+J de Coeur
+J de Carreau
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+5 de Coeur
+A de Trèfle
+10 de Coeur
+7 de Coeur
+6 de Coeur
+
+Joueur 1:
+K de Carreau
+8 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+J de Coeur
+J de Carreau
+Main évaluée: Flush
+Le joueur gagnant est:  2
+
+Joueur 1:
+K de Trèfle
+K de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+K de Pique
+K de Carreau
+Main évaluée: Paire
+
+Flop:
+(press enter to continue)
+A de Pique
+6 de Trèfle
+4 de Pique
+
+Joueur 1:
+K de Trèfle
+K de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+K de Pique
+K de Carreau
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+A de Pique
+6 de Trèfle
+4 de Pique
+7 de Trèfle
+
+Joueur 1:
+K de Trèfle
+K de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+K de Pique
+K de Carreau
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+A de Pique
+6 de Trèfle
+4 de Pique
+7 de Trèfle
+10 de Coeur
+
+Joueur 1:
+K de Trèfle
+K de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+K de Pique
+K de Carreau
+Main évaluée: Paire
+Function meilleure_carte, cards:  [10, 4, 6, 7, 14, 13, 13]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [10, 4, 6, 7, 14, 13, 13]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [10, 4, 6, 7, 14]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [10, 4, 6, 7, 14]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [10, 4, 6, 7]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  [10, 4, 6, 7]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  [10, 4, 6]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  [10, 4, 6]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  [10, 4]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  [10, 4]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  [10]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  [10]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  []
+Traceback (most recent call last):
+  File "/home/madness/Documents/projet/poker/poker.py", line 27, in <module>
+    poker_texas_holdem(2)
+  File "/home/madness/Documents/projet/poker/poker.py", line 25, in poker_texas_holdem
+    print("Le joueur gagnant est: ", affiche_gagnant(joueurs, combi_joueurs, cards))
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madness/Documents/projet/poker/eval.py", line 230, in affiche_gagnant
+    best_card.append(meilleure_carte(deck[i]))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madness/Documents/projet/poker/eval.py", line 164, in meilleure_carte
+    print("Function meilleure_carte, meilleure carte: ", max(cards))
+                                                         ^^^^^^^^^^
+ValueError: max() iterable argument is empty
+
+Joueur 1:
+Q de Coeur
+9 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+7 de Pique
+3 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+6 de Coeur
+6 de Pique
+7 de Carreau
+
+Joueur 1:
+Q de Coeur
+9 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+7 de Pique
+3 de Trèfle
+Main évaluée: Double Paire
+
+Turn:
+(press enter to continue)
+6 de Coeur
+6 de Pique
+7 de Carreau
+J de Carreau
+
+Joueur 1:
+Q de Coeur
+9 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+7 de Pique
+3 de Trèfle
+Main évaluée: Double Paire
+
+River:
+(press enter to continue)
+6 de Coeur
+6 de Pique
+7 de Carreau
+J de Carreau
+9 de Coeur
+
+Joueur 1:
+Q de Coeur
+9 de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+7 de Pique
+3 de Trèfle
+Main évaluée: Double Paire
+Function meilleure_carte, cards:  [6, 6, 7, 9, 9, 11, 12]
+Function meilleure_carte, meilleure carte:  9
+Function meilleure_carte, cards:  [3, 6, 6, 7, 7, 9, 11]
+Function meilleure_carte, meilleure carte:  7
+Best_card : [9, 7]
+Le joueur gagnant est:  1
+
+Joueur 1:
+5 de Trèfle
+7 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+4 de Pique
+J de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+7 de Carreau
+3 de Coeur
+K de Pique
+
+Joueur 1:
+5 de Trèfle
+7 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+4 de Pique
+J de Trèfle
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+7 de Carreau
+3 de Coeur
+K de Pique
+2 de Pique
+
+Joueur 1:
+5 de Trèfle
+7 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+4 de Pique
+J de Trèfle
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+7 de Carreau
+3 de Coeur
+K de Pique
+2 de Pique
+6 de Pique
+
+Joueur 1:
+5 de Trèfle
+7 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+4 de Pique
+J de Trèfle
+Main évaluée: Carte Haute
+Le joueur gagnant est:  1
+
+Joueur 1:
+6 de Coeur
+7 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+10 de Pique
+A de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+4 de Pique
+K de Coeur
+6 de Pique
+
+Joueur 1:
+6 de Coeur
+7 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+10 de Pique
+A de Carreau
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+4 de Pique
+K de Coeur
+6 de Pique
+3 de Trèfle
+
+Joueur 1:
+6 de Coeur
+7 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+10 de Pique
+A de Carreau
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+4 de Pique
+K de Coeur
+6 de Pique
+3 de Trèfle
+Q de Carreau
+
+Joueur 1:
+6 de Coeur
+7 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+10 de Pique
+A de Carreau
+Main évaluée: Carte Haute
+Le joueur gagnant est:  1
+
+Joueur 1:
+A de Pique
+8 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Pique
+J de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+Q de Coeur
+10 de Carreau
+10 de Pique
+
+Joueur 1:
+A de Pique
+8 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+6 de Pique
+J de Trèfle
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+Q de Coeur
+10 de Carreau
+10 de Pique
+7 de Pique
+
+Joueur 1:
+A de Pique
+8 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+6 de Pique
+J de Trèfle
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+Q de Coeur
+10 de Carreau
+10 de Pique
+7 de Pique
+8 de Pique
+
+Joueur 1:
+A de Pique
+8 de Carreau
+Main évaluée: Double Paire
+
+Joueur 2:
+6 de Pique
+J de Trèfle
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+5 de Trèfle
+3 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+J de Carreau
+3 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+A de Trèfle
+2 de Coeur
+8 de Carreau
+
+Joueur 1:
+5 de Trèfle
+3 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+J de Carreau
+3 de Pique
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+A de Trèfle
+2 de Coeur
+8 de Carreau
+A de Pique
+
+Joueur 1:
+5 de Trèfle
+3 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+J de Carreau
+3 de Pique
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+A de Trèfle
+2 de Coeur
+8 de Carreau
+A de Pique
+K de Trèfle
+
+Joueur 1:
+5 de Trèfle
+3 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+J de Carreau
+3 de Pique
+Main évaluée: Paire
+Function meilleure_carte, cards:  [2, 3, 5, 8, 14, 14, 13]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [2, 3, 8, 14, 14, 11, 13]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [2, 3, 5, 8, 13]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [2, 3, 8, 11, 13]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [2, 3, 5, 8]
+Function meilleure_carte, meilleure carte:  8
+Function meilleure_carte, cards:  [2, 3, 8, 11]
+Function meilleure_carte, meilleure carte:  11
+Best_card : [8, 11]
+Le joueur gagnant est:  2
+
+Joueur 1:
+9 de Trèfle
+Q de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+J de Trèfle
+6 de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+2 de Carreau
+Q de Coeur
+8 de Pique
+
+Joueur 1:
+9 de Trèfle
+Q de Pique
+Main évaluée: Paire
+
+Joueur 2:
+J de Trèfle
+6 de Coeur
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+2 de Carreau
+Q de Coeur
+8 de Pique
+2 de Coeur
+
+Joueur 1:
+9 de Trèfle
+Q de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+J de Trèfle
+6 de Coeur
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+2 de Carreau
+Q de Coeur
+8 de Pique
+2 de Coeur
+K de Coeur
+
+Joueur 1:
+9 de Trèfle
+Q de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+J de Trèfle
+6 de Coeur
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+2 de Pique
+9 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Trèfle
+Q de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+A de Trèfle
+8 de Carreau
+4 de Coeur
+
+Joueur 1:
+2 de Pique
+9 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Trèfle
+Q de Pique
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+A de Trèfle
+8 de Carreau
+4 de Coeur
+5 de Pique
+
+Joueur 1:
+2 de Pique
+9 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Trèfle
+Q de Pique
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+A de Trèfle
+8 de Carreau
+4 de Coeur
+5 de Pique
+J de Pique
+
+Joueur 1:
+2 de Pique
+9 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Trèfle
+Q de Pique
+Main évaluée: Carte Haute
+Function meilleure_carte, cards:  [2, 4, 5, 8, 9, 14, 11]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [4, 5, 8, 9, 14, 11, 12]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [2, 4, 5, 8, 9, 14]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [4, 5, 8, 9, 14, 11]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [2, 4, 5, 8, 9]
+Function meilleure_carte, meilleure carte:  9
+Function meilleure_carte, cards:  [4, 5, 8, 9, 14]
+Function meilleure_carte, meilleure carte:  14
+Best_card : [9, 14]
+Le joueur gagnant est:  2
+
+Joueur 1:
+9 de Coeur
+3 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+4 de Coeur
+6 de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+9 de Trèfle
+A de Carreau
+A de Trèfle
+
+Joueur 1:
+9 de Coeur
+3 de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+4 de Coeur
+6 de Carreau
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+9 de Trèfle
+A de Carreau
+A de Trèfle
+7 de Coeur
+
+Joueur 1:
+9 de Coeur
+3 de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+4 de Coeur
+6 de Carreau
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+9 de Trèfle
+A de Carreau
+A de Trèfle
+7 de Coeur
+J de Carreau
+
+Joueur 1:
+9 de Coeur
+3 de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+4 de Coeur
+6 de Carreau
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+5 de Carreau
+7 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+3 de Carreau
+7 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+4 de Carreau
+Q de Trèfle
+K de Trèfle
+
+Joueur 1:
+5 de Carreau
+7 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+3 de Carreau
+7 de Trèfle
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+4 de Carreau
+Q de Trèfle
+K de Trèfle
+J de Pique
+
+Joueur 1:
+5 de Carreau
+7 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+3 de Carreau
+7 de Trèfle
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+4 de Carreau
+Q de Trèfle
+K de Trèfle
+J de Pique
+J de Carreau
+
+Joueur 1:
+5 de Carreau
+7 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+3 de Carreau
+7 de Trèfle
+Main évaluée: Paire
+Function meilleure_carte, cards:  [4, 5, 7, 11, 11, 13, 12]
+Function meilleure_carte, meilleure carte:  11
+Function meilleure_carte, cards:  [3, 4, 7, 11, 11, 13, 12]
+Function meilleure_carte, meilleure carte:  11
+Function meilleure_carte, cards:  [4, 5, 7, 13, 12]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [3, 4, 7, 13, 12]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [4, 5, 7, 13]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [3, 4, 7, 13]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [4, 5, 7]
+Function meilleure_carte, meilleure carte:  7
+Function meilleure_carte, cards:  [3, 4, 7]
+Function meilleure_carte, meilleure carte:  7
+Function meilleure_carte, cards:  [4, 5]
+Function meilleure_carte, meilleure carte:  5
+Function meilleure_carte, cards:  [3, 4]
+Function meilleure_carte, meilleure carte:  4
+Best_card : [5, 4]
+Le joueur gagnant est:  1
+
+Joueur 1:
+8 de Coeur
+7 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+J de Pique
+Q de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+J de Trèfle
+A de Carreau
+3 de Coeur
+
+Joueur 1:
+8 de Coeur
+7 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+J de Pique
+Q de Pique
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+J de Trèfle
+A de Carreau
+3 de Coeur
+8 de Carreau
+
+Joueur 1:
+8 de Coeur
+7 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+J de Pique
+Q de Pique
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+J de Trèfle
+A de Carreau
+3 de Coeur
+8 de Carreau
+A de Coeur
+
+Joueur 1:
+8 de Coeur
+7 de Trèfle
+Main évaluée: Double Paire
+
+Joueur 2:
+J de Pique
+Q de Pique
+Main évaluée: Double Paire
+Function meilleure_carte, cards:  [3, 7, 8, 8, 14, 14, 11]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [3, 8, 14, 14, 11, 11, 12]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [3, 7, 8, 8, 11]
+Function meilleure_carte, meilleure carte:  8
+Function meilleure_carte, cards:  [3, 8, 14, 14, 12]
+Function meilleure_carte, meilleure carte:  14
+Best_card : [8, 14]
+Le joueur gagnant est:  2
+
+Joueur 1:
+5 de Carreau
+K de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+3 de Trèfle
+Q de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+3 de Coeur
+2 de Coeur
+10 de Coeur
+
+Joueur 1:
+5 de Carreau
+K de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+3 de Trèfle
+Q de Carreau
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+3 de Coeur
+2 de Coeur
+10 de Coeur
+6 de Carreau
+
+Joueur 1:
+5 de Carreau
+K de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+3 de Trèfle
+Q de Carreau
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+3 de Coeur
+2 de Coeur
+10 de Coeur
+6 de Carreau
+4 de Carreau
+
+Joueur 1:
+5 de Carreau
+K de Trèfle
+Main évaluée: Quinte
+
+Joueur 2:
+3 de Trèfle
+Q de Carreau
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+7 de Trèfle
+J de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Trèfle
+A de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+2 de Pique
+2 de Trèfle
+K de Carreau
+
+Joueur 1:
+7 de Trèfle
+J de Pique
+Main évaluée: Paire
+
+Joueur 2:
+9 de Trèfle
+A de Pique
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+2 de Pique
+2 de Trèfle
+K de Carreau
+K de Coeur
+
+Joueur 1:
+7 de Trèfle
+J de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+9 de Trèfle
+A de Pique
+Main évaluée: Double Paire
+
+River:
+(press enter to continue)
+2 de Pique
+2 de Trèfle
+K de Carreau
+K de Coeur
+Q de Trèfle
+
+Joueur 1:
+7 de Trèfle
+J de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+9 de Trèfle
+A de Pique
+Main évaluée: Double Paire
+Function meilleure_carte, cards:  [2, 2, 7, 11, 13, 13, 12]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [2, 2, 9, 14, 13, 13, 12]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [2, 2, 7, 11, 12]
+Function meilleure_carte, meilleure carte:  2
+Function meilleure_carte, cards:  [2, 2, 9, 14, 12]
+Function meilleure_carte, meilleure carte:  2
+Function meilleure_carte, cards:  [7, 11, 12]
+Function meilleure_carte, meilleure carte:  12
+Function meilleure_carte, cards:  [9, 14, 12]
+Function meilleure_carte, meilleure carte:  14
+Best_card : [12, 14]
+Le joueur gagnant est:  2
+
+Joueur 1:
+10 de Coeur
+8 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+2 de Pique
+J de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+K de Pique
+10 de Carreau
+3 de Pique
+
+Joueur 1:
+10 de Coeur
+8 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+2 de Pique
+J de Carreau
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+K de Pique
+10 de Carreau
+3 de Pique
+10 de Trèfle
+
+Joueur 1:
+10 de Coeur
+8 de Trèfle
+Main évaluée: Brelan
+
+Joueur 2:
+2 de Pique
+J de Carreau
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+K de Pique
+10 de Carreau
+3 de Pique
+10 de Trèfle
+A de Trèfle
+
+Joueur 1:
+10 de Coeur
+8 de Trèfle
+Main évaluée: Brelan
+
+Joueur 2:
+2 de Pique
+J de Carreau
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+Q de Trèfle
+8 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+2 de Trèfle
+K de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+K de Coeur
+10 de Pique
+8 de Carreau
+
+Joueur 1:
+Q de Trèfle
+8 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+2 de Trèfle
+K de Pique
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+K de Coeur
+10 de Pique
+8 de Carreau
+2 de Pique
+
+Joueur 1:
+Q de Trèfle
+8 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+2 de Trèfle
+K de Pique
+Main évaluée: Double Paire
+
+River:
+(press enter to continue)
+K de Coeur
+10 de Pique
+8 de Carreau
+2 de Pique
+A de Coeur
+
+Joueur 1:
+Q de Trèfle
+8 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+2 de Trèfle
+K de Pique
+Main évaluée: Double Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+Q de Carreau
+9 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+A de Carreau
+Q de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+3 de Coeur
+5 de Carreau
+3 de Pique
+
+Joueur 1:
+Q de Carreau
+9 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+A de Carreau
+Q de Pique
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+3 de Coeur
+5 de Carreau
+3 de Pique
+A de Pique
+
+Joueur 1:
+Q de Carreau
+9 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+A de Carreau
+Q de Pique
+Main évaluée: Double Paire
+
+River:
+(press enter to continue)
+3 de Coeur
+5 de Carreau
+3 de Pique
+A de Pique
+K de Trèfle
+
+Joueur 1:
+Q de Carreau
+9 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+A de Carreau
+Q de Pique
+Main évaluée: Double Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+5 de Coeur
+A de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+10 de Trèfle
+2 de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+5 de Carreau
+A de Coeur
+8 de Coeur
+
+Joueur 1:
+5 de Coeur
+A de Carreau
+Main évaluée: Double Paire
+
+Joueur 2:
+10 de Trèfle
+2 de Coeur
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+5 de Carreau
+A de Coeur
+8 de Coeur
+A de Pique
+
+Joueur 1:
+5 de Coeur
+A de Carreau
+Main évaluée: Full
+
+Joueur 2:
+10 de Trèfle
+2 de Coeur
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+5 de Carreau
+A de Coeur
+8 de Coeur
+A de Pique
+3 de Coeur
+
+Joueur 1:
+5 de Coeur
+A de Carreau
+Main évaluée: Full
+
+Joueur 2:
+10 de Trèfle
+2 de Coeur
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+J de Trèfle
+K de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+A de Coeur
+10 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+7 de Carreau
+5 de Pique
+4 de Carreau
+
+Joueur 1:
+J de Trèfle
+K de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+A de Coeur
+10 de Pique
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+7 de Carreau
+5 de Pique
+4 de Carreau
+10 de Coeur
+
+Joueur 1:
+J de Trèfle
+K de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+A de Coeur
+10 de Pique
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+7 de Carreau
+5 de Pique
+4 de Carreau
+10 de Coeur
+7 de Pique
+
+Joueur 1:
+J de Trèfle
+K de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+A de Coeur
+10 de Pique
+Main évaluée: Double Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+5 de Pique
+7 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+2 de Pique
+J de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+K de Coeur
+3 de Carreau
+3 de Trèfle
+
+Joueur 1:
+5 de Pique
+7 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+2 de Pique
+J de Pique
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+K de Coeur
+3 de Carreau
+3 de Trèfle
+8 de Trèfle
+
+Joueur 1:
+5 de Pique
+7 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+2 de Pique
+J de Pique
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+K de Coeur
+3 de Carreau
+3 de Trèfle
+8 de Trèfle
+Q de Coeur
+
+Joueur 1:
+5 de Pique
+7 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+2 de Pique
+J de Pique
+Main évaluée: Paire
+Function meilleure_carte, cards:  [3, 3, 5, 7, 8, 13, 12]
+Function meilleure_carte, meilleure carte:  3
+Function meilleure_carte, cards:  [2, 3, 3, 8, 11, 13, 12]
+Function meilleure_carte, meilleure carte:  3
+Function meilleure_carte, cards:  [5, 7, 8, 13, 12]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [2, 8, 11, 13, 12]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [5, 7, 8, 13]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [2, 8, 11, 13]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [5, 7, 8]
+Function meilleure_carte, meilleure carte:  8
+Function meilleure_carte, cards:  [2, 8, 11]
+Function meilleure_carte, meilleure carte:  11
+Best_card : [8, 11]
+Le joueur gagnant est:  2
+
+Joueur 1:
+6 de Trèfle
+4 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+A de Coeur
+3 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+10 de Trèfle
+7 de Carreau
+8 de Coeur
+
+Joueur 1:
+6 de Trèfle
+4 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+A de Coeur
+3 de Trèfle
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+10 de Trèfle
+7 de Carreau
+8 de Coeur
+8 de Pique
+
+Joueur 1:
+6 de Trèfle
+4 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+A de Coeur
+3 de Trèfle
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+10 de Trèfle
+7 de Carreau
+8 de Coeur
+8 de Pique
+4 de Pique
+
+Joueur 1:
+6 de Trèfle
+4 de Trèfle
+Main évaluée: Double Paire
+
+Joueur 2:
+A de Coeur
+3 de Trèfle
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+A de Coeur
+A de Pique
+Main évaluée: Paire
+
+Joueur 2:
+4 de Coeur
+6 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+10 de Coeur
+J de Trèfle
+3 de Trèfle
+
+Joueur 1:
+A de Coeur
+A de Pique
+Main évaluée: Paire
+
+Joueur 2:
+4 de Coeur
+6 de Pique
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+10 de Coeur
+J de Trèfle
+3 de Trèfle
+Q de Pique
+
+Joueur 1:
+A de Coeur
+A de Pique
+Main évaluée: Paire
+
+Joueur 2:
+4 de Coeur
+6 de Pique
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+10 de Coeur
+J de Trèfle
+3 de Trèfle
+Q de Pique
+10 de Carreau
+
+Joueur 1:
+A de Coeur
+A de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+4 de Coeur
+6 de Pique
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+7 de Pique
+10 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Pique
+A de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+2 de Pique
+6 de Coeur
+6 de Pique
+
+Joueur 1:
+7 de Pique
+10 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+9 de Pique
+A de Coeur
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+2 de Pique
+6 de Coeur
+6 de Pique
+5 de Carreau
+
+Joueur 1:
+7 de Pique
+10 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+9 de Pique
+A de Coeur
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+2 de Pique
+6 de Coeur
+6 de Pique
+5 de Carreau
+Q de Carreau
+
+Joueur 1:
+7 de Pique
+10 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+9 de Pique
+A de Coeur
+Main évaluée: Paire
+Function meilleure_carte, cards:  [10, 2, 5, 6, 6, 7, 12]
+Function meilleure_carte, meilleure carte:  6
+Function meilleure_carte, cards:  [2, 5, 6, 6, 9, 14, 12]
+Function meilleure_carte, meilleure carte:  6
+Function meilleure_carte, cards:  [10, 2, 5, 7, 12]
+Function meilleure_carte, meilleure carte:  12
+Function meilleure_carte, cards:  [2, 5, 9, 14, 12]
+Function meilleure_carte, meilleure carte:  14
+Best_card : [12, 14]
+Le joueur gagnant est:  2
+
+Joueur 1:
+J de Carreau
+2 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+K de Coeur
+8 de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+4 de Coeur
+7 de Coeur
+9 de Coeur
+
+Joueur 1:
+J de Carreau
+2 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+K de Coeur
+8 de Carreau
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+4 de Coeur
+7 de Coeur
+9 de Coeur
+Q de Pique
+
+Joueur 1:
+J de Carreau
+2 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+K de Coeur
+8 de Carreau
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+4 de Coeur
+7 de Coeur
+9 de Coeur
+Q de Pique
+K de Trèfle
+
+Joueur 1:
+J de Carreau
+2 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+K de Coeur
+8 de Carreau
+Main évaluée: Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+Q de Pique
+J de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+J de Pique
+A de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+K de Carreau
+2 de Trèfle
+5 de Pique
+
+Joueur 1:
+Q de Pique
+J de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+J de Pique
+A de Trèfle
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+K de Carreau
+2 de Trèfle
+5 de Pique
+Q de Carreau
+
+Joueur 1:
+Q de Pique
+J de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+J de Pique
+A de Trèfle
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+K de Carreau
+2 de Trèfle
+5 de Pique
+Q de Carreau
+K de Coeur
+
+Joueur 1:
+Q de Pique
+J de Carreau
+Main évaluée: Double Paire
+
+Joueur 2:
+J de Pique
+A de Trèfle
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+A de Coeur
+K de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+3 de Coeur
+2 de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+7 de Carreau
+9 de Pique
+9 de Coeur
+
+Joueur 1:
+A de Coeur
+K de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+3 de Coeur
+2 de Carreau
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+7 de Carreau
+9 de Pique
+9 de Coeur
+4 de Coeur
+
+Joueur 1:
+A de Coeur
+K de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+3 de Coeur
+2 de Carreau
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+7 de Carreau
+9 de Pique
+9 de Coeur
+4 de Coeur
+Q de Pique
+
+Joueur 1:
+A de Coeur
+K de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+3 de Coeur
+2 de Carreau
+Main évaluée: Paire
+Function meilleure_carte, cards:  [4, 7, 9, 9, 14, 13, 12]
+Function meilleure_carte, meilleure carte:  9
+Function meilleure_carte, cards:  [2, 3, 4, 7, 9, 9, 12]
+Function meilleure_carte, meilleure carte:  9
+Function meilleure_carte, cards:  [4, 7, 14, 13, 12]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [2, 3, 4, 7, 12]
+Function meilleure_carte, meilleure carte:  12
+Best_card : [14, 12]
+Le joueur gagnant est:  1
+
+Joueur 1:
+8 de Carreau
+A de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+K de Coeur
+10 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+2 de Pique
+4 de Pique
+2 de Carreau
+
+Joueur 1:
+8 de Carreau
+A de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+K de Coeur
+10 de Trèfle
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+2 de Pique
+4 de Pique
+2 de Carreau
+Q de Coeur
+
+Joueur 1:
+8 de Carreau
+A de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+K de Coeur
+10 de Trèfle
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+2 de Pique
+4 de Pique
+2 de Carreau
+Q de Coeur
+4 de Carreau
+
+Joueur 1:
+8 de Carreau
+A de Trèfle
+Main évaluée: Double Paire
+
+Joueur 2:
+K de Coeur
+10 de Trèfle
+Main évaluée: Double Paire
+Function meilleure_carte, cards:  [2, 2, 4, 4, 8, 14, 12]
+Function meilleure_carte, meilleure carte:  4
+Function meilleure_carte, cards:  [10, 2, 2, 4, 4, 13, 12]
+Function meilleure_carte, meilleure carte:  4
+Function meilleure_carte, cards:  [2, 2, 8, 14, 12]
+Function meilleure_carte, meilleure carte:  2
+Function meilleure_carte, cards:  [10, 2, 2, 13, 12]
+Function meilleure_carte, meilleure carte:  2
+Function meilleure_carte, cards:  [8, 14, 12]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [10, 13, 12]
+Function meilleure_carte, meilleure carte:  13
+Best_card : [14, 13]
+Le joueur gagnant est:  1
+
+Joueur 1:
+J de Pique
+8 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+3 de Coeur
+J de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+A de Trèfle
+K de Carreau
+Q de Carreau
+
+Joueur 1:
+J de Pique
+8 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+3 de Coeur
+J de Carreau
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+A de Trèfle
+K de Carreau
+Q de Carreau
+2 de Coeur
+
+Joueur 1:
+J de Pique
+8 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+3 de Coeur
+J de Carreau
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+A de Trèfle
+K de Carreau
+Q de Carreau
+2 de Coeur
+3 de Carreau
+
+Joueur 1:
+J de Pique
+8 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+3 de Coeur
+J de Carreau
+Main évaluée: Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+K de Trèfle
+10 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Coeur
+7 de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+10 de Pique
+4 de Pique
+J de Coeur
+
+Joueur 1:
+K de Trèfle
+10 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+6 de Coeur
+7 de Coeur
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+10 de Pique
+4 de Pique
+J de Coeur
+6 de Carreau
+
+Joueur 1:
+K de Trèfle
+10 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+6 de Coeur
+7 de Coeur
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+10 de Pique
+4 de Pique
+J de Coeur
+6 de Carreau
+2 de Pique
+
+Joueur 1:
+K de Trèfle
+10 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+6 de Coeur
+7 de Coeur
+Main évaluée: Paire
+Function meilleure_carte, cards:  [10, 10, 2, 4, 6, 11, 13]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  [10, 2, 4, 6, 6, 7, 11]
+Function meilleure_carte, meilleure carte:  6
+Best_card : [10, 6]
+Le joueur gagnant est:  1
+
+Joueur 1:
+A de Trèfle
+A de Pique
+Main évaluée: Paire
+
+Joueur 2:
+K de Coeur
+10 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+3 de Pique
+6 de Coeur
+10 de Trèfle
+
+Joueur 1:
+A de Trèfle
+A de Pique
+Main évaluée: Paire
+
+Joueur 2:
+K de Coeur
+10 de Pique
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+3 de Pique
+6 de Coeur
+10 de Trèfle
+6 de Pique
+
+Joueur 1:
+A de Trèfle
+A de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+K de Coeur
+10 de Pique
+Main évaluée: Double Paire
+
+River:
+(press enter to continue)
+3 de Pique
+6 de Coeur
+10 de Trèfle
+6 de Pique
+Q de Trèfle
+
+Joueur 1:
+A de Trèfle
+A de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+K de Coeur
+10 de Pique
+Main évaluée: Double Paire
+Function meilleure_carte, cards:  [10, 3, 6, 6, 14, 14, 12]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [10, 10, 3, 6, 6, 13, 12]
+Function meilleure_carte, meilleure carte:  10
+Best_card : [14, 10]
+Le joueur gagnant est:  1
+
+Joueur 1:
+J de Pique
+5 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+4 de Pique
+4 de Carreau
+Main évaluée: Paire
+
+Flop:
+(press enter to continue)
+K de Coeur
+10 de Trèfle
+2 de Trèfle
+
+Joueur 1:
+J de Pique
+5 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+4 de Pique
+4 de Carreau
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+K de Coeur
+10 de Trèfle
+2 de Trèfle
+4 de Trèfle
+
+Joueur 1:
+J de Pique
+5 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+4 de Pique
+4 de Carreau
+Main évaluée: Brelan
+
+River:
+(press enter to continue)
+K de Coeur
+10 de Trèfle
+2 de Trèfle
+4 de Trèfle
+2 de Pique
+
+Joueur 1:
+J de Pique
+5 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+4 de Pique
+4 de Carreau
+Main évaluée: Full
+Le joueur gagnant est:  2
+
+Joueur 1:
+6 de Trèfle
+5 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+5 de Pique
+Q de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+7 de Carreau
+7 de Coeur
+8 de Trèfle
+
+Joueur 1:
+6 de Trèfle
+5 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+5 de Pique
+Q de Trèfle
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+7 de Carreau
+7 de Coeur
+8 de Trèfle
+4 de Trèfle
+
+Joueur 1:
+6 de Trèfle
+5 de Coeur
+Main évaluée: Quinte
+
+Joueur 2:
+5 de Pique
+Q de Trèfle
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+7 de Carreau
+7 de Coeur
+8 de Trèfle
+4 de Trèfle
+9 de Pique
+
+Joueur 1:
+6 de Trèfle
+5 de Coeur
+Main évaluée: Quinte
+
+Joueur 2:
+5 de Pique
+Q de Trèfle
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+5 de Trèfle
+5 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+J de Pique
+7 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+7 de Coeur
+A de Carreau
+K de Coeur
+
+Joueur 1:
+5 de Trèfle
+5 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+J de Pique
+7 de Pique
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+7 de Coeur
+A de Carreau
+K de Coeur
+5 de Coeur
+
+Joueur 1:
+5 de Trèfle
+5 de Pique
+Main évaluée: Brelan
+
+Joueur 2:
+J de Pique
+7 de Pique
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+7 de Coeur
+A de Carreau
+K de Coeur
+5 de Coeur
+6 de Coeur
+
+Joueur 1:
+5 de Trèfle
+5 de Pique
+Main évaluée: Brelan
+
+Joueur 2:
+J de Pique
+7 de Pique
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+10 de Coeur
+8 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+7 de Coeur
+3 de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+10 de Carreau
+3 de Pique
+4 de Pique
+
+Joueur 1:
+10 de Coeur
+8 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+7 de Coeur
+3 de Coeur
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+10 de Carreau
+3 de Pique
+4 de Pique
+2 de Coeur
+
+Joueur 1:
+10 de Coeur
+8 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+7 de Coeur
+3 de Coeur
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+10 de Carreau
+3 de Pique
+4 de Pique
+2 de Coeur
+10 de Pique
+
+Joueur 1:
+10 de Coeur
+8 de Carreau
+Main évaluée: Brelan
+
+Joueur 2:
+7 de Coeur
+3 de Coeur
+Main évaluée: Double Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+7 de Coeur
+6 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+7 de Pique
+2 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+8 de Coeur
+10 de Trèfle
+J de Trèfle
+
+Joueur 1:
+7 de Coeur
+6 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+7 de Pique
+2 de Pique
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+8 de Coeur
+10 de Trèfle
+J de Trèfle
+Q de Carreau
+
+Joueur 1:
+7 de Coeur
+6 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+7 de Pique
+2 de Pique
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+8 de Coeur
+10 de Trèfle
+J de Trèfle
+Q de Carreau
+A de Carreau
+
+Joueur 1:
+7 de Coeur
+6 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+7 de Pique
+2 de Pique
+Main évaluée: Carte Haute
+Function meilleure_carte, cards:  [10, 6, 7, 8, 14, 11, 12]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [10, 2, 7, 8, 14, 11, 12]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [10, 6, 7, 8, 14, 11]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [10, 2, 7, 8, 14, 11]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [10, 6, 7, 8, 14]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [10, 2, 7, 8, 14]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [10, 6, 7, 8]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  [10, 2, 7, 8]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  [10, 6, 7]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  [10, 2, 7]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  [10, 6]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  [10, 2]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  [10]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  [10]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  []
+Traceback (most recent call last):
+  File "/home/madness/Documents/projet/poker/poker.py", line 27, in <module>
+    poker_texas_holdem(2)
+  File "/home/madness/Documents/projet/poker/poker.py", line 25, in poker_texas_holdem
+    print("Le joueur gagnant est: ", affiche_gagnant(joueurs, combi_joueurs, cards))
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madness/Documents/projet/poker/eval.py", line 230, in affiche_gagnant
+    best_card.append(meilleure_carte(deck[i]))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madness/Documents/projet/poker/eval.py", line 164, in meilleure_carte
+    print("Function meilleure_carte, meilleure carte: ", max(cards))
+                                                         ^^^^^^^^^^
+ValueError: max() iterable argument is empty
+
+Joueur 1:
+6 de Trèfle
+8 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Carreau
+3 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+7 de Pique
+9 de Trèfle
+3 de Coeur
+
+Joueur 1:
+6 de Trèfle
+8 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Carreau
+3 de Pique
+Main évaluée: Double Paire
+
+Turn:
+(press enter to continue)
+7 de Pique
+9 de Trèfle
+3 de Coeur
+4 de Coeur
+
+Joueur 1:
+6 de Trèfle
+8 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Carreau
+3 de Pique
+Main évaluée: Double Paire
+
+River:
+(press enter to continue)
+7 de Pique
+9 de Trèfle
+3 de Coeur
+4 de Coeur
+2 de Coeur
+
+Joueur 1:
+6 de Trèfle
+8 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Carreau
+3 de Pique
+Main évaluée: Double Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+J de Pique
+6 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Carreau
+6 de Pique
+Main évaluée: Paire
+
+Flop:
+(press enter to continue)
+3 de Pique
+9 de Coeur
+A de Trèfle
+
+Joueur 1:
+J de Pique
+6 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Carreau
+6 de Pique
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+3 de Pique
+9 de Coeur
+A de Trèfle
+K de Coeur
+
+Joueur 1:
+J de Pique
+6 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Carreau
+6 de Pique
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+3 de Pique
+9 de Coeur
+A de Trèfle
+K de Coeur
+Q de Pique
+
+Joueur 1:
+J de Pique
+6 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Carreau
+6 de Pique
+Main évaluée: Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+8 de Pique
+7 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+Q de Carreau
+Q de Pique
+Main évaluée: Paire
+
+Flop:
+(press enter to continue)
+6 de Pique
+6 de Coeur
+8 de Coeur
+
+Joueur 1:
+8 de Pique
+7 de Trèfle
+Main évaluée: Double Paire
+
+Joueur 2:
+Q de Carreau
+Q de Pique
+Main évaluée: Double Paire
+
+Turn:
+(press enter to continue)
+6 de Pique
+6 de Coeur
+8 de Coeur
+K de Coeur
+
+Joueur 1:
+8 de Pique
+7 de Trèfle
+Main évaluée: Double Paire
+
+Joueur 2:
+Q de Carreau
+Q de Pique
+Main évaluée: Double Paire
+
+River:
+(press enter to continue)
+6 de Pique
+6 de Coeur
+8 de Coeur
+K de Coeur
+3 de Trèfle
+
+Joueur 1:
+8 de Pique
+7 de Trèfle
+Main évaluée: Double Paire
+
+Joueur 2:
+Q de Carreau
+Q de Pique
+Main évaluée: Double Paire
+Function meilleure_carte, cards:  [3, 6, 6, 7, 8, 8, 13]
+Function meilleure_carte, meilleure carte:  8
+Function meilleure_carte, cards:  [3, 6, 6, 8, 13, 12, 12]
+Function meilleure_carte, meilleure carte:  12
+Best_card : [8, 12]
+Le joueur gagnant est:  2
+
+Joueur 1:
+5 de Coeur
+10 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Carreau
+9 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+2 de Trèfle
+K de Pique
+3 de Coeur
+
+Joueur 1:
+5 de Coeur
+10 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Carreau
+9 de Pique
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+2 de Trèfle
+K de Pique
+3 de Coeur
+9 de Trèfle
+
+Joueur 1:
+5 de Coeur
+10 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Carreau
+9 de Pique
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+2 de Trèfle
+K de Pique
+3 de Coeur
+9 de Trèfle
+J de Carreau
+
+Joueur 1:
+5 de Coeur
+10 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Carreau
+9 de Pique
+Main évaluée: Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+5 de Pique
+K de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Trèfle
+4 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+7 de Coeur
+J de Pique
+K de Pique
+
+Joueur 1:
+5 de Pique
+K de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+6 de Trèfle
+4 de Trèfle
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+7 de Coeur
+J de Pique
+K de Pique
+A de Carreau
+
+Joueur 1:
+5 de Pique
+K de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+6 de Trèfle
+4 de Trèfle
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+7 de Coeur
+J de Pique
+K de Pique
+A de Carreau
+A de Pique
+
+Joueur 1:
+5 de Pique
+K de Coeur
+Main évaluée: Double Paire
+
+Joueur 2:
+6 de Trèfle
+4 de Trèfle
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+2 de Pique
+10 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+3 de Coeur
+7 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+4 de Pique
+K de Pique
+5 de Pique
+
+Joueur 1:
+2 de Pique
+10 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+3 de Coeur
+7 de Trèfle
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+4 de Pique
+K de Pique
+5 de Pique
+5 de Carreau
+
+Joueur 1:
+2 de Pique
+10 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+3 de Coeur
+7 de Trèfle
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+4 de Pique
+K de Pique
+5 de Pique
+5 de Carreau
+Q de Carreau
+
+Joueur 1:
+2 de Pique
+10 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+3 de Coeur
+7 de Trèfle
+Main évaluée: Paire
+Function meilleure_carte, cards:  [10, 2, 4, 5, 5, 13, 12]
+Function meilleure_carte, meilleure carte:  5
+Function meilleure_carte, cards:  [3, 4, 5, 5, 7, 13, 12]
+Function meilleure_carte, meilleure carte:  5
+Function meilleure_carte, cards:  [10, 2, 4, 13, 12]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [3, 4, 7, 13, 12]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [10, 2, 4, 13]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [3, 4, 7, 13]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [10, 2, 4]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  [3, 4, 7]
+Function meilleure_carte, meilleure carte:  7
+Best_card : [10, 7]
+Le joueur gagnant est:  1
+
+Joueur 1:
+J de Carreau
+8 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+10 de Carreau
+6 de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+10 de Coeur
+9 de Carreau
+J de Pique
+
+Joueur 1:
+J de Carreau
+8 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+10 de Carreau
+6 de Coeur
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+10 de Coeur
+9 de Carreau
+J de Pique
+8 de Coeur
+
+Joueur 1:
+J de Carreau
+8 de Carreau
+Main évaluée: Double Paire
+
+Joueur 2:
+10 de Carreau
+6 de Coeur
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+10 de Coeur
+9 de Carreau
+J de Pique
+8 de Coeur
+10 de Pique
+
+Joueur 1:
+J de Carreau
+8 de Carreau
+Main évaluée: Double Paire
+
+Joueur 2:
+10 de Carreau
+6 de Coeur
+Main évaluée: Brelan
+Le joueur gagnant est:  2
+
+Joueur 1:
+4 de Coeur
+9 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+2 de Pique
+Q de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+Q de Trèfle
+8 de Coeur
+10 de Carreau
+
+Joueur 1:
+4 de Coeur
+9 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+2 de Pique
+Q de Carreau
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+Q de Trèfle
+8 de Coeur
+10 de Carreau
+J de Pique
+
+Joueur 1:
+4 de Coeur
+9 de Trèfle
+Main évaluée: Quinte
+
+Joueur 2:
+2 de Pique
+Q de Carreau
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+Q de Trèfle
+8 de Coeur
+10 de Carreau
+J de Pique
+5 de Carreau
+
+Joueur 1:
+4 de Coeur
+9 de Trèfle
+Main évaluée: Quinte
+
+Joueur 2:
+2 de Pique
+Q de Carreau
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+K de Trèfle
+A de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+7 de Trèfle
+8 de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+7 de Pique
+8 de Pique
+7 de Carreau
+
+Joueur 1:
+K de Trèfle
+A de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+7 de Trèfle
+8 de Carreau
+Main évaluée: Full
+
+Turn:
+(press enter to continue)
+7 de Pique
+8 de Pique
+7 de Carreau
+3 de Coeur
+
+Joueur 1:
+K de Trèfle
+A de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+7 de Trèfle
+8 de Carreau
+Main évaluée: Full
+
+River:
+(press enter to continue)
+7 de Pique
+8 de Pique
+7 de Carreau
+3 de Coeur
+4 de Carreau
+
+Joueur 1:
+K de Trèfle
+A de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+7 de Trèfle
+8 de Carreau
+Main évaluée: Full
+Le joueur gagnant est:  2
+
+Joueur 1:
+5 de Trèfle
+6 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+J de Pique
+Q de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+10 de Pique
+7 de Carreau
+6 de Carreau
+
+Joueur 1:
+5 de Trèfle
+6 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+J de Pique
+Q de Trèfle
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+10 de Pique
+7 de Carreau
+6 de Carreau
+7 de Trèfle
+
+Joueur 1:
+5 de Trèfle
+6 de Trèfle
+Main évaluée: Double Paire
+
+Joueur 2:
+J de Pique
+Q de Trèfle
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+10 de Pique
+7 de Carreau
+6 de Carreau
+7 de Trèfle
+8 de Pique
+
+Joueur 1:
+5 de Trèfle
+6 de Trèfle
+Main évaluée: Double Paire
+
+Joueur 2:
+J de Pique
+Q de Trèfle
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+10 de Coeur
+Q de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Trèfle
+4 de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+9 de Trèfle
+10 de Pique
+10 de Trèfle
+
+Joueur 1:
+10 de Coeur
+Q de Coeur
+Main évaluée: Brelan
+
+Joueur 2:
+6 de Trèfle
+4 de Coeur
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+9 de Trèfle
+10 de Pique
+10 de Trèfle
+5 de Pique
+
+Joueur 1:
+10 de Coeur
+Q de Coeur
+Main évaluée: Brelan
+
+Joueur 2:
+6 de Trèfle
+4 de Coeur
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+9 de Trèfle
+10 de Pique
+10 de Trèfle
+5 de Pique
+2 de Coeur
+
+Joueur 1:
+10 de Coeur
+Q de Coeur
+Main évaluée: Brelan
+
+Joueur 2:
+6 de Trèfle
+4 de Coeur
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+7 de Coeur
+2 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+K de Pique
+10 de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+A de Trèfle
+5 de Pique
+6 de Trèfle
+
+Joueur 1:
+7 de Coeur
+2 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+K de Pique
+10 de Carreau
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+A de Trèfle
+5 de Pique
+6 de Trèfle
+2 de Carreau
+
+Joueur 1:
+7 de Coeur
+2 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+K de Pique
+10 de Carreau
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+A de Trèfle
+5 de Pique
+6 de Trèfle
+2 de Carreau
+5 de Carreau
+
+Joueur 1:
+7 de Coeur
+2 de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+K de Pique
+10 de Carreau
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+10 de Coeur
+6 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+4 de Carreau
+7 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+K de Carreau
+3 de Carreau
+9 de Pique
+
+Joueur 1:
+10 de Coeur
+6 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+4 de Carreau
+7 de Trèfle
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+K de Carreau
+3 de Carreau
+9 de Pique
+3 de Pique
+
+Joueur 1:
+10 de Coeur
+6 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+4 de Carreau
+7 de Trèfle
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+K de Carreau
+3 de Carreau
+9 de Pique
+3 de Pique
+7 de Carreau
+
+Joueur 1:
+10 de Coeur
+6 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+4 de Carreau
+7 de Trèfle
+Main évaluée: Double Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+7 de Pique
+K de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+Q de Coeur
+3 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+2 de Pique
+8 de Trèfle
+J de Carreau
+
+Joueur 1:
+7 de Pique
+K de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+Q de Coeur
+3 de Pique
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+2 de Pique
+8 de Trèfle
+J de Carreau
+8 de Pique
+
+Joueur 1:
+7 de Pique
+K de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+Q de Coeur
+3 de Pique
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+2 de Pique
+8 de Trèfle
+J de Carreau
+8 de Pique
+10 de Carreau
+
+Joueur 1:
+7 de Pique
+K de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+Q de Coeur
+3 de Pique
+Main évaluée: Paire
+Function meilleure_carte, cards:  [10, 2, 7, 8, 8, 11, 13]
+Function meilleure_carte, meilleure carte:  8
+Function meilleure_carte, cards:  [10, 2, 3, 8, 8, 11, 12]
+Function meilleure_carte, meilleure carte:  8
+Function meilleure_carte, cards:  [10, 2, 7, 11, 13]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [10, 2, 3, 11, 12]
+Function meilleure_carte, meilleure carte:  12
+Best_card : [13, 12]
+Le joueur gagnant est:  1
+
+Joueur 1:
+10 de Carreau
+6 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+2 de Coeur
+9 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+7 de Trèfle
+3 de Trèfle
+9 de Carreau
+
+Joueur 1:
+10 de Carreau
+6 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+2 de Coeur
+9 de Pique
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+7 de Trèfle
+3 de Trèfle
+9 de Carreau
+Q de Pique
+
+Joueur 1:
+10 de Carreau
+6 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+2 de Coeur
+9 de Pique
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+7 de Trèfle
+3 de Trèfle
+9 de Carreau
+Q de Pique
+4 de Coeur
+
+Joueur 1:
+10 de Carreau
+6 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+2 de Coeur
+9 de Pique
+Main évaluée: Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+2 de Pique
+5 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+10 de Coeur
+K de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+2 de Coeur
+4 de Pique
+4 de Coeur
+
+Joueur 1:
+2 de Pique
+5 de Carreau
+Main évaluée: Double Paire
+
+Joueur 2:
+10 de Coeur
+K de Coeur
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+2 de Coeur
+4 de Pique
+4 de Coeur
+A de Pique
+
+Joueur 1:
+2 de Pique
+5 de Carreau
+Main évaluée: Double Paire
+
+Joueur 2:
+10 de Coeur
+K de Coeur
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+2 de Coeur
+4 de Pique
+4 de Coeur
+A de Pique
+7 de Trèfle
+
+Joueur 1:
+2 de Pique
+5 de Carreau
+Main évaluée: Double Paire
+
+Joueur 2:
+10 de Coeur
+K de Coeur
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+Q de Pique
+9 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Coeur
+9 de Trèfle
+Main évaluée: Paire
+
+Flop:
+(press enter to continue)
+A de Trèfle
+10 de Trèfle
+8 de Carreau
+
+Joueur 1:
+Q de Pique
+9 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Coeur
+9 de Trèfle
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+A de Trèfle
+10 de Trèfle
+8 de Carreau
+7 de Coeur
+
+Joueur 1:
+Q de Pique
+9 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Coeur
+9 de Trèfle
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+A de Trèfle
+10 de Trèfle
+8 de Carreau
+7 de Coeur
+6 de Carreau
+
+Joueur 1:
+Q de Pique
+9 de Carreau
+Main évaluée: Quinte
+
+Joueur 2:
+9 de Coeur
+9 de Trèfle
+Main évaluée: Quinte
+Le joueur gagnant est:  To do
+
+Joueur 1:
+J de Carreau
+9 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+J de Trèfle
+Q de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+7 de Carreau
+4 de Coeur
+3 de Coeur
+
+Joueur 1:
+J de Carreau
+9 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+J de Trèfle
+Q de Coeur
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+7 de Carreau
+4 de Coeur
+3 de Coeur
+7 de Coeur
+
+Joueur 1:
+J de Carreau
+9 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+J de Trèfle
+Q de Coeur
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+7 de Carreau
+4 de Coeur
+3 de Coeur
+7 de Coeur
+J de Pique
+
+Joueur 1:
+J de Carreau
+9 de Trèfle
+Main évaluée: Double Paire
+
+Joueur 2:
+J de Trèfle
+Q de Coeur
+Main évaluée: Double Paire
+Function meilleure_carte, cards:  [3, 4, 7, 7, 9, 11, 11]
+Function meilleure_carte, meilleure carte:  11
+Function meilleure_carte, cards:  [3, 4, 7, 7, 11, 11, 12]
+Function meilleure_carte, meilleure carte:  11
+Function meilleure_carte, cards:  [3, 4, 7, 7, 9]
+Function meilleure_carte, meilleure carte:  7
+Function meilleure_carte, cards:  [3, 4, 7, 7, 12]
+Function meilleure_carte, meilleure carte:  7
+Function meilleure_carte, cards:  [3, 4, 9]
+Function meilleure_carte, meilleure carte:  9
+Function meilleure_carte, cards:  [3, 4, 12]
+Function meilleure_carte, meilleure carte:  12
+Best_card : [9, 12]
+Le joueur gagnant est:  2
+
+Joueur 1:
+J de Coeur
+4 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+K de Trèfle
+J de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+4 de Carreau
+6 de Pique
+8 de Coeur
+
+Joueur 1:
+J de Coeur
+4 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+K de Trèfle
+J de Pique
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+4 de Carreau
+6 de Pique
+8 de Coeur
+2 de Trèfle
+
+Joueur 1:
+J de Coeur
+4 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+K de Trèfle
+J de Pique
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+4 de Carreau
+6 de Pique
+8 de Coeur
+2 de Trèfle
+K de Carreau
+
+Joueur 1:
+J de Coeur
+4 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+K de Trèfle
+J de Pique
+Main évaluée: Paire
+Function meilleure_carte, cards:  [2, 4, 4, 6, 8, 11, 13]
+Function meilleure_carte, meilleure carte:  4
+Function meilleure_carte, cards:  [2, 4, 6, 8, 11, 13, 13]
+Function meilleure_carte, meilleure carte:  13
+Best_card : [4, 13]
+Le joueur gagnant est:  2
+
+Joueur 1:
+A de Trèfle
+3 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+K de Pique
+5 de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+10 de Coeur
+3 de Carreau
+7 de Coeur
+
+Joueur 1:
+A de Trèfle
+3 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+K de Pique
+5 de Carreau
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+10 de Coeur
+3 de Carreau
+7 de Coeur
+Q de Pique
+
+Joueur 1:
+A de Trèfle
+3 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+K de Pique
+5 de Carreau
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+10 de Coeur
+3 de Carreau
+7 de Coeur
+Q de Pique
+7 de Pique
+
+Joueur 1:
+A de Trèfle
+3 de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+K de Pique
+5 de Carreau
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+10 de Carreau
+10 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+K de Coeur
+9 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+8 de Pique
+4 de Carreau
+J de Carreau
+
+Joueur 1:
+10 de Carreau
+10 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+K de Coeur
+9 de Trèfle
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+8 de Pique
+4 de Carreau
+J de Carreau
+2 de Carreau
+
+Joueur 1:
+10 de Carreau
+10 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+K de Coeur
+9 de Trèfle
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+8 de Pique
+4 de Carreau
+J de Carreau
+2 de Carreau
+A de Carreau
+
+Joueur 1:
+10 de Carreau
+10 de Trèfle
+Main évaluée: Flush
+
+Joueur 2:
+K de Coeur
+9 de Trèfle
+Main évaluée: Carte Haute
+Le joueur gagnant est:  1
+
+Joueur 1:
+7 de Carreau
+J de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+2 de Trèfle
+10 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+6 de Pique
+J de Trèfle
+10 de Carreau
+
+Joueur 1:
+7 de Carreau
+J de Pique
+Main évaluée: Paire
+
+Joueur 2:
+2 de Trèfle
+10 de Pique
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+6 de Pique
+J de Trèfle
+10 de Carreau
+6 de Trèfle
+
+Joueur 1:
+7 de Carreau
+J de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+2 de Trèfle
+10 de Pique
+Main évaluée: Double Paire
+
+River:
+(press enter to continue)
+6 de Pique
+J de Trèfle
+10 de Carreau
+6 de Trèfle
+6 de Coeur
+
+Joueur 1:
+7 de Carreau
+J de Pique
+Main évaluée: Full
+
+Joueur 2:
+2 de Trèfle
+10 de Pique
+Main évaluée: Full
+Le joueur gagnant est:  To do
+
+Joueur 1:
+5 de Pique
+Q de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Pique
+5 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+K de Pique
+7 de Coeur
+9 de Pique
+
+Joueur 1:
+5 de Pique
+Q de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Pique
+5 de Trèfle
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+K de Pique
+7 de Coeur
+9 de Pique
+10 de Coeur
+
+Joueur 1:
+5 de Pique
+Q de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Pique
+5 de Trèfle
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+K de Pique
+7 de Coeur
+9 de Pique
+10 de Coeur
+K de Coeur
+
+Joueur 1:
+5 de Pique
+Q de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+6 de Pique
+5 de Trèfle
+Main évaluée: Paire
+Function meilleure_carte, cards:  [10, 5, 7, 9, 13, 13, 12]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [10, 5, 6, 7, 9, 13, 13]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [10, 5, 7, 9, 12]
+Function meilleure_carte, meilleure carte:  12
+Function meilleure_carte, cards:  [10, 5, 6, 7, 9]
+Function meilleure_carte, meilleure carte:  10
+Best_card : [12, 10]
+Le joueur gagnant est:  1
+
+Joueur 1:
+7 de Trèfle
+K de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+A de Carreau
+3 de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+5 de Carreau
+9 de Carreau
+Q de Trèfle
+
+Joueur 1:
+7 de Trèfle
+K de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+A de Carreau
+3 de Carreau
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+5 de Carreau
+9 de Carreau
+Q de Trèfle
+K de Carreau
+
+Joueur 1:
+7 de Trèfle
+K de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+A de Carreau
+3 de Carreau
+Main évaluée: Flush
+
+River:
+(press enter to continue)
+5 de Carreau
+9 de Carreau
+Q de Trèfle
+K de Carreau
+10 de Trèfle
+
+Joueur 1:
+7 de Trèfle
+K de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+A de Carreau
+3 de Carreau
+Main évaluée: Flush
+Le joueur gagnant est:  2
+
+Joueur 1:
+K de Carreau
+9 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+2 de Carreau
+9 de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+2 de Coeur
+5 de Coeur
+K de Coeur
+
+Joueur 1:
+K de Carreau
+9 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+2 de Carreau
+9 de Carreau
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+2 de Coeur
+5 de Coeur
+K de Coeur
+6 de Coeur
+
+Joueur 1:
+K de Carreau
+9 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+2 de Carreau
+9 de Carreau
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+2 de Coeur
+5 de Coeur
+K de Coeur
+6 de Coeur
+J de Carreau
+
+Joueur 1:
+K de Carreau
+9 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+2 de Carreau
+9 de Carreau
+Main évaluée: Paire
+Function meilleure_carte, cards:  [2, 5, 6, 9, 11, 13, 13]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [2, 2, 5, 6, 9, 11, 13]
+Function meilleure_carte, meilleure carte:  2
+Best_card : [13, 2]
+Le joueur gagnant est:  1
+
+Joueur 1:
+5 de Pique
+10 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+5 de Trèfle
+5 de Coeur
+Main évaluée: Paire
+
+Flop:
+(press enter to continue)
+K de Pique
+9 de Pique
+J de Trèfle
+
+Joueur 1:
+5 de Pique
+10 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+5 de Trèfle
+5 de Coeur
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+K de Pique
+9 de Pique
+J de Trèfle
+7 de Coeur
+
+Joueur 1:
+5 de Pique
+10 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+5 de Trèfle
+5 de Coeur
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+K de Pique
+9 de Pique
+J de Trèfle
+7 de Coeur
+A de Coeur
+
+Joueur 1:
+5 de Pique
+10 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+5 de Trèfle
+5 de Coeur
+Main évaluée: Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+3 de Coeur
+8 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+2 de Coeur
+2 de Carreau
+Main évaluée: Paire
+
+Flop:
+(press enter to continue)
+K de Trèfle
+K de Pique
+5 de Pique
+
+Joueur 1:
+3 de Coeur
+8 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+2 de Coeur
+2 de Carreau
+Main évaluée: Double Paire
+
+Turn:
+(press enter to continue)
+K de Trèfle
+K de Pique
+5 de Pique
+4 de Carreau
+
+Joueur 1:
+3 de Coeur
+8 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+2 de Coeur
+2 de Carreau
+Main évaluée: Double Paire
+
+River:
+(press enter to continue)
+K de Trèfle
+K de Pique
+5 de Pique
+4 de Carreau
+7 de Coeur
+
+Joueur 1:
+3 de Coeur
+8 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+2 de Coeur
+2 de Carreau
+Main évaluée: Double Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+2 de Pique
+K de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+3 de Trèfle
+Q de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+2 de Trèfle
+K de Coeur
+10 de Pique
+
+Joueur 1:
+2 de Pique
+K de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+3 de Trèfle
+Q de Trèfle
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+2 de Trèfle
+K de Coeur
+10 de Pique
+Q de Coeur
+
+Joueur 1:
+2 de Pique
+K de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+3 de Trèfle
+Q de Trèfle
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+2 de Trèfle
+K de Coeur
+10 de Pique
+Q de Coeur
+7 de Coeur
+
+Joueur 1:
+2 de Pique
+K de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+3 de Trèfle
+Q de Trèfle
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+J de Coeur
+10 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+7 de Trèfle
+5 de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+2 de Pique
+J de Carreau
+7 de Pique
+
+Joueur 1:
+J de Coeur
+10 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+7 de Trèfle
+5 de Carreau
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+2 de Pique
+J de Carreau
+7 de Pique
+A de Trèfle
+
+Joueur 1:
+J de Coeur
+10 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+7 de Trèfle
+5 de Carreau
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+2 de Pique
+J de Carreau
+7 de Pique
+A de Trèfle
+9 de Pique
+
+Joueur 1:
+J de Coeur
+10 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+7 de Trèfle
+5 de Carreau
+Main évaluée: Paire
+Function meilleure_carte, cards:  [10, 2, 7, 9, 14, 11, 11]
+Function meilleure_carte, meilleure carte:  11
+Function meilleure_carte, cards:  [2, 5, 7, 7, 9, 14, 11]
+Function meilleure_carte, meilleure carte:  7
+Best_card : [11, 7]
+Le joueur gagnant est:  1
+
+Joueur 1:
+10 de Trèfle
+K de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+A de Pique
+7 de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+9 de Coeur
+4 de Trèfle
+10 de Pique
+
+Joueur 1:
+10 de Trèfle
+K de Pique
+Main évaluée: Paire
+
+Joueur 2:
+A de Pique
+7 de Coeur
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+9 de Coeur
+4 de Trèfle
+10 de Pique
+8 de Carreau
+
+Joueur 1:
+10 de Trèfle
+K de Pique
+Main évaluée: Paire
+
+Joueur 2:
+A de Pique
+7 de Coeur
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+9 de Coeur
+4 de Trèfle
+10 de Pique
+8 de Carreau
+3 de Coeur
+
+Joueur 1:
+10 de Trèfle
+K de Pique
+Main évaluée: Paire
+
+Joueur 2:
+A de Pique
+7 de Coeur
+Main évaluée: Carte Haute
+Le joueur gagnant est:  1
+
+Joueur 1:
+K de Coeur
+5 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+4 de Trèfle
+4 de Carreau
+Main évaluée: Paire
+
+Flop:
+(press enter to continue)
+10 de Carreau
+A de Coeur
+J de Carreau
+
+Joueur 1:
+K de Coeur
+5 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+4 de Trèfle
+4 de Carreau
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+10 de Carreau
+A de Coeur
+J de Carreau
+J de Coeur
+
+Joueur 1:
+K de Coeur
+5 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+4 de Trèfle
+4 de Carreau
+Main évaluée: Double Paire
+
+River:
+(press enter to continue)
+10 de Carreau
+A de Coeur
+J de Carreau
+J de Coeur
+8 de Pique
+
+Joueur 1:
+K de Coeur
+5 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+4 de Trèfle
+4 de Carreau
+Main évaluée: Double Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+3 de Pique
+5 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+2 de Coeur
+8 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+2 de Pique
+6 de Pique
+9 de Pique
+
+Joueur 1:
+3 de Pique
+5 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+2 de Coeur
+8 de Pique
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+2 de Pique
+6 de Pique
+9 de Pique
+9 de Coeur
+
+Joueur 1:
+3 de Pique
+5 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+2 de Coeur
+8 de Pique
+Main évaluée: Double Paire
+
+River:
+(press enter to continue)
+2 de Pique
+6 de Pique
+9 de Pique
+9 de Coeur
+J de Trèfle
+
+Joueur 1:
+3 de Pique
+5 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+2 de Coeur
+8 de Pique
+Main évaluée: Double Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+5 de Carreau
+6 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+J de Trèfle
+A de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+10 de Pique
+Q de Coeur
+K de Carreau
+
+Joueur 1:
+5 de Carreau
+6 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+J de Trèfle
+A de Coeur
+Main évaluée: Quinte
+
+Turn:
+(press enter to continue)
+10 de Pique
+Q de Coeur
+K de Carreau
+8 de Trèfle
+
+Joueur 1:
+5 de Carreau
+6 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+J de Trèfle
+A de Coeur
+Main évaluée: Quinte
+
+River:
+(press enter to continue)
+10 de Pique
+Q de Coeur
+K de Carreau
+8 de Trèfle
+9 de Coeur
+
+Joueur 1:
+5 de Carreau
+6 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+J de Trèfle
+A de Coeur
+Main évaluée: Quinte
+Le joueur gagnant est:  2
+
+Joueur 1:
+3 de Pique
+8 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Coeur
+7 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+7 de Coeur
+6 de Pique
+3 de Carreau
+
+Joueur 1:
+3 de Pique
+8 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+9 de Coeur
+7 de Pique
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+7 de Coeur
+6 de Pique
+3 de Carreau
+K de Pique
+
+Joueur 1:
+3 de Pique
+8 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+9 de Coeur
+7 de Pique
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+7 de Coeur
+6 de Pique
+3 de Carreau
+K de Pique
+Q de Carreau
+
+Joueur 1:
+3 de Pique
+8 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+9 de Coeur
+7 de Pique
+Main évaluée: Paire
+Function meilleure_carte, cards:  [3, 3, 6, 7, 8, 13, 12]
+Function meilleure_carte, meilleure carte:  3
+Function meilleure_carte, cards:  [3, 6, 7, 7, 9, 13, 12]
+Function meilleure_carte, meilleure carte:  7
+Best_card : [3, 7]
+Le joueur gagnant est:  2
+
+Joueur 1:
+3 de Trèfle
+4 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Coeur
+3 de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+Q de Trèfle
+6 de Pique
+8 de Trèfle
+
+Joueur 1:
+3 de Trèfle
+4 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Coeur
+3 de Carreau
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+Q de Trèfle
+6 de Pique
+8 de Trèfle
+J de Pique
+
+Joueur 1:
+3 de Trèfle
+4 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Coeur
+3 de Carreau
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+Q de Trèfle
+6 de Pique
+8 de Trèfle
+J de Pique
+A de Pique
+
+Joueur 1:
+3 de Trèfle
+4 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Coeur
+3 de Carreau
+Main évaluée: Carte Haute
+Function meilleure_carte, cards:  [3, 4, 6, 8, 14, 11, 12]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [3, 6, 8, 9, 14, 11, 12]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [3, 4, 6, 8, 14, 11]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [3, 6, 8, 9, 14, 11]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [3, 4, 6, 8, 14]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [3, 6, 8, 9, 14]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [3, 4, 6, 8]
+Function meilleure_carte, meilleure carte:  8
+Function meilleure_carte, cards:  [3, 6, 8, 9]
+Function meilleure_carte, meilleure carte:  9
+Best_card : [8, 9]
+Le joueur gagnant est:  2
+
+Joueur 1:
+J de Pique
+2 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Coeur
+8 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+K de Trèfle
+7 de Carreau
+9 de Coeur
+
+Joueur 1:
+J de Pique
+2 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Coeur
+8 de Trèfle
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+K de Trèfle
+7 de Carreau
+9 de Coeur
+8 de Carreau
+
+Joueur 1:
+J de Pique
+2 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Coeur
+8 de Trèfle
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+K de Trèfle
+7 de Carreau
+9 de Coeur
+8 de Carreau
+9 de Carreau
+
+Joueur 1:
+J de Pique
+2 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+6 de Coeur
+8 de Trèfle
+Main évaluée: Double Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+5 de Pique
+5 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+J de Carreau
+7 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+4 de Carreau
+3 de Trèfle
+9 de Carreau
+
+Joueur 1:
+5 de Pique
+5 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+J de Carreau
+7 de Trèfle
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+4 de Carreau
+3 de Trèfle
+9 de Carreau
+7 de Pique
+
+Joueur 1:
+5 de Pique
+5 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+J de Carreau
+7 de Trèfle
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+4 de Carreau
+3 de Trèfle
+9 de Carreau
+7 de Pique
+10 de Trèfle
+
+Joueur 1:
+5 de Pique
+5 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+J de Carreau
+7 de Trèfle
+Main évaluée: Paire
+Function meilleure_carte, cards:  [10, 3, 4, 5, 5, 7, 9]
+Function meilleure_carte, meilleure carte:  5
+Function meilleure_carte, cards:  [10, 3, 4, 7, 7, 9, 11]
+Function meilleure_carte, meilleure carte:  7
+Best_card : [5, 7]
+Le joueur gagnant est:  2
+
+Joueur 1:
+J de Coeur
+7 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+8 de Coeur
+7 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+J de Trèfle
+4 de Carreau
+10 de Pique
+
+Joueur 1:
+J de Coeur
+7 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+8 de Coeur
+7 de Trèfle
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+J de Trèfle
+4 de Carreau
+10 de Pique
+6 de Trèfle
+
+Joueur 1:
+J de Coeur
+7 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+8 de Coeur
+7 de Trèfle
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+J de Trèfle
+4 de Carreau
+10 de Pique
+6 de Trèfle
+10 de Trèfle
+
+Joueur 1:
+J de Coeur
+7 de Coeur
+Main évaluée: Double Paire
+
+Joueur 2:
+8 de Coeur
+7 de Trèfle
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+J de Carreau
+9 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Pique
+3 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+3 de Coeur
+10 de Carreau
+A de Coeur
+
+Joueur 1:
+J de Carreau
+9 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Pique
+3 de Trèfle
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+3 de Coeur
+10 de Carreau
+A de Coeur
+K de Trèfle
+
+Joueur 1:
+J de Carreau
+9 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Pique
+3 de Trèfle
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+3 de Coeur
+10 de Carreau
+A de Coeur
+K de Trèfle
+8 de Carreau
+
+Joueur 1:
+J de Carreau
+9 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Pique
+3 de Trèfle
+Main évaluée: Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+5 de Pique
+K de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Carreau
+Q de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+Q de Trèfle
+Q de Coeur
+6 de Trèfle
+
+Joueur 1:
+5 de Pique
+K de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+6 de Carreau
+Q de Pique
+Main évaluée: Full
+
+Turn:
+(press enter to continue)
+Q de Trèfle
+Q de Coeur
+6 de Trèfle
+J de Trèfle
+
+Joueur 1:
+5 de Pique
+K de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+6 de Carreau
+Q de Pique
+Main évaluée: Full
+
+River:
+(press enter to continue)
+Q de Trèfle
+Q de Coeur
+6 de Trèfle
+J de Trèfle
+8 de Coeur
+
+Joueur 1:
+5 de Pique
+K de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+6 de Carreau
+Q de Pique
+Main évaluée: Full
+Le joueur gagnant est:  2
+
+Joueur 1:
+3 de Trèfle
+7 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+K de Coeur
+9 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+10 de Carreau
+10 de Trèfle
+K de Pique
+
+Joueur 1:
+3 de Trèfle
+7 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+K de Coeur
+9 de Pique
+Main évaluée: Double Paire
+
+Turn:
+(press enter to continue)
+10 de Carreau
+10 de Trèfle
+K de Pique
+3 de Coeur
+
+Joueur 1:
+3 de Trèfle
+7 de Trèfle
+Main évaluée: Double Paire
+
+Joueur 2:
+K de Coeur
+9 de Pique
+Main évaluée: Double Paire
+
+River:
+(press enter to continue)
+10 de Carreau
+10 de Trèfle
+K de Pique
+3 de Coeur
+2 de Coeur
+
+Joueur 1:
+3 de Trèfle
+7 de Trèfle
+Main évaluée: Double Paire
+
+Joueur 2:
+K de Coeur
+9 de Pique
+Main évaluée: Double Paire
+Function meilleure_carte, cards:  [10, 10, 2, 3, 3, 7, 13]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  [10, 10, 2, 3, 9, 13, 13]
+Function meilleure_carte, meilleure carte:  13
+Best_card : [10, 13]
+Le joueur gagnant est:  2
+
+Joueur 1:
+K de Coeur
+10 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+2 de Carreau
+3 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+9 de Carreau
+7 de Carreau
+J de Coeur
+
+Joueur 1:
+K de Coeur
+10 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+2 de Carreau
+3 de Trèfle
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+9 de Carreau
+7 de Carreau
+J de Coeur
+3 de Coeur
+
+Joueur 1:
+K de Coeur
+10 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+2 de Carreau
+3 de Trèfle
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+9 de Carreau
+7 de Carreau
+J de Coeur
+3 de Coeur
+J de Pique
+
+Joueur 1:
+K de Coeur
+10 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+2 de Carreau
+3 de Trèfle
+Main évaluée: Double Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+4 de Carreau
+4 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+9 de Carreau
+A de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+A de Carreau
+10 de Pique
+10 de Carreau
+
+Joueur 1:
+4 de Carreau
+4 de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+9 de Carreau
+A de Pique
+Main évaluée: Double Paire
+
+Turn:
+(press enter to continue)
+A de Carreau
+10 de Pique
+10 de Carreau
+3 de Coeur
+
+Joueur 1:
+4 de Carreau
+4 de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+9 de Carreau
+A de Pique
+Main évaluée: Double Paire
+
+River:
+(press enter to continue)
+A de Carreau
+10 de Pique
+10 de Carreau
+3 de Coeur
+4 de Trèfle
+
+Joueur 1:
+4 de Carreau
+4 de Pique
+Main évaluée: Full
+
+Joueur 2:
+9 de Carreau
+A de Pique
+Main évaluée: Double Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+J de Carreau
+5 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+A de Trèfle
+6 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+3 de Coeur
+10 de Coeur
+J de Trèfle
+
+Joueur 1:
+J de Carreau
+5 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+A de Trèfle
+6 de Trèfle
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+3 de Coeur
+10 de Coeur
+J de Trèfle
+8 de Coeur
+
+Joueur 1:
+J de Carreau
+5 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+A de Trèfle
+6 de Trèfle
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+3 de Coeur
+10 de Coeur
+J de Trèfle
+8 de Coeur
+A de Carreau
+
+Joueur 1:
+J de Carreau
+5 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+A de Trèfle
+6 de Trèfle
+Main évaluée: Paire
+Function meilleure_carte, cards:  [10, 3, 5, 8, 14, 11, 11]
+Function meilleure_carte, meilleure carte:  11
+Function meilleure_carte, cards:  [10, 3, 6, 8, 14, 14, 11]
+Function meilleure_carte, meilleure carte:  14
+Best_card : [11, 14]
+Le joueur gagnant est:  2
+
+Joueur 1:
+K de Trèfle
+K de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+3 de Pique
+5 de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+7 de Coeur
+3 de Coeur
+6 de Carreau
+
+Joueur 1:
+K de Trèfle
+K de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+3 de Pique
+5 de Coeur
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+7 de Coeur
+3 de Coeur
+6 de Carreau
+K de Pique
+
+Joueur 1:
+K de Trèfle
+K de Carreau
+Main évaluée: Brelan
+
+Joueur 2:
+3 de Pique
+5 de Coeur
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+7 de Coeur
+3 de Coeur
+6 de Carreau
+K de Pique
+5 de Pique
+
+Joueur 1:
+K de Trèfle
+K de Carreau
+Main évaluée: Brelan
+
+Joueur 2:
+3 de Pique
+5 de Coeur
+Main évaluée: Double Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+7 de Trèfle
+7 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+2 de Pique
+6 de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+7 de Carreau
+5 de Pique
+3 de Trèfle
+
+Joueur 1:
+7 de Trèfle
+7 de Pique
+Main évaluée: Brelan
+
+Joueur 2:
+2 de Pique
+6 de Carreau
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+7 de Carreau
+5 de Pique
+3 de Trèfle
+K de Trèfle
+
+Joueur 1:
+7 de Trèfle
+7 de Pique
+Main évaluée: Brelan
+
+Joueur 2:
+2 de Pique
+6 de Carreau
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+7 de Carreau
+5 de Pique
+3 de Trèfle
+K de Trèfle
+J de Carreau
+
+Joueur 1:
+7 de Trèfle
+7 de Pique
+Main évaluée: Brelan
+
+Joueur 2:
+2 de Pique
+6 de Carreau
+Main évaluée: Carte Haute
+Le joueur gagnant est:  1
+
+Joueur 1:
+3 de Pique
+8 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Coeur
+4 de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+9 de Pique
+J de Pique
+5 de Coeur
+
+Joueur 1:
+3 de Pique
+8 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Coeur
+4 de Coeur
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+9 de Pique
+J de Pique
+5 de Coeur
+6 de Trèfle
+
+Joueur 1:
+3 de Pique
+8 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Coeur
+4 de Coeur
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+9 de Pique
+J de Pique
+5 de Coeur
+6 de Trèfle
+4 de Pique
+
+Joueur 1:
+3 de Pique
+8 de Pique
+Main évaluée: Flush
+
+Joueur 2:
+9 de Coeur
+4 de Coeur
+Main évaluée: Double Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+2 de Coeur
+5 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Coeur
+10 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+9 de Carreau
+K de Pique
+4 de Trèfle
+
+Joueur 1:
+2 de Coeur
+5 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Coeur
+10 de Pique
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+9 de Carreau
+K de Pique
+4 de Trèfle
+10 de Coeur
+
+Joueur 1:
+2 de Coeur
+5 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Coeur
+10 de Pique
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+9 de Carreau
+K de Pique
+4 de Trèfle
+10 de Coeur
+3 de Coeur
+
+Joueur 1:
+2 de Coeur
+5 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Coeur
+10 de Pique
+Main évaluée: Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+4 de Coeur
+6 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Coeur
+4 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+A de Trèfle
+A de Pique
+5 de Trèfle
+
+Joueur 1:
+4 de Coeur
+6 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+6 de Coeur
+4 de Pique
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+A de Trèfle
+A de Pique
+5 de Trèfle
+6 de Trèfle
+
+Joueur 1:
+4 de Coeur
+6 de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+6 de Coeur
+4 de Pique
+Main évaluée: Double Paire
+
+River:
+(press enter to continue)
+A de Trèfle
+A de Pique
+5 de Trèfle
+6 de Trèfle
+7 de Pique
+
+Joueur 1:
+4 de Coeur
+6 de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+6 de Coeur
+4 de Pique
+Main évaluée: Double Paire
+Function meilleure_carte, cards:  [4, 5, 6, 6, 7, 14, 14]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [4, 5, 6, 6, 7, 14, 14]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [4, 5, 6, 6, 7]
+Function meilleure_carte, meilleure carte:  6
+Function meilleure_carte, cards:  [4, 5, 6, 6, 7]
+Function meilleure_carte, meilleure carte:  6
+Function meilleure_carte, cards:  [4, 5, 7]
+Function meilleure_carte, meilleure carte:  7
+Function meilleure_carte, cards:  [4, 5, 7]
+Function meilleure_carte, meilleure carte:  7
+Function meilleure_carte, cards:  [4, 5]
+Function meilleure_carte, meilleure carte:  5
+Function meilleure_carte, cards:  [4, 5]
+Function meilleure_carte, meilleure carte:  5
+Function meilleure_carte, cards:  [4]
+Function meilleure_carte, meilleure carte:  4
+Function meilleure_carte, cards:  [4]
+Function meilleure_carte, meilleure carte:  4
+Function meilleure_carte, cards:  []
+Traceback (most recent call last):
+  File "/home/madness/Documents/projet/poker/poker.py", line 27, in <module>
+    poker_texas_holdem(2)
+  File "/home/madness/Documents/projet/poker/poker.py", line 25, in poker_texas_holdem
+    print("Le joueur gagnant est: ", affiche_gagnant(joueurs, combi_joueurs, cards))
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madness/Documents/projet/poker/eval.py", line 230, in affiche_gagnant
+    best_card.append(meilleure_carte(deck[i]))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madness/Documents/projet/poker/eval.py", line 164, in meilleure_carte
+    print("Function meilleure_carte, meilleure carte: ", max(cards))
+                                                         ^^^^^^^^^^
+ValueError: max() iterable argument is empty
+
+Joueur 1:
+J de Pique
+2 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+Q de Coeur
+6 de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+9 de Coeur
+8 de Pique
+K de Coeur
+
+Joueur 1:
+J de Pique
+2 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+Q de Coeur
+6 de Carreau
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+9 de Coeur
+8 de Pique
+K de Coeur
+5 de Trèfle
+
+Joueur 1:
+J de Pique
+2 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+Q de Coeur
+6 de Carreau
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+9 de Coeur
+8 de Pique
+K de Coeur
+5 de Trèfle
+5 de Carreau
+
+Joueur 1:
+J de Pique
+2 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+Q de Coeur
+6 de Carreau
+Main évaluée: Paire
+Function meilleure_carte, cards:  [2, 5, 5, 8, 9, 11, 13]
+Function meilleure_carte, meilleure carte:  5
+Function meilleure_carte, cards:  [5, 5, 6, 8, 9, 13, 12]
+Function meilleure_carte, meilleure carte:  5
+Function meilleure_carte, cards:  [2, 8, 9, 11, 13]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [6, 8, 9, 13, 12]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [2, 8, 9, 11]
+Function meilleure_carte, meilleure carte:  11
+Function meilleure_carte, cards:  [6, 8, 9, 13]
+Function meilleure_carte, meilleure carte:  13
+Best_card : [11, 13]
+Le joueur gagnant est:  2
+
+Joueur 1:
+6 de Pique
+2 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+K de Trèfle
+K de Pique
+Main évaluée: Paire
+
+Flop:
+(press enter to continue)
+7 de Carreau
+7 de Coeur
+8 de Trèfle
+
+Joueur 1:
+6 de Pique
+2 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+K de Trèfle
+K de Pique
+Main évaluée: Double Paire
+
+Turn:
+(press enter to continue)
+7 de Carreau
+7 de Coeur
+8 de Trèfle
+A de Pique
+
+Joueur 1:
+6 de Pique
+2 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+K de Trèfle
+K de Pique
+Main évaluée: Double Paire
+
+River:
+(press enter to continue)
+7 de Carreau
+7 de Coeur
+8 de Trèfle
+A de Pique
+10 de Trèfle
+
+Joueur 1:
+6 de Pique
+2 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+K de Trèfle
+K de Pique
+Main évaluée: Double Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+9 de Trèfle
+5 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+5 de Trèfle
+J de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+7 de Pique
+K de Pique
+2 de Pique
+
+Joueur 1:
+9 de Trèfle
+5 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+5 de Trèfle
+J de Pique
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+7 de Pique
+K de Pique
+2 de Pique
+4 de Carreau
+
+Joueur 1:
+9 de Trèfle
+5 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+5 de Trèfle
+J de Pique
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+7 de Pique
+K de Pique
+2 de Pique
+4 de Carreau
+8 de Coeur
+
+Joueur 1:
+9 de Trèfle
+5 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+5 de Trèfle
+J de Pique
+Main évaluée: Carte Haute
+Function meilleure_carte, cards:  [2, 4, 5, 7, 8, 9, 13]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [2, 4, 5, 7, 8, 11, 13]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [2, 4, 5, 7, 8, 9]
+Function meilleure_carte, meilleure carte:  9
+Function meilleure_carte, cards:  [2, 4, 5, 7, 8, 11]
+Function meilleure_carte, meilleure carte:  11
+Best_card : [9, 11]
+Le joueur gagnant est:  2
+
+Joueur 1:
+2 de Pique
+3 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Carreau
+2 de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+J de Coeur
+A de Pique
+K de Carreau
+
+Joueur 1:
+2 de Pique
+3 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Carreau
+2 de Coeur
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+J de Coeur
+A de Pique
+K de Carreau
+A de Coeur
+
+Joueur 1:
+2 de Pique
+3 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+9 de Carreau
+2 de Coeur
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+J de Coeur
+A de Pique
+K de Carreau
+A de Coeur
+10 de Pique
+
+Joueur 1:
+2 de Pique
+3 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+9 de Carreau
+2 de Coeur
+Main évaluée: Paire
+Function meilleure_carte, cards:  [10, 2, 3, 14, 14, 11, 13]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [10, 2, 9, 14, 14, 11, 13]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [10, 2, 3, 11, 13]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [10, 2, 9, 11, 13]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [10, 2, 3, 11]
+Function meilleure_carte, meilleure carte:  11
+Function meilleure_carte, cards:  [10, 2, 9, 11]
+Function meilleure_carte, meilleure carte:  11
+Function meilleure_carte, cards:  [10, 2, 3]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  [10, 2, 9]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  [10, 2]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  [10, 2]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  [10]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  [10]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  []
+Traceback (most recent call last):
+  File "/home/madness/Documents/projet/poker/poker.py", line 27, in <module>
+    poker_texas_holdem(2)
+  File "/home/madness/Documents/projet/poker/poker.py", line 25, in poker_texas_holdem
+    print("Le joueur gagnant est: ", affiche_gagnant(joueurs, combi_joueurs, cards))
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madness/Documents/projet/poker/eval.py", line 230, in affiche_gagnant
+    best_card.append(meilleure_carte(deck[i]))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madness/Documents/projet/poker/eval.py", line 164, in meilleure_carte
+    print("Function meilleure_carte, meilleure carte: ", max(cards))
+                                                         ^^^^^^^^^^
+ValueError: max() iterable argument is empty
+
+Joueur 1:
+2 de Coeur
+8 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+J de Pique
+A de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+6 de Pique
+3 de Pique
+5 de Pique
+
+Joueur 1:
+2 de Coeur
+8 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+J de Pique
+A de Trèfle
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+6 de Pique
+3 de Pique
+5 de Pique
+6 de Carreau
+
+Joueur 1:
+2 de Coeur
+8 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+J de Pique
+A de Trèfle
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+6 de Pique
+3 de Pique
+5 de Pique
+6 de Carreau
+7 de Carreau
+
+Joueur 1:
+2 de Coeur
+8 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+J de Pique
+A de Trèfle
+Main évaluée: Paire
+Function meilleure_carte, cards:  [2, 3, 5, 6, 6, 7, 8]
+Function meilleure_carte, meilleure carte:  6
+Function meilleure_carte, cards:  [3, 5, 6, 6, 7, 14, 11]
+Function meilleure_carte, meilleure carte:  6
+Function meilleure_carte, cards:  [2, 3, 5, 7, 8]
+Function meilleure_carte, meilleure carte:  8
+Function meilleure_carte, cards:  [3, 5, 7, 14, 11]
+Function meilleure_carte, meilleure carte:  14
+Best_card : [8, 14]
+Le joueur gagnant est:  2
+
+Joueur 1:
+6 de Trèfle
+A de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+10 de Carreau
+7 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+K de Coeur
+Q de Coeur
+10 de Trèfle
+
+Joueur 1:
+6 de Trèfle
+A de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+10 de Carreau
+7 de Trèfle
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+K de Coeur
+Q de Coeur
+10 de Trèfle
+9 de Pique
+
+Joueur 1:
+6 de Trèfle
+A de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+10 de Carreau
+7 de Trèfle
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+K de Coeur
+Q de Coeur
+10 de Trèfle
+9 de Pique
+10 de Pique
+
+Joueur 1:
+6 de Trèfle
+A de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+10 de Carreau
+7 de Trèfle
+Main évaluée: Brelan
+Le joueur gagnant est:  2
+
+Joueur 1:
+5 de Pique
+K de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+J de Coeur
+J de Carreau
+Main évaluée: Paire
+
+Flop:
+(press enter to continue)
+9 de Pique
+3 de Trèfle
+3 de Pique
+
+Joueur 1:
+5 de Pique
+K de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+J de Coeur
+J de Carreau
+Main évaluée: Double Paire
+
+Turn:
+(press enter to continue)
+9 de Pique
+3 de Trèfle
+3 de Pique
+10 de Pique
+
+Joueur 1:
+5 de Pique
+K de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+J de Coeur
+J de Carreau
+Main évaluée: Double Paire
+
+River:
+(press enter to continue)
+9 de Pique
+3 de Trèfle
+3 de Pique
+10 de Pique
+7 de Trèfle
+
+Joueur 1:
+5 de Pique
+K de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+J de Coeur
+J de Carreau
+Main évaluée: Double Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+7 de Trèfle
+Q de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+Q de Coeur
+9 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+6 de Carreau
+5 de Coeur
+9 de Carreau
+
+Joueur 1:
+7 de Trèfle
+Q de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+Q de Coeur
+9 de Pique
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+6 de Carreau
+5 de Coeur
+9 de Carreau
+J de Carreau
+
+Joueur 1:
+7 de Trèfle
+Q de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+Q de Coeur
+9 de Pique
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+6 de Carreau
+5 de Coeur
+9 de Carreau
+J de Carreau
+Q de Carreau
+
+Joueur 1:
+7 de Trèfle
+Q de Pique
+Main évaluée: Paire
+
+Joueur 2:
+Q de Coeur
+9 de Pique
+Main évaluée: Double Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+4 de Trèfle
+5 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+K de Carreau
+6 de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+2 de Carreau
+5 de Carreau
+A de Coeur
+
+Joueur 1:
+4 de Trèfle
+5 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+K de Carreau
+6 de Carreau
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+2 de Carreau
+5 de Carreau
+A de Coeur
+9 de Coeur
+
+Joueur 1:
+4 de Trèfle
+5 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+K de Carreau
+6 de Carreau
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+2 de Carreau
+5 de Carreau
+A de Coeur
+9 de Coeur
+8 de Trèfle
+
+Joueur 1:
+4 de Trèfle
+5 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+K de Carreau
+6 de Carreau
+Main évaluée: Carte Haute
+Le joueur gagnant est:  1
+
+Joueur 1:
+J de Pique
+6 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+J de Coeur
+8 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+7 de Trèfle
+4 de Pique
+7 de Carreau
+
+Joueur 1:
+J de Pique
+6 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+J de Coeur
+8 de Trèfle
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+7 de Trèfle
+4 de Pique
+7 de Carreau
+K de Coeur
+
+Joueur 1:
+J de Pique
+6 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+J de Coeur
+8 de Trèfle
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+7 de Trèfle
+4 de Pique
+7 de Carreau
+K de Coeur
+6 de Pique
+
+Joueur 1:
+J de Pique
+6 de Trèfle
+Main évaluée: Double Paire
+
+Joueur 2:
+J de Coeur
+8 de Trèfle
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+Q de Pique
+9 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+8 de Trèfle
+K de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+5 de Coeur
+A de Coeur
+4 de Pique
+
+Joueur 1:
+Q de Pique
+9 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+8 de Trèfle
+K de Carreau
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+5 de Coeur
+A de Coeur
+4 de Pique
+10 de Trèfle
+
+Joueur 1:
+Q de Pique
+9 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+8 de Trèfle
+K de Carreau
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+5 de Coeur
+A de Coeur
+4 de Pique
+10 de Trèfle
+K de Coeur
+
+Joueur 1:
+Q de Pique
+9 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+8 de Trèfle
+K de Carreau
+Main évaluée: Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+4 de Carreau
+2 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+7 de Trèfle
+10 de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+8 de Coeur
+2 de Trèfle
+5 de Trèfle
+
+Joueur 1:
+4 de Carreau
+2 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+7 de Trèfle
+10 de Coeur
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+8 de Coeur
+2 de Trèfle
+5 de Trèfle
+7 de Coeur
+
+Joueur 1:
+4 de Carreau
+2 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+7 de Trèfle
+10 de Coeur
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+8 de Coeur
+2 de Trèfle
+5 de Trèfle
+7 de Coeur
+9 de Carreau
+
+Joueur 1:
+4 de Carreau
+2 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+7 de Trèfle
+10 de Coeur
+Main évaluée: Paire
+Function meilleure_carte, cards:  [2, 2, 4, 5, 7, 8, 9]
+Function meilleure_carte, meilleure carte:  2
+Function meilleure_carte, cards:  [10, 2, 5, 7, 7, 8, 9]
+Function meilleure_carte, meilleure carte:  7
+Best_card : [2, 7]
+Le joueur gagnant est:  2
+
+Joueur 1:
+7 de Trèfle
+Q de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+7 de Carreau
+3 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+3 de Carreau
+2 de Coeur
+2 de Trèfle
+
+Joueur 1:
+7 de Trèfle
+Q de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+7 de Carreau
+3 de Trèfle
+Main évaluée: Double Paire
+
+Turn:
+(press enter to continue)
+3 de Carreau
+2 de Coeur
+2 de Trèfle
+8 de Coeur
+
+Joueur 1:
+7 de Trèfle
+Q de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+7 de Carreau
+3 de Trèfle
+Main évaluée: Double Paire
+
+River:
+(press enter to continue)
+3 de Carreau
+2 de Coeur
+2 de Trèfle
+8 de Coeur
+A de Carreau
+
+Joueur 1:
+7 de Trèfle
+Q de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+7 de Carreau
+3 de Trèfle
+Main évaluée: Double Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+10 de Trèfle
+J de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+K de Carreau
+5 de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+K de Pique
+Q de Coeur
+6 de Coeur
+
+Joueur 1:
+10 de Trèfle
+J de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+K de Carreau
+5 de Carreau
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+K de Pique
+Q de Coeur
+6 de Coeur
+10 de Carreau
+
+Joueur 1:
+10 de Trèfle
+J de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+K de Carreau
+5 de Carreau
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+K de Pique
+Q de Coeur
+6 de Coeur
+10 de Carreau
+K de Trèfle
+
+Joueur 1:
+10 de Trèfle
+J de Coeur
+Main évaluée: Double Paire
+
+Joueur 2:
+K de Carreau
+5 de Carreau
+Main évaluée: Brelan
+Le joueur gagnant est:  2
+
+Joueur 1:
+8 de Pique
+4 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+J de Coeur
+9 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+9 de Coeur
+5 de Carreau
+K de Trèfle
+
+Joueur 1:
+8 de Pique
+4 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+J de Coeur
+9 de Pique
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+9 de Coeur
+5 de Carreau
+K de Trèfle
+K de Carreau
+
+Joueur 1:
+8 de Pique
+4 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+J de Coeur
+9 de Pique
+Main évaluée: Double Paire
+
+River:
+(press enter to continue)
+9 de Coeur
+5 de Carreau
+K de Trèfle
+K de Carreau
+2 de Trèfle
+
+Joueur 1:
+8 de Pique
+4 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+J de Coeur
+9 de Pique
+Main évaluée: Double Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+K de Pique
+6 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Pique
+8 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+10 de Coeur
+2 de Carreau
+Q de Coeur
+
+Joueur 1:
+K de Pique
+6 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Pique
+8 de Trèfle
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+10 de Coeur
+2 de Carreau
+Q de Coeur
+5 de Coeur
+
+Joueur 1:
+K de Pique
+6 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Pique
+8 de Trèfle
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+10 de Coeur
+2 de Carreau
+Q de Coeur
+5 de Coeur
+Q de Carreau
+
+Joueur 1:
+K de Pique
+6 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+9 de Pique
+8 de Trèfle
+Main évaluée: Paire
+Function meilleure_carte, cards:  [10, 2, 5, 6, 13, 12, 12]
+Function meilleure_carte, meilleure carte:  12
+Function meilleure_carte, cards:  [10, 2, 5, 8, 9, 12, 12]
+Function meilleure_carte, meilleure carte:  12
+Function meilleure_carte, cards:  [10, 2, 5, 6, 13]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [10, 2, 5, 8, 9]
+Function meilleure_carte, meilleure carte:  10
+Best_card : [13, 10]
+Le joueur gagnant est:  1
+
+Joueur 1:
+10 de Pique
+5 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+5 de Coeur
+4 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+4 de Coeur
+6 de Coeur
+9 de Coeur
+
+Joueur 1:
+10 de Pique
+5 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+5 de Coeur
+4 de Pique
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+4 de Coeur
+6 de Coeur
+9 de Coeur
+6 de Trèfle
+
+Joueur 1:
+10 de Pique
+5 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+5 de Coeur
+4 de Pique
+Main évaluée: Double Paire
+
+River:
+(press enter to continue)
+4 de Coeur
+6 de Coeur
+9 de Coeur
+6 de Trèfle
+3 de Coeur
+
+Joueur 1:
+10 de Pique
+5 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+5 de Coeur
+4 de Pique
+Main évaluée: Flush
+Le joueur gagnant est:  2
+
+Joueur 1:
+Q de Trèfle
+Q de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+Q de Coeur
+6 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+A de Coeur
+J de Trèfle
+3 de Pique
+
+Joueur 1:
+Q de Trèfle
+Q de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+Q de Coeur
+6 de Pique
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+A de Coeur
+J de Trèfle
+3 de Pique
+J de Carreau
+
+Joueur 1:
+Q de Trèfle
+Q de Carreau
+Main évaluée: Double Paire
+
+Joueur 2:
+Q de Coeur
+6 de Pique
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+A de Coeur
+J de Trèfle
+3 de Pique
+J de Carreau
+9 de Pique
+
+Joueur 1:
+Q de Trèfle
+Q de Carreau
+Main évaluée: Double Paire
+
+Joueur 2:
+Q de Coeur
+6 de Pique
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+8 de Coeur
+10 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+4 de Pique
+4 de Carreau
+Main évaluée: Paire
+
+Flop:
+(press enter to continue)
+4 de Trèfle
+5 de Trèfle
+A de Pique
+
+Joueur 1:
+8 de Coeur
+10 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+4 de Pique
+4 de Carreau
+Main évaluée: Brelan
+
+Turn:
+(press enter to continue)
+4 de Trèfle
+5 de Trèfle
+A de Pique
+9 de Coeur
+
+Joueur 1:
+8 de Coeur
+10 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+4 de Pique
+4 de Carreau
+Main évaluée: Brelan
+
+River:
+(press enter to continue)
+4 de Trèfle
+5 de Trèfle
+A de Pique
+9 de Coeur
+3 de Carreau
+
+Joueur 1:
+8 de Coeur
+10 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+4 de Pique
+4 de Carreau
+Main évaluée: Brelan
+Le joueur gagnant est:  2
+
+Joueur 1:
+10 de Pique
+8 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Carreau
+4 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+3 de Pique
+Q de Coeur
+8 de Coeur
+
+Joueur 1:
+10 de Pique
+8 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+6 de Carreau
+4 de Pique
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+3 de Pique
+Q de Coeur
+8 de Coeur
+K de Carreau
+
+Joueur 1:
+10 de Pique
+8 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+6 de Carreau
+4 de Pique
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+3 de Pique
+Q de Coeur
+8 de Coeur
+K de Carreau
+2 de Trèfle
+
+Joueur 1:
+10 de Pique
+8 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+6 de Carreau
+4 de Pique
+Main évaluée: Carte Haute
+Le joueur gagnant est:  1
+
+Joueur 1:
+2 de Carreau
+A de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+4 de Pique
+J de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+6 de Carreau
+Q de Carreau
+10 de Pique
+
+Joueur 1:
+2 de Carreau
+A de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+4 de Pique
+J de Carreau
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+6 de Carreau
+Q de Carreau
+10 de Pique
+3 de Trèfle
+
+Joueur 1:
+2 de Carreau
+A de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+4 de Pique
+J de Carreau
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+6 de Carreau
+Q de Carreau
+10 de Pique
+3 de Trèfle
+7 de Carreau
+
+Joueur 1:
+2 de Carreau
+A de Carreau
+Main évaluée: Flush
+
+Joueur 2:
+4 de Pique
+J de Carreau
+Main évaluée: Carte Haute
+Le joueur gagnant est:  1
+
+Joueur 1:
+8 de Pique
+7 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Trèfle
+9 de Carreau
+Main évaluée: Paire
+
+Flop:
+(press enter to continue)
+K de Coeur
+Q de Carreau
+10 de Pique
+
+Joueur 1:
+8 de Pique
+7 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Trèfle
+9 de Carreau
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+K de Coeur
+Q de Carreau
+10 de Pique
+3 de Trèfle
+
+Joueur 1:
+8 de Pique
+7 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Trèfle
+9 de Carreau
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+K de Coeur
+Q de Carreau
+10 de Pique
+3 de Trèfle
+K de Pique
+
+Joueur 1:
+8 de Pique
+7 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+9 de Trèfle
+9 de Carreau
+Main évaluée: Double Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+10 de Coeur
+9 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Trèfle
+4 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+6 de Pique
+7 de Carreau
+9 de Carreau
+
+Joueur 1:
+10 de Coeur
+9 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+9 de Trèfle
+4 de Pique
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+6 de Pique
+7 de Carreau
+9 de Carreau
+4 de Trèfle
+
+Joueur 1:
+10 de Coeur
+9 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+9 de Trèfle
+4 de Pique
+Main évaluée: Double Paire
+
+River:
+(press enter to continue)
+6 de Pique
+7 de Carreau
+9 de Carreau
+4 de Trèfle
+4 de Coeur
+
+Joueur 1:
+10 de Coeur
+9 de Coeur
+Main évaluée: Double Paire
+
+Joueur 2:
+9 de Trèfle
+4 de Pique
+Main évaluée: Full
+Le joueur gagnant est:  2
+
+Joueur 1:
+6 de Trèfle
+8 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+7 de Pique
+4 de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+10 de Trèfle
+2 de Coeur
+A de Coeur
+
+Joueur 1:
+6 de Trèfle
+8 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+7 de Pique
+4 de Carreau
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+10 de Trèfle
+2 de Coeur
+A de Coeur
+7 de Trèfle
+
+Joueur 1:
+6 de Trèfle
+8 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+7 de Pique
+4 de Carreau
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+10 de Trèfle
+2 de Coeur
+A de Coeur
+7 de Trèfle
+10 de Carreau
+
+Joueur 1:
+6 de Trèfle
+8 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+7 de Pique
+4 de Carreau
+Main évaluée: Double Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+3 de Pique
+Q de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Carreau
+5 de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+Q de Carreau
+4 de Carreau
+9 de Pique
+
+Joueur 1:
+3 de Pique
+Q de Pique
+Main évaluée: Paire
+
+Joueur 2:
+9 de Carreau
+5 de Carreau
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+Q de Carreau
+4 de Carreau
+9 de Pique
+A de Coeur
+
+Joueur 1:
+3 de Pique
+Q de Pique
+Main évaluée: Paire
+
+Joueur 2:
+9 de Carreau
+5 de Carreau
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+Q de Carreau
+4 de Carreau
+9 de Pique
+A de Coeur
+A de Trèfle
+
+Joueur 1:
+3 de Pique
+Q de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+9 de Carreau
+5 de Carreau
+Main évaluée: Double Paire
+Function meilleure_carte, cards:  [3, 4, 9, 14, 14, 12, 12]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [4, 5, 9, 9, 14, 14, 12]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [3, 4, 9, 14, 14]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [4, 5, 9, 9, 12]
+Function meilleure_carte, meilleure carte:  9
+Best_card : [14, 9]
+Le joueur gagnant est:  1
+
+Joueur 1:
+9 de Pique
+7 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+2 de Trèfle
+7 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+7 de Coeur
+7 de Trèfle
+6 de Carreau
+
+Joueur 1:
+9 de Pique
+7 de Carreau
+Main évaluée: Brelan
+
+Joueur 2:
+2 de Trèfle
+7 de Pique
+Main évaluée: Brelan
+
+Turn:
+(press enter to continue)
+7 de Coeur
+7 de Trèfle
+6 de Carreau
+5 de Trèfle
+
+Joueur 1:
+9 de Pique
+7 de Carreau
+Main évaluée: Brelan
+
+Joueur 2:
+2 de Trèfle
+7 de Pique
+Main évaluée: Brelan
+
+River:
+(press enter to continue)
+7 de Coeur
+7 de Trèfle
+6 de Carreau
+5 de Trèfle
+5 de Carreau
+
+Joueur 1:
+9 de Pique
+7 de Carreau
+Main évaluée: Full
+
+Joueur 2:
+2 de Trèfle
+7 de Pique
+Main évaluée: Full
+Le joueur gagnant est:  To do
+
+Joueur 1:
+4 de Carreau
+5 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+A de Coeur
+10 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+K de Coeur
+Q de Coeur
+3 de Coeur
+
+Joueur 1:
+4 de Carreau
+5 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+A de Coeur
+10 de Trèfle
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+K de Coeur
+Q de Coeur
+3 de Coeur
+3 de Pique
+
+Joueur 1:
+4 de Carreau
+5 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+A de Coeur
+10 de Trèfle
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+K de Coeur
+Q de Coeur
+3 de Coeur
+3 de Pique
+2 de Coeur
+
+Joueur 1:
+4 de Carreau
+5 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+A de Coeur
+10 de Trèfle
+Main évaluée: Flush
+Le joueur gagnant est:  2
+
+Joueur 1:
+10 de Carreau
+9 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+7 de Carreau
+Q de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+J de Trèfle
+6 de Carreau
+6 de Coeur
+
+Joueur 1:
+10 de Carreau
+9 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+7 de Carreau
+Q de Coeur
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+J de Trèfle
+6 de Carreau
+6 de Coeur
+2 de Carreau
+
+Joueur 1:
+10 de Carreau
+9 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+7 de Carreau
+Q de Coeur
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+J de Trèfle
+6 de Carreau
+6 de Coeur
+2 de Carreau
+K de Carreau
+
+Joueur 1:
+10 de Carreau
+9 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+7 de Carreau
+Q de Coeur
+Main évaluée: Paire
+Function meilleure_carte, cards:  [10, 2, 6, 6, 9, 11, 13]
+Function meilleure_carte, meilleure carte:  6
+Function meilleure_carte, cards:  [2, 6, 6, 7, 11, 13, 12]
+Function meilleure_carte, meilleure carte:  6
+Function meilleure_carte, cards:  [10, 2, 9, 11, 13]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [2, 7, 11, 13, 12]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [10, 2, 9, 11]
+Function meilleure_carte, meilleure carte:  11
+Function meilleure_carte, cards:  [2, 7, 11, 13]
+Function meilleure_carte, meilleure carte:  13
+Best_card : [11, 13]
+Le joueur gagnant est:  2
+
+Joueur 1:
+6 de Coeur
+K de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+A de Pique
+K de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+3 de Coeur
+4 de Coeur
+4 de Pique
+
+Joueur 1:
+6 de Coeur
+K de Pique
+Main évaluée: Paire
+
+Joueur 2:
+A de Pique
+K de Coeur
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+3 de Coeur
+4 de Coeur
+4 de Pique
+3 de Pique
+
+Joueur 1:
+6 de Coeur
+K de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+A de Pique
+K de Coeur
+Main évaluée: Double Paire
+
+River:
+(press enter to continue)
+3 de Coeur
+4 de Coeur
+4 de Pique
+3 de Pique
+K de Trèfle
+
+Joueur 1:
+6 de Coeur
+K de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+A de Pique
+K de Coeur
+Main évaluée: Double Paire
+Function meilleure_carte, cards:  [3, 3, 4, 4, 6, 13, 13]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [3, 3, 4, 4, 14, 13, 13]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [3, 3, 4, 4, 6]
+Function meilleure_carte, meilleure carte:  4
+Function meilleure_carte, cards:  [3, 3, 4, 4, 14]
+Function meilleure_carte, meilleure carte:  4
+Function meilleure_carte, cards:  [3, 3, 6]
+Function meilleure_carte, meilleure carte:  3
+Function meilleure_carte, cards:  [3, 3, 14]
+Function meilleure_carte, meilleure carte:  3
+Function meilleure_carte, cards:  [6]
+Function meilleure_carte, meilleure carte:  6
+Function meilleure_carte, cards:  [14]
+Function meilleure_carte, meilleure carte:  14
+Best_card : [6, 14]
+Le joueur gagnant est:  2
+
+Joueur 1:
+2 de Carreau
+10 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+2 de Pique
+5 de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+10 de Carreau
+6 de Coeur
+6 de Trèfle
+
+Joueur 1:
+2 de Carreau
+10 de Trèfle
+Main évaluée: Double Paire
+
+Joueur 2:
+2 de Pique
+5 de Carreau
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+10 de Carreau
+6 de Coeur
+6 de Trèfle
+2 de Coeur
+
+Joueur 1:
+2 de Carreau
+10 de Trèfle
+Main évaluée: Double Paire
+
+Joueur 2:
+2 de Pique
+5 de Carreau
+Main évaluée: Double Paire
+
+River:
+(press enter to continue)
+10 de Carreau
+6 de Coeur
+6 de Trèfle
+2 de Coeur
+Q de Trèfle
+
+Joueur 1:
+2 de Carreau
+10 de Trèfle
+Main évaluée: Double Paire
+
+Joueur 2:
+2 de Pique
+5 de Carreau
+Main évaluée: Double Paire
+Function meilleure_carte, cards:  [10, 10, 2, 2, 6, 6, 12]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  [10, 2, 2, 5, 6, 6, 12]
+Function meilleure_carte, meilleure carte:  6
+Best_card : [10, 6]
+Le joueur gagnant est:  1
+
+Joueur 1:
+J de Pique
+4 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+5 de Trèfle
+9 de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+7 de Carreau
+3 de Trèfle
+J de Trèfle
+
+Joueur 1:
+J de Pique
+4 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+5 de Trèfle
+9 de Carreau
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+7 de Carreau
+3 de Trèfle
+J de Trèfle
+8 de Carreau
+
+Joueur 1:
+J de Pique
+4 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+5 de Trèfle
+9 de Carreau
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+7 de Carreau
+3 de Trèfle
+J de Trèfle
+8 de Carreau
+2 de Carreau
+
+Joueur 1:
+J de Pique
+4 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+5 de Trèfle
+9 de Carreau
+Main évaluée: Carte Haute
+Le joueur gagnant est:  1
+
+Joueur 1:
+2 de Coeur
+2 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+9 de Pique
+8 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+A de Pique
+A de Coeur
+10 de Trèfle
+
+Joueur 1:
+2 de Coeur
+2 de Carreau
+Main évaluée: Double Paire
+
+Joueur 2:
+9 de Pique
+8 de Pique
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+A de Pique
+A de Coeur
+10 de Trèfle
+K de Coeur
+
+Joueur 1:
+2 de Coeur
+2 de Carreau
+Main évaluée: Double Paire
+
+Joueur 2:
+9 de Pique
+8 de Pique
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+A de Pique
+A de Coeur
+10 de Trèfle
+K de Coeur
+5 de Carreau
+
+Joueur 1:
+2 de Coeur
+2 de Carreau
+Main évaluée: Double Paire
+
+Joueur 2:
+9 de Pique
+8 de Pique
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+A de Carreau
+9 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+J de Coeur
+8 de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+K de Pique
+10 de Pique
+4 de Trèfle
+
+Joueur 1:
+A de Carreau
+9 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+J de Coeur
+8 de Coeur
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+K de Pique
+10 de Pique
+4 de Trèfle
+A de Coeur
+
+Joueur 1:
+A de Carreau
+9 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+J de Coeur
+8 de Coeur
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+K de Pique
+10 de Pique
+4 de Trèfle
+A de Coeur
+5 de Pique
+
+Joueur 1:
+A de Carreau
+9 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+J de Coeur
+8 de Coeur
+Main évaluée: Carte Haute
+Le joueur gagnant est:  1
+
+Joueur 1:
+8 de Pique
+9 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+10 de Trèfle
+5 de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+4 de Pique
+Q de Trèfle
+K de Pique
+
+Joueur 1:
+8 de Pique
+9 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+10 de Trèfle
+5 de Coeur
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+4 de Pique
+Q de Trèfle
+K de Pique
+5 de Carreau
+
+Joueur 1:
+8 de Pique
+9 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+10 de Trèfle
+5 de Coeur
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+4 de Pique
+Q de Trèfle
+K de Pique
+5 de Carreau
+5 de Trèfle
+
+Joueur 1:
+8 de Pique
+9 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+10 de Trèfle
+5 de Coeur
+Main évaluée: Brelan
+Le joueur gagnant est:  2
+
+Joueur 1:
+5 de Pique
+5 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+J de Pique
+7 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+4 de Trèfle
+2 de Pique
+3 de Pique
+
+Joueur 1:
+5 de Pique
+5 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+J de Pique
+7 de Pique
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+4 de Trèfle
+2 de Pique
+3 de Pique
+J de Coeur
+
+Joueur 1:
+5 de Pique
+5 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+J de Pique
+7 de Pique
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+4 de Trèfle
+2 de Pique
+3 de Pique
+J de Coeur
+4 de Pique
+
+Joueur 1:
+5 de Pique
+5 de Coeur
+Main évaluée: Double Paire
+
+Joueur 2:
+J de Pique
+7 de Pique
+Main évaluée: Flush
+Le joueur gagnant est:  2
+
+Joueur 1:
+5 de Coeur
+6 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+4 de Coeur
+K de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+Q de Carreau
+9 de Pique
+3 de Coeur
+
+Joueur 1:
+5 de Coeur
+6 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+4 de Coeur
+K de Coeur
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+Q de Carreau
+9 de Pique
+3 de Coeur
+2 de Pique
+
+Joueur 1:
+5 de Coeur
+6 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+4 de Coeur
+K de Coeur
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+Q de Carreau
+9 de Pique
+3 de Coeur
+2 de Pique
+J de Pique
+
+Joueur 1:
+5 de Coeur
+6 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+4 de Coeur
+K de Coeur
+Main évaluée: Carte Haute
+Function meilleure_carte, cards:  [2, 3, 5, 6, 9, 11, 12]
+Function meilleure_carte, meilleure carte:  12
+Function meilleure_carte, cards:  [2, 3, 4, 9, 11, 13, 12]
+Function meilleure_carte, meilleure carte:  13
+Best_card : [12, 13]
+Le joueur gagnant est:  2
+
+Joueur 1:
+4 de Coeur
+9 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+10 de Trèfle
+5 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+10 de Carreau
+3 de Trèfle
+A de Carreau
+
+Joueur 1:
+4 de Coeur
+9 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+10 de Trèfle
+5 de Trèfle
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+10 de Carreau
+3 de Trèfle
+A de Carreau
+8 de Coeur
+
+Joueur 1:
+4 de Coeur
+9 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+10 de Trèfle
+5 de Trèfle
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+10 de Carreau
+3 de Trèfle
+A de Carreau
+8 de Coeur
+7 de Coeur
+
+Joueur 1:
+4 de Coeur
+9 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+10 de Trèfle
+5 de Trèfle
+Main évaluée: Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+8 de Carreau
+4 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+Q de Pique
+10 de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+6 de Trèfle
+J de Coeur
+K de Coeur
+
+Joueur 1:
+8 de Carreau
+4 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+Q de Pique
+10 de Coeur
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+6 de Trèfle
+J de Coeur
+K de Coeur
+10 de Trèfle
+
+Joueur 1:
+8 de Carreau
+4 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+Q de Pique
+10 de Coeur
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+6 de Trèfle
+J de Coeur
+K de Coeur
+10 de Trèfle
+8 de Pique
+
+Joueur 1:
+8 de Carreau
+4 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+Q de Pique
+10 de Coeur
+Main évaluée: Paire
+Function meilleure_carte, cards:  [10, 4, 6, 8, 8, 11, 13]
+Function meilleure_carte, meilleure carte:  8
+Function meilleure_carte, cards:  [10, 10, 6, 8, 11, 13, 12]
+Function meilleure_carte, meilleure carte:  10
+Best_card : [8, 10]
+Le joueur gagnant est:  2
+
+Joueur 1:
+Q de Pique
+Q de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+7 de Carreau
+8 de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+6 de Coeur
+8 de Pique
+K de Coeur
+
+Joueur 1:
+Q de Pique
+Q de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+7 de Carreau
+8 de Carreau
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+6 de Coeur
+8 de Pique
+K de Coeur
+J de Coeur
+
+Joueur 1:
+Q de Pique
+Q de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+7 de Carreau
+8 de Carreau
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+6 de Coeur
+8 de Pique
+K de Coeur
+J de Coeur
+A de Coeur
+
+Joueur 1:
+Q de Pique
+Q de Coeur
+Main évaluée: Flush
+
+Joueur 2:
+7 de Carreau
+8 de Carreau
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+J de Carreau
+A de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+5 de Pique
+3 de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+2 de Trèfle
+K de Trèfle
+A de Pique
+
+Joueur 1:
+J de Carreau
+A de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+5 de Pique
+3 de Coeur
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+2 de Trèfle
+K de Trèfle
+A de Pique
+Q de Pique
+
+Joueur 1:
+J de Carreau
+A de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+5 de Pique
+3 de Coeur
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+2 de Trèfle
+K de Trèfle
+A de Pique
+Q de Pique
+9 de Pique
+
+Joueur 1:
+J de Carreau
+A de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+5 de Pique
+3 de Coeur
+Main évaluée: Carte Haute
+Le joueur gagnant est:  1
+
+Joueur 1:
+K de Carreau
+6 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+5 de Trèfle
+4 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+A de Pique
+6 de Coeur
+4 de Carreau
+
+Joueur 1:
+K de Carreau
+6 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+5 de Trèfle
+4 de Pique
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+A de Pique
+6 de Coeur
+4 de Carreau
+Q de Carreau
+
+Joueur 1:
+K de Carreau
+6 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+5 de Trèfle
+4 de Pique
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+A de Pique
+6 de Coeur
+4 de Carreau
+Q de Carreau
+3 de Carreau
+
+Joueur 1:
+K de Carreau
+6 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+5 de Trèfle
+4 de Pique
+Main évaluée: Paire
+Function meilleure_carte, cards:  [3, 4, 6, 6, 14, 13, 12]
+Function meilleure_carte, meilleure carte:  6
+Function meilleure_carte, cards:  [3, 4, 4, 5, 6, 14, 12]
+Function meilleure_carte, meilleure carte:  4
+Best_card : [6, 4]
+Le joueur gagnant est:  1
+
+Joueur 1:
+3 de Trèfle
+6 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+K de Pique
+A de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+3 de Carreau
+9 de Pique
+4 de Coeur
+
+Joueur 1:
+3 de Trèfle
+6 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+K de Pique
+A de Trèfle
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+3 de Carreau
+9 de Pique
+4 de Coeur
+K de Coeur
+
+Joueur 1:
+3 de Trèfle
+6 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+K de Pique
+A de Trèfle
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+3 de Carreau
+9 de Pique
+4 de Coeur
+K de Coeur
+6 de Carreau
+
+Joueur 1:
+3 de Trèfle
+6 de Trèfle
+Main évaluée: Double Paire
+
+Joueur 2:
+K de Pique
+A de Trèfle
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+7 de Pique
+K de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+K de Pique
+5 de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+J de Carreau
+2 de Carreau
+10 de Trèfle
+
+Joueur 1:
+7 de Pique
+K de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+K de Pique
+5 de Coeur
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+J de Carreau
+2 de Carreau
+10 de Trèfle
+7 de Coeur
+
+Joueur 1:
+7 de Pique
+K de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+K de Pique
+5 de Coeur
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+J de Carreau
+2 de Carreau
+10 de Trèfle
+7 de Coeur
+5 de Pique
+
+Joueur 1:
+7 de Pique
+K de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+K de Pique
+5 de Coeur
+Main évaluée: Paire
+Function meilleure_carte, cards:  [10, 2, 5, 7, 7, 11, 13]
+Function meilleure_carte, meilleure carte:  7
+Function meilleure_carte, cards:  [10, 2, 5, 5, 7, 11, 13]
+Function meilleure_carte, meilleure carte:  5
+Best_card : [7, 5]
+Le joueur gagnant est:  1
+
+Joueur 1:
+8 de Coeur
+6 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+3 de Trèfle
+A de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+K de Coeur
+4 de Coeur
+2 de Carreau
+
+Joueur 1:
+8 de Coeur
+6 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+3 de Trèfle
+A de Pique
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+K de Coeur
+4 de Coeur
+2 de Carreau
+J de Carreau
+
+Joueur 1:
+8 de Coeur
+6 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+3 de Trèfle
+A de Pique
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+K de Coeur
+4 de Coeur
+2 de Carreau
+J de Carreau
+A de Coeur
+
+Joueur 1:
+8 de Coeur
+6 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+3 de Trèfle
+A de Pique
+Main évaluée: Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+8 de Trèfle
+4 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Carreau
+4 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+Q de Coeur
+7 de Carreau
+J de Carreau
+
+Joueur 1:
+8 de Trèfle
+4 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Carreau
+4 de Pique
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+Q de Coeur
+7 de Carreau
+J de Carreau
+5 de Trèfle
+
+Joueur 1:
+8 de Trèfle
+4 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Carreau
+4 de Pique
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+Q de Coeur
+7 de Carreau
+J de Carreau
+5 de Trèfle
+A de Coeur
+
+Joueur 1:
+8 de Trèfle
+4 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Carreau
+4 de Pique
+Main évaluée: Carte Haute
+Function meilleure_carte, cards:  [4, 5, 7, 8, 14, 11, 12]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [4, 5, 7, 9, 14, 11, 12]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [4, 5, 7, 8, 14, 11]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [4, 5, 7, 9, 14, 11]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [4, 5, 7, 8, 14]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [4, 5, 7, 9, 14]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [4, 5, 7, 8]
+Function meilleure_carte, meilleure carte:  8
+Function meilleure_carte, cards:  [4, 5, 7, 9]
+Function meilleure_carte, meilleure carte:  9
+Best_card : [8, 9]
+Le joueur gagnant est:  2
+
+Joueur 1:
+6 de Carreau
+8 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+4 de Trèfle
+A de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+K de Coeur
+9 de Carreau
+4 de Coeur
+
+Joueur 1:
+6 de Carreau
+8 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+4 de Trèfle
+A de Trèfle
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+K de Coeur
+9 de Carreau
+4 de Coeur
+10 de Pique
+
+Joueur 1:
+6 de Carreau
+8 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+4 de Trèfle
+A de Trèfle
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+K de Coeur
+9 de Carreau
+4 de Coeur
+10 de Pique
+4 de Pique
+
+Joueur 1:
+6 de Carreau
+8 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+4 de Trèfle
+A de Trèfle
+Main évaluée: Brelan
+Le joueur gagnant est:  2
+
+Joueur 1:
+8 de Coeur
+8 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+3 de Coeur
+6 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+A de Carreau
+K de Pique
+6 de Coeur
+
+Joueur 1:
+8 de Coeur
+8 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+3 de Coeur
+6 de Trèfle
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+A de Carreau
+K de Pique
+6 de Coeur
+J de Pique
+
+Joueur 1:
+8 de Coeur
+8 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+3 de Coeur
+6 de Trèfle
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+A de Carreau
+K de Pique
+6 de Coeur
+J de Pique
+Q de Coeur
+
+Joueur 1:
+8 de Coeur
+8 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+3 de Coeur
+6 de Trèfle
+Main évaluée: Paire
+Function meilleure_carte, cards:  [6, 8, 8, 14, 11, 13, 12]
+Function meilleure_carte, meilleure carte:  8
+Function meilleure_carte, cards:  [3, 6, 6, 14, 11, 13, 12]
+Function meilleure_carte, meilleure carte:  6
+Best_card : [8, 6]
+Le joueur gagnant est:  1
+
+Joueur 1:
+Q de Trèfle
+8 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+7 de Pique
+3 de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+7 de Coeur
+10 de Carreau
+9 de Pique
+
+Joueur 1:
+Q de Trèfle
+8 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+7 de Pique
+3 de Carreau
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+7 de Coeur
+10 de Carreau
+9 de Pique
+6 de Carreau
+
+Joueur 1:
+Q de Trèfle
+8 de Coeur
+Main évaluée: Quinte
+
+Joueur 2:
+7 de Pique
+3 de Carreau
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+7 de Coeur
+10 de Carreau
+9 de Pique
+6 de Carreau
+9 de Carreau
+
+Joueur 1:
+Q de Trèfle
+8 de Coeur
+Main évaluée: Quinte
+
+Joueur 2:
+7 de Pique
+3 de Carreau
+Main évaluée: Double Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+Q de Trèfle
+7 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+8 de Coeur
+A de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+6 de Carreau
+Q de Pique
+5 de Pique
+
+Joueur 1:
+Q de Trèfle
+7 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+8 de Coeur
+A de Carreau
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+6 de Carreau
+Q de Pique
+5 de Pique
+2 de Trèfle
+
+Joueur 1:
+Q de Trèfle
+7 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+8 de Coeur
+A de Carreau
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+6 de Carreau
+Q de Pique
+5 de Pique
+2 de Trèfle
+J de Trèfle
+
+Joueur 1:
+Q de Trèfle
+7 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+8 de Coeur
+A de Carreau
+Main évaluée: Carte Haute
+Le joueur gagnant est:  1
+
+Joueur 1:
+7 de Pique
+8 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Carreau
+J de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+4 de Trèfle
+K de Carreau
+6 de Pique
+
+Joueur 1:
+7 de Pique
+8 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Carreau
+J de Pique
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+4 de Trèfle
+K de Carreau
+6 de Pique
+Q de Coeur
+
+Joueur 1:
+7 de Pique
+8 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Carreau
+J de Pique
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+4 de Trèfle
+K de Carreau
+6 de Pique
+Q de Coeur
+4 de Coeur
+
+Joueur 1:
+7 de Pique
+8 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+6 de Carreau
+J de Pique
+Main évaluée: Double Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+7 de Trèfle
+8 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+K de Coeur
+K de Trèfle
+Main évaluée: Paire
+
+Flop:
+(press enter to continue)
+8 de Trèfle
+Q de Pique
+5 de Trèfle
+
+Joueur 1:
+7 de Trèfle
+8 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+K de Coeur
+K de Trèfle
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+8 de Trèfle
+Q de Pique
+5 de Trèfle
+2 de Pique
+
+Joueur 1:
+7 de Trèfle
+8 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+K de Coeur
+K de Trèfle
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+8 de Trèfle
+Q de Pique
+5 de Trèfle
+2 de Pique
+A de Carreau
+
+Joueur 1:
+7 de Trèfle
+8 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+K de Coeur
+K de Trèfle
+Main évaluée: Paire
+Function meilleure_carte, cards:  [2, 5, 7, 8, 8, 14, 12]
+Function meilleure_carte, meilleure carte:  8
+Function meilleure_carte, cards:  [2, 5, 8, 14, 13, 13, 12]
+Function meilleure_carte, meilleure carte:  13
+Best_card : [8, 13]
+Le joueur gagnant est:  2
+
+Joueur 1:
+K de Pique
+7 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+10 de Pique
+9 de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+Q de Trèfle
+5 de Carreau
+7 de Carreau
+
+Joueur 1:
+K de Pique
+7 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+10 de Pique
+9 de Coeur
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+Q de Trèfle
+5 de Carreau
+7 de Carreau
+Q de Carreau
+
+Joueur 1:
+K de Pique
+7 de Trèfle
+Main évaluée: Double Paire
+
+Joueur 2:
+10 de Pique
+9 de Coeur
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+Q de Trèfle
+5 de Carreau
+7 de Carreau
+Q de Carreau
+8 de Carreau
+
+Joueur 1:
+K de Pique
+7 de Trèfle
+Main évaluée: Double Paire
+
+Joueur 2:
+10 de Pique
+9 de Coeur
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+7 de Pique
+J de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+Q de Trèfle
+4 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+10 de Trèfle
+Q de Carreau
+3 de Carreau
+
+Joueur 1:
+7 de Pique
+J de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+Q de Trèfle
+4 de Trèfle
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+10 de Trèfle
+Q de Carreau
+3 de Carreau
+3 de Pique
+
+Joueur 1:
+7 de Pique
+J de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+Q de Trèfle
+4 de Trèfle
+Main évaluée: Double Paire
+
+River:
+(press enter to continue)
+10 de Trèfle
+Q de Carreau
+3 de Carreau
+3 de Pique
+K de Pique
+
+Joueur 1:
+7 de Pique
+J de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+Q de Trèfle
+4 de Trèfle
+Main évaluée: Double Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+5 de Pique
+3 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+5 de Carreau
+3 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+8 de Trèfle
+A de Pique
+7 de Coeur
+
+Joueur 1:
+5 de Pique
+3 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+5 de Carreau
+3 de Trèfle
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+8 de Trèfle
+A de Pique
+7 de Coeur
+6 de Pique
+
+Joueur 1:
+5 de Pique
+3 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+5 de Carreau
+3 de Trèfle
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+8 de Trèfle
+A de Pique
+7 de Coeur
+6 de Pique
+A de Trèfle
+
+Joueur 1:
+5 de Pique
+3 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+5 de Carreau
+3 de Trèfle
+Main évaluée: Paire
+Function meilleure_carte, cards:  [3, 5, 6, 7, 8, 14, 14]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [3, 5, 6, 7, 8, 14, 14]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [3, 5, 6, 7, 8]
+Function meilleure_carte, meilleure carte:  8
+Function meilleure_carte, cards:  [3, 5, 6, 7, 8]
+Function meilleure_carte, meilleure carte:  8
+Function meilleure_carte, cards:  [3, 5, 6, 7]
+Function meilleure_carte, meilleure carte:  7
+Function meilleure_carte, cards:  [3, 5, 6, 7]
+Function meilleure_carte, meilleure carte:  7
+Function meilleure_carte, cards:  [3, 5, 6]
+Function meilleure_carte, meilleure carte:  6
+Function meilleure_carte, cards:  [3, 5, 6]
+Function meilleure_carte, meilleure carte:  6
+Function meilleure_carte, cards:  [3, 5]
+Function meilleure_carte, meilleure carte:  5
+Function meilleure_carte, cards:  [3, 5]
+Function meilleure_carte, meilleure carte:  5
+Function meilleure_carte, cards:  [3]
+Function meilleure_carte, meilleure carte:  3
+Function meilleure_carte, cards:  [3]
+Function meilleure_carte, meilleure carte:  3
+Function meilleure_carte, cards:  []
+Traceback (most recent call last):
+  File "/home/madness/Documents/projet/poker/poker.py", line 27, in <module>
+    poker_texas_holdem(2)
+  File "/home/madness/Documents/projet/poker/poker.py", line 25, in poker_texas_holdem
+    print("Le joueur gagnant est: ", affiche_gagnant(joueurs, combi_joueurs, cards))
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madness/Documents/projet/poker/eval.py", line 230, in affiche_gagnant
+    best_card.append(meilleure_carte(deck[i]))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madness/Documents/projet/poker/eval.py", line 164, in meilleure_carte
+    print("Function meilleure_carte, meilleure carte: ", max(cards))
+                                                         ^^^^^^^^^^
+ValueError: max() iterable argument is empty
+
+Joueur 1:
+J de Pique
+6 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Carreau
+8 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+2 de Pique
+K de Coeur
+5 de Trèfle
+
+Joueur 1:
+J de Pique
+6 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Carreau
+8 de Pique
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+2 de Pique
+K de Coeur
+5 de Trèfle
+2 de Coeur
+
+Joueur 1:
+J de Pique
+6 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+9 de Carreau
+8 de Pique
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+2 de Pique
+K de Coeur
+5 de Trèfle
+2 de Coeur
+7 de Carreau
+
+Joueur 1:
+J de Pique
+6 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+9 de Carreau
+8 de Pique
+Main évaluée: Paire
+Function meilleure_carte, cards:  [2, 2, 5, 6, 7, 11, 13]
+Function meilleure_carte, meilleure carte:  2
+Function meilleure_carte, cards:  [2, 2, 5, 7, 8, 9, 13]
+Function meilleure_carte, meilleure carte:  2
+Function meilleure_carte, cards:  [5, 6, 7, 11, 13]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [5, 7, 8, 9, 13]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [5, 6, 7, 11]
+Function meilleure_carte, meilleure carte:  11
+Function meilleure_carte, cards:  [5, 7, 8, 9]
+Function meilleure_carte, meilleure carte:  9
+Best_card : [11, 9]
+Le joueur gagnant est:  1
+
+Joueur 1:
+9 de Pique
+J de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Carreau
+2 de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+7 de Pique
+A de Trèfle
+J de Coeur
+
+Joueur 1:
+9 de Pique
+J de Pique
+Main évaluée: Paire
+
+Joueur 2:
+9 de Carreau
+2 de Coeur
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+7 de Pique
+A de Trèfle
+J de Coeur
+K de Trèfle
+
+Joueur 1:
+9 de Pique
+J de Pique
+Main évaluée: Paire
+
+Joueur 2:
+9 de Carreau
+2 de Coeur
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+7 de Pique
+A de Trèfle
+J de Coeur
+K de Trèfle
+3 de Pique
+
+Joueur 1:
+9 de Pique
+J de Pique
+Main évaluée: Paire
+
+Joueur 2:
+9 de Carreau
+2 de Coeur
+Main évaluée: Carte Haute
+Le joueur gagnant est:  1
+
+Joueur 1:
+J de Coeur
+J de Pique
+Main évaluée: Paire
+
+Joueur 2:
+9 de Pique
+4 de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+A de Pique
+9 de Trèfle
+A de Carreau
+
+Joueur 1:
+J de Coeur
+J de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+9 de Pique
+4 de Coeur
+Main évaluée: Double Paire
+
+Turn:
+(press enter to continue)
+A de Pique
+9 de Trèfle
+A de Carreau
+8 de Carreau
+
+Joueur 1:
+J de Coeur
+J de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+9 de Pique
+4 de Coeur
+Main évaluée: Double Paire
+
+River:
+(press enter to continue)
+A de Pique
+9 de Trèfle
+A de Carreau
+8 de Carreau
+5 de Trèfle
+
+Joueur 1:
+J de Coeur
+J de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+9 de Pique
+4 de Coeur
+Main évaluée: Double Paire
+Function meilleure_carte, cards:  [5, 8, 9, 14, 14, 11, 11]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [4, 5, 8, 9, 9, 14, 14]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [5, 8, 9, 14, 14]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [4, 5, 8, 9, 9]
+Function meilleure_carte, meilleure carte:  9
+Best_card : [14, 9]
+Le joueur gagnant est:  1
+
+Joueur 1:
+3 de Trèfle
+10 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+4 de Carreau
+9 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+9 de Coeur
+2 de Carreau
+J de Pique
+
+Joueur 1:
+3 de Trèfle
+10 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+4 de Carreau
+9 de Pique
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+9 de Coeur
+2 de Carreau
+J de Pique
+10 de Trèfle
+
+Joueur 1:
+3 de Trèfle
+10 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+4 de Carreau
+9 de Pique
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+9 de Coeur
+2 de Carreau
+J de Pique
+10 de Trèfle
+4 de Pique
+
+Joueur 1:
+3 de Trèfle
+10 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+4 de Carreau
+9 de Pique
+Main évaluée: Double Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+4 de Trèfle
+Q de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+2 de Trèfle
+A de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+6 de Carreau
+6 de Coeur
+K de Carreau
+
+Joueur 1:
+4 de Trèfle
+Q de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+2 de Trèfle
+A de Coeur
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+6 de Carreau
+6 de Coeur
+K de Carreau
+9 de Carreau
+
+Joueur 1:
+4 de Trèfle
+Q de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+2 de Trèfle
+A de Coeur
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+6 de Carreau
+6 de Coeur
+K de Carreau
+9 de Carreau
+J de Carreau
+
+Joueur 1:
+4 de Trèfle
+Q de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+2 de Trèfle
+A de Coeur
+Main évaluée: Paire
+Function meilleure_carte, cards:  [4, 6, 6, 9, 11, 13, 12]
+Function meilleure_carte, meilleure carte:  6
+Function meilleure_carte, cards:  [2, 6, 6, 9, 14, 11, 13]
+Function meilleure_carte, meilleure carte:  6
+Function meilleure_carte, cards:  [4, 9, 11, 13, 12]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [2, 9, 14, 11, 13]
+Function meilleure_carte, meilleure carte:  14
+Best_card : [13, 14]
+Le joueur gagnant est:  2
+
+Joueur 1:
+J de Carreau
+9 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+4 de Coeur
+K de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+7 de Coeur
+8 de Pique
+2 de Pique
+
+Joueur 1:
+J de Carreau
+9 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+4 de Coeur
+K de Trèfle
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+7 de Coeur
+8 de Pique
+2 de Pique
+K de Coeur
+
+Joueur 1:
+J de Carreau
+9 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+4 de Coeur
+K de Trèfle
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+7 de Coeur
+8 de Pique
+2 de Pique
+K de Coeur
+K de Pique
+
+Joueur 1:
+J de Carreau
+9 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+4 de Coeur
+K de Trèfle
+Main évaluée: Brelan
+Le joueur gagnant est:  2
+
+Joueur 1:
+10 de Coeur
+K de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+2 de Carreau
+3 de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+3 de Pique
+A de Carreau
+8 de Pique
+
+Joueur 1:
+10 de Coeur
+K de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+2 de Carreau
+3 de Carreau
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+3 de Pique
+A de Carreau
+8 de Pique
+Q de Pique
+
+Joueur 1:
+10 de Coeur
+K de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+2 de Carreau
+3 de Carreau
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+3 de Pique
+A de Carreau
+8 de Pique
+Q de Pique
+10 de Carreau
+
+Joueur 1:
+10 de Coeur
+K de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+2 de Carreau
+3 de Carreau
+Main évaluée: Paire
+Function meilleure_carte, cards:  [10, 10, 3, 8, 14, 13, 12]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  [10, 2, 3, 3, 8, 14, 12]
+Function meilleure_carte, meilleure carte:  3
+Best_card : [10, 3]
+Le joueur gagnant est:  1
+
+Joueur 1:
+3 de Trèfle
+8 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+8 de Pique
+5 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+J de Carreau
+2 de Coeur
+4 de Pique
+
+Joueur 1:
+3 de Trèfle
+8 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+8 de Pique
+5 de Pique
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+J de Carreau
+2 de Coeur
+4 de Pique
+9 de Pique
+
+Joueur 1:
+3 de Trèfle
+8 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+8 de Pique
+5 de Pique
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+J de Carreau
+2 de Coeur
+4 de Pique
+9 de Pique
+2 de Pique
+
+Joueur 1:
+3 de Trèfle
+8 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+8 de Pique
+5 de Pique
+Main évaluée: Flush
+Le joueur gagnant est:  2
+
+Joueur 1:
+4 de Trèfle
+10 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+5 de Carreau
+7 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+J de Carreau
+6 de Pique
+2 de Coeur
+
+Joueur 1:
+4 de Trèfle
+10 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+5 de Carreau
+7 de Trèfle
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+J de Carreau
+6 de Pique
+2 de Coeur
+6 de Carreau
+
+Joueur 1:
+4 de Trèfle
+10 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+5 de Carreau
+7 de Trèfle
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+J de Carreau
+6 de Pique
+2 de Coeur
+6 de Carreau
+4 de Coeur
+
+Joueur 1:
+4 de Trèfle
+10 de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+5 de Carreau
+7 de Trèfle
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+8 de Pique
+10 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+2 de Coeur
+5 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+A de Carreau
+9 de Carreau
+4 de Pique
+
+Joueur 1:
+8 de Pique
+10 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+2 de Coeur
+5 de Pique
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+A de Carreau
+9 de Carreau
+4 de Pique
+6 de Coeur
+
+Joueur 1:
+8 de Pique
+10 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+2 de Coeur
+5 de Pique
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+A de Carreau
+9 de Carreau
+4 de Pique
+6 de Coeur
+5 de Trèfle
+
+Joueur 1:
+8 de Pique
+10 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+2 de Coeur
+5 de Pique
+Main évaluée: Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+3 de Coeur
+5 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+2 de Coeur
+9 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+K de Coeur
+3 de Pique
+Q de Pique
+
+Joueur 1:
+3 de Coeur
+5 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+2 de Coeur
+9 de Trèfle
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+K de Coeur
+3 de Pique
+Q de Pique
+J de Coeur
+
+Joueur 1:
+3 de Coeur
+5 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+2 de Coeur
+9 de Trèfle
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+K de Coeur
+3 de Pique
+Q de Pique
+J de Coeur
+K de Trèfle
+
+Joueur 1:
+3 de Coeur
+5 de Trèfle
+Main évaluée: Double Paire
+
+Joueur 2:
+2 de Coeur
+9 de Trèfle
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+8 de Trèfle
+K de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Pique
+10 de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+10 de Pique
+4 de Coeur
+6 de Trèfle
+
+Joueur 1:
+8 de Trèfle
+K de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Pique
+10 de Coeur
+Main évaluée: Double Paire
+
+Turn:
+(press enter to continue)
+10 de Pique
+4 de Coeur
+6 de Trèfle
+3 de Carreau
+
+Joueur 1:
+8 de Trèfle
+K de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Pique
+10 de Coeur
+Main évaluée: Double Paire
+
+River:
+(press enter to continue)
+10 de Pique
+4 de Coeur
+6 de Trèfle
+3 de Carreau
+3 de Pique
+
+Joueur 1:
+8 de Trèfle
+K de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+6 de Pique
+10 de Coeur
+Main évaluée: Double Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+3 de Carreau
+Q de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+A de Carreau
+4 de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+6 de Pique
+8 de Carreau
+8 de Trèfle
+
+Joueur 1:
+3 de Carreau
+Q de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+A de Carreau
+4 de Carreau
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+6 de Pique
+8 de Carreau
+8 de Trèfle
+9 de Pique
+
+Joueur 1:
+3 de Carreau
+Q de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+A de Carreau
+4 de Carreau
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+6 de Pique
+8 de Carreau
+8 de Trèfle
+9 de Pique
+3 de Pique
+
+Joueur 1:
+3 de Carreau
+Q de Coeur
+Main évaluée: Double Paire
+
+Joueur 2:
+A de Carreau
+4 de Carreau
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+A de Carreau
+2 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Pique
+7 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+A de Pique
+J de Trèfle
+4 de Pique
+
+Joueur 1:
+A de Carreau
+2 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+6 de Pique
+7 de Trèfle
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+A de Pique
+J de Trèfle
+4 de Pique
+5 de Coeur
+
+Joueur 1:
+A de Carreau
+2 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+6 de Pique
+7 de Trèfle
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+A de Pique
+J de Trèfle
+4 de Pique
+5 de Coeur
+10 de Pique
+
+Joueur 1:
+A de Carreau
+2 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+6 de Pique
+7 de Trèfle
+Main évaluée: Carte Haute
+Le joueur gagnant est:  1
+
+Joueur 1:
+3 de Pique
+J de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+A de Carreau
+6 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+Q de Trèfle
+J de Coeur
+3 de Trèfle
+
+Joueur 1:
+3 de Pique
+J de Trèfle
+Main évaluée: Double Paire
+
+Joueur 2:
+A de Carreau
+6 de Pique
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+Q de Trèfle
+J de Coeur
+3 de Trèfle
+A de Pique
+
+Joueur 1:
+3 de Pique
+J de Trèfle
+Main évaluée: Double Paire
+
+Joueur 2:
+A de Carreau
+6 de Pique
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+Q de Trèfle
+J de Coeur
+3 de Trèfle
+A de Pique
+4 de Pique
+
+Joueur 1:
+3 de Pique
+J de Trèfle
+Main évaluée: Double Paire
+
+Joueur 2:
+A de Carreau
+6 de Pique
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+Q de Carreau
+8 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+A de Pique
+J de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+9 de Coeur
+3 de Pique
+3 de Carreau
+
+Joueur 1:
+Q de Carreau
+8 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+A de Pique
+J de Coeur
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+9 de Coeur
+3 de Pique
+3 de Carreau
+7 de Coeur
+
+Joueur 1:
+Q de Carreau
+8 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+A de Pique
+J de Coeur
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+9 de Coeur
+3 de Pique
+3 de Carreau
+7 de Coeur
+A de Trèfle
+
+Joueur 1:
+Q de Carreau
+8 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+A de Pique
+J de Coeur
+Main évaluée: Double Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+5 de Pique
+4 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+K de Carreau
+7 de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+9 de Trèfle
+9 de Carreau
+8 de Coeur
+
+Joueur 1:
+5 de Pique
+4 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+K de Carreau
+7 de Carreau
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+9 de Trèfle
+9 de Carreau
+8 de Coeur
+7 de Trèfle
+
+Joueur 1:
+5 de Pique
+4 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+K de Carreau
+7 de Carreau
+Main évaluée: Double Paire
+
+River:
+(press enter to continue)
+9 de Trèfle
+9 de Carreau
+8 de Coeur
+7 de Trèfle
+3 de Trèfle
+
+Joueur 1:
+5 de Pique
+4 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+K de Carreau
+7 de Carreau
+Main évaluée: Double Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+A de Coeur
+10 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+3 de Coeur
+A de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+7 de Carreau
+4 de Trèfle
+8 de Pique
+
+Joueur 1:
+A de Coeur
+10 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+3 de Coeur
+A de Pique
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+7 de Carreau
+4 de Trèfle
+8 de Pique
+8 de Coeur
+
+Joueur 1:
+A de Coeur
+10 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+3 de Coeur
+A de Pique
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+7 de Carreau
+4 de Trèfle
+8 de Pique
+8 de Coeur
+4 de Coeur
+
+Joueur 1:
+A de Coeur
+10 de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+3 de Coeur
+A de Pique
+Main évaluée: Double Paire
+Function meilleure_carte, cards:  [10, 4, 4, 7, 8, 8, 14]
+Function meilleure_carte, meilleure carte:  8
+Function meilleure_carte, cards:  [3, 4, 4, 7, 8, 8, 14]
+Function meilleure_carte, meilleure carte:  8
+Function meilleure_carte, cards:  [10, 4, 4, 7, 14]
+Function meilleure_carte, meilleure carte:  4
+Function meilleure_carte, cards:  [3, 4, 4, 7, 14]
+Function meilleure_carte, meilleure carte:  4
+Function meilleure_carte, cards:  [10, 7, 14]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [3, 7, 14]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [10, 7]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  [3, 7]
+Function meilleure_carte, meilleure carte:  7
+Best_card : [10, 7]
+Le joueur gagnant est:  1
+
+Joueur 1:
+10 de Pique
+10 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+10 de Carreau
+K de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+K de Trèfle
+5 de Carreau
+5 de Trèfle
+
+Joueur 1:
+10 de Pique
+10 de Trèfle
+Main évaluée: Double Paire
+
+Joueur 2:
+10 de Carreau
+K de Pique
+Main évaluée: Double Paire
+
+Turn:
+(press enter to continue)
+K de Trèfle
+5 de Carreau
+5 de Trèfle
+J de Carreau
+
+Joueur 1:
+10 de Pique
+10 de Trèfle
+Main évaluée: Double Paire
+
+Joueur 2:
+10 de Carreau
+K de Pique
+Main évaluée: Double Paire
+
+River:
+(press enter to continue)
+K de Trèfle
+5 de Carreau
+5 de Trèfle
+J de Carreau
+8 de Carreau
+
+Joueur 1:
+10 de Pique
+10 de Trèfle
+Main évaluée: Double Paire
+
+Joueur 2:
+10 de Carreau
+K de Pique
+Main évaluée: Double Paire
+Function meilleure_carte, cards:  [10, 10, 5, 5, 8, 11, 13]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  [10, 5, 5, 8, 11, 13, 13]
+Function meilleure_carte, meilleure carte:  13
+Best_card : [10, 13]
+Le joueur gagnant est:  2
+
+Joueur 1:
+5 de Carreau
+J de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+8 de Trèfle
+6 de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+5 de Pique
+A de Trèfle
+3 de Trèfle
+
+Joueur 1:
+5 de Carreau
+J de Pique
+Main évaluée: Paire
+
+Joueur 2:
+8 de Trèfle
+6 de Carreau
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+5 de Pique
+A de Trèfle
+3 de Trèfle
+7 de Coeur
+
+Joueur 1:
+5 de Carreau
+J de Pique
+Main évaluée: Paire
+
+Joueur 2:
+8 de Trèfle
+6 de Carreau
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+5 de Pique
+A de Trèfle
+3 de Trèfle
+7 de Coeur
+10 de Coeur
+
+Joueur 1:
+5 de Carreau
+J de Pique
+Main évaluée: Paire
+
+Joueur 2:
+8 de Trèfle
+6 de Carreau
+Main évaluée: Carte Haute
+Le joueur gagnant est:  1
+
+Joueur 1:
+10 de Carreau
+3 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Pique
+8 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+8 de Carreau
+A de Carreau
+8 de Trèfle
+
+Joueur 1:
+10 de Carreau
+3 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+6 de Pique
+8 de Pique
+Main évaluée: Brelan
+
+Turn:
+(press enter to continue)
+8 de Carreau
+A de Carreau
+8 de Trèfle
+3 de Carreau
+
+Joueur 1:
+10 de Carreau
+3 de Coeur
+Main évaluée: Double Paire
+
+Joueur 2:
+6 de Pique
+8 de Pique
+Main évaluée: Brelan
+
+River:
+(press enter to continue)
+8 de Carreau
+A de Carreau
+8 de Trèfle
+3 de Carreau
+4 de Carreau
+
+Joueur 1:
+10 de Carreau
+3 de Coeur
+Main évaluée: Flush
+
+Joueur 2:
+6 de Pique
+8 de Pique
+Main évaluée: Brelan
+Le joueur gagnant est:  1
+
+Joueur 1:
+10 de Pique
+9 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+8 de Pique
+J de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+4 de Carreau
+Q de Pique
+5 de Carreau
+
+Joueur 1:
+10 de Pique
+9 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+8 de Pique
+J de Pique
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+4 de Carreau
+Q de Pique
+5 de Carreau
+6 de Pique
+
+Joueur 1:
+10 de Pique
+9 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+8 de Pique
+J de Pique
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+4 de Carreau
+Q de Pique
+5 de Carreau
+6 de Pique
+5 de Coeur
+
+Joueur 1:
+10 de Pique
+9 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+8 de Pique
+J de Pique
+Main évaluée: Paire
+Function meilleure_carte, cards:  [10, 4, 5, 5, 6, 9, 12]
+Function meilleure_carte, meilleure carte:  5
+Function meilleure_carte, cards:  [4, 5, 5, 6, 8, 11, 12]
+Function meilleure_carte, meilleure carte:  5
+Function meilleure_carte, cards:  [10, 4, 6, 9, 12]
+Function meilleure_carte, meilleure carte:  12
+Function meilleure_carte, cards:  [4, 6, 8, 11, 12]
+Function meilleure_carte, meilleure carte:  12
+Function meilleure_carte, cards:  [10, 4, 6, 9]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  [4, 6, 8, 11]
+Function meilleure_carte, meilleure carte:  11
+Best_card : [10, 11]
+Le joueur gagnant est:  2
+
+Joueur 1:
+3 de Trèfle
+K de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Pique
+A de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+K de Coeur
+J de Carreau
+8 de Carreau
+
+Joueur 1:
+3 de Trèfle
+K de Pique
+Main évaluée: Paire
+
+Joueur 2:
+6 de Pique
+A de Pique
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+K de Coeur
+J de Carreau
+8 de Carreau
+4 de Carreau
+
+Joueur 1:
+3 de Trèfle
+K de Pique
+Main évaluée: Paire
+
+Joueur 2:
+6 de Pique
+A de Pique
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+K de Coeur
+J de Carreau
+8 de Carreau
+4 de Carreau
+10 de Pique
+
+Joueur 1:
+3 de Trèfle
+K de Pique
+Main évaluée: Paire
+
+Joueur 2:
+6 de Pique
+A de Pique
+Main évaluée: Carte Haute
+Le joueur gagnant est:  1
+
+Joueur 1:
+4 de Coeur
+3 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Coeur
+J de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+J de Coeur
+6 de Coeur
+A de Coeur
+
+Joueur 1:
+4 de Coeur
+3 de Coeur
+Main évaluée: Flush
+
+Joueur 2:
+9 de Coeur
+J de Carreau
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+J de Coeur
+6 de Coeur
+A de Coeur
+K de Carreau
+
+Joueur 1:
+4 de Coeur
+3 de Coeur
+Main évaluée: Flush
+
+Joueur 2:
+9 de Coeur
+J de Carreau
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+J de Coeur
+6 de Coeur
+A de Coeur
+K de Carreau
+10 de Carreau
+
+Joueur 1:
+4 de Coeur
+3 de Coeur
+Main évaluée: Flush
+
+Joueur 2:
+9 de Coeur
+J de Carreau
+Main évaluée: Paire
+Le joueur gagnant est:  1
+
+Joueur 1:
+4 de Carreau
+A de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+4 de Pique
+9 de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+4 de Coeur
+7 de Carreau
+2 de Pique
+
+Joueur 1:
+4 de Carreau
+A de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+4 de Pique
+9 de Coeur
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+4 de Coeur
+7 de Carreau
+2 de Pique
+8 de Carreau
+
+Joueur 1:
+4 de Carreau
+A de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+4 de Pique
+9 de Coeur
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+4 de Coeur
+7 de Carreau
+2 de Pique
+8 de Carreau
+K de Pique
+
+Joueur 1:
+4 de Carreau
+A de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+4 de Pique
+9 de Coeur
+Main évaluée: Paire
+Function meilleure_carte, cards:  [2, 4, 4, 7, 8, 14, 13]
+Function meilleure_carte, meilleure carte:  4
+Function meilleure_carte, cards:  [2, 4, 4, 7, 8, 9, 13]
+Function meilleure_carte, meilleure carte:  4
+Function meilleure_carte, cards:  [2, 7, 8, 14, 13]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [2, 7, 8, 9, 13]
+Function meilleure_carte, meilleure carte:  13
+Best_card : [14, 13]
+Le joueur gagnant est:  1
+
+Joueur 1:
+10 de Carreau
+K de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+K de Pique
+6 de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+Q de Pique
+A de Pique
+A de Trèfle
+
+Joueur 1:
+10 de Carreau
+K de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+K de Pique
+6 de Coeur
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+Q de Pique
+A de Pique
+A de Trèfle
+3 de Coeur
+
+Joueur 1:
+10 de Carreau
+K de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+K de Pique
+6 de Coeur
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+Q de Pique
+A de Pique
+A de Trèfle
+3 de Coeur
+K de Coeur
+
+Joueur 1:
+10 de Carreau
+K de Carreau
+Main évaluée: Double Paire
+
+Joueur 2:
+K de Pique
+6 de Coeur
+Main évaluée: Double Paire
+Function meilleure_carte, cards:  [10, 3, 14, 14, 13, 13, 12]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [3, 6, 14, 14, 13, 13, 12]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [10, 3, 14, 14, 12]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [3, 6, 14, 14, 12]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [10, 3, 12]
+Function meilleure_carte, meilleure carte:  12
+Function meilleure_carte, cards:  [3, 6, 12]
+Function meilleure_carte, meilleure carte:  12
+Function meilleure_carte, cards:  [10, 3]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  [3, 6]
+Function meilleure_carte, meilleure carte:  6
+Best_card : [10, 6]
+Le joueur gagnant est:  1
+
+Joueur 1:
+4 de Coeur
+10 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+K de Carreau
+9 de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+J de Carreau
+9 de Coeur
+7 de Carreau
+
+Joueur 1:
+4 de Coeur
+10 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+K de Carreau
+9 de Carreau
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+J de Carreau
+9 de Coeur
+7 de Carreau
+3 de Coeur
+
+Joueur 1:
+4 de Coeur
+10 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+K de Carreau
+9 de Carreau
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+J de Carreau
+9 de Coeur
+7 de Carreau
+3 de Coeur
+6 de Coeur
+
+Joueur 1:
+4 de Coeur
+10 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+K de Carreau
+9 de Carreau
+Main évaluée: Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+3 de Coeur
+K de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+K de Trèfle
+K de Carreau
+Main évaluée: Paire
+
+Flop:
+(press enter to continue)
+4 de Pique
+8 de Pique
+6 de Carreau
+
+Joueur 1:
+3 de Coeur
+K de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+K de Trèfle
+K de Carreau
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+4 de Pique
+8 de Pique
+6 de Carreau
+K de Coeur
+
+Joueur 1:
+3 de Coeur
+K de Pique
+Main évaluée: Paire
+
+Joueur 2:
+K de Trèfle
+K de Carreau
+Main évaluée: Brelan
+
+River:
+(press enter to continue)
+4 de Pique
+8 de Pique
+6 de Carreau
+K de Coeur
+5 de Coeur
+
+Joueur 1:
+3 de Coeur
+K de Pique
+Main évaluée: Paire
+
+Joueur 2:
+K de Trèfle
+K de Carreau
+Main évaluée: Brelan
+Le joueur gagnant est:  2
+
+Joueur 1:
+2 de Trèfle
+5 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+5 de Trèfle
+Q de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+3 de Carreau
+4 de Pique
+5 de Coeur
+
+Joueur 1:
+2 de Trèfle
+5 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+5 de Trèfle
+Q de Carreau
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+3 de Carreau
+4 de Pique
+5 de Coeur
+J de Trèfle
+
+Joueur 1:
+2 de Trèfle
+5 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+5 de Trèfle
+Q de Carreau
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+3 de Carreau
+4 de Pique
+5 de Coeur
+J de Trèfle
+4 de Trèfle
+
+Joueur 1:
+2 de Trèfle
+5 de Carreau
+Main évaluée: Double Paire
+
+Joueur 2:
+5 de Trèfle
+Q de Carreau
+Main évaluée: Double Paire
+Function meilleure_carte, cards:  [2, 3, 4, 4, 5, 5, 11]
+Function meilleure_carte, meilleure carte:  5
+Function meilleure_carte, cards:  [3, 4, 4, 5, 5, 11, 12]
+Function meilleure_carte, meilleure carte:  5
+Function meilleure_carte, cards:  [2, 3, 4, 4, 11]
+Function meilleure_carte, meilleure carte:  4
+Function meilleure_carte, cards:  [3, 4, 4, 11, 12]
+Function meilleure_carte, meilleure carte:  4
+Function meilleure_carte, cards:  [2, 3, 11]
+Function meilleure_carte, meilleure carte:  11
+Function meilleure_carte, cards:  [3, 11, 12]
+Function meilleure_carte, meilleure carte:  12
+Best_card : [11, 12]
+Le joueur gagnant est:  2
+
+Joueur 1:
+9 de Coeur
+6 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+2 de Pique
+J de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+A de Carreau
+Q de Pique
+9 de Carreau
+
+Joueur 1:
+9 de Coeur
+6 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+2 de Pique
+J de Carreau
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+A de Carreau
+Q de Pique
+9 de Carreau
+8 de Pique
+
+Joueur 1:
+9 de Coeur
+6 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+2 de Pique
+J de Carreau
+Main évaluée: Carte Haute
+
+River:
+(press enter to continue)
+A de Carreau
+Q de Pique
+9 de Carreau
+8 de Pique
+K de Carreau
+
+Joueur 1:
+9 de Coeur
+6 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+2 de Pique
+J de Carreau
+Main évaluée: Carte Haute
+Le joueur gagnant est:  1
+
+Joueur 1:
+A de Carreau
+10 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+4 de Carreau
+K de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+6 de Pique
+10 de Coeur
+2 de Carreau
+
+Joueur 1:
+A de Carreau
+10 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+4 de Carreau
+K de Carreau
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+6 de Pique
+10 de Coeur
+2 de Carreau
+6 de Carreau
+
+Joueur 1:
+A de Carreau
+10 de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+4 de Carreau
+K de Carreau
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+6 de Pique
+10 de Coeur
+2 de Carreau
+6 de Carreau
+7 de Carreau
+
+Joueur 1:
+A de Carreau
+10 de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+4 de Carreau
+K de Carreau
+Main évaluée: Flush
+Le joueur gagnant est:  2
+
+Joueur 1:
+Q de Coeur
+2 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Carreau
+6 de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+5 de Trèfle
+10 de Pique
+8 de Pique
+
+Joueur 1:
+Q de Coeur
+2 de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Carreau
+6 de Carreau
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+5 de Trèfle
+10 de Pique
+8 de Pique
+8 de Coeur
+
+Joueur 1:
+Q de Coeur
+2 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+9 de Carreau
+6 de Carreau
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+5 de Trèfle
+10 de Pique
+8 de Pique
+8 de Coeur
+4 de Pique
+
+Joueur 1:
+Q de Coeur
+2 de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+9 de Carreau
+6 de Carreau
+Main évaluée: Paire
+Function meilleure_carte, cards:  [10, 2, 4, 5, 8, 8, 12]
+Function meilleure_carte, meilleure carte:  8
+Function meilleure_carte, cards:  [10, 4, 5, 6, 8, 8, 9]
+Function meilleure_carte, meilleure carte:  8
+Function meilleure_carte, cards:  [10, 2, 4, 5, 12]
+Function meilleure_carte, meilleure carte:  12
+Function meilleure_carte, cards:  [10, 4, 5, 6, 9]
+Function meilleure_carte, meilleure carte:  10
+Best_card : [12, 10]
+Le joueur gagnant est:  1
+
+Joueur 1:
+2 de Trèfle
+8 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Coeur
+K de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+6 de Pique
+9 de Pique
+Q de Trèfle
+
+Joueur 1:
+2 de Trèfle
+8 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Coeur
+K de Trèfle
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+6 de Pique
+9 de Pique
+Q de Trèfle
+3 de Trèfle
+
+Joueur 1:
+2 de Trèfle
+8 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Coeur
+K de Trèfle
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+6 de Pique
+9 de Pique
+Q de Trèfle
+3 de Trèfle
+5 de Coeur
+
+Joueur 1:
+2 de Trèfle
+8 de Coeur
+Main évaluée: Carte Haute
+
+Joueur 2:
+6 de Coeur
+K de Trèfle
+Main évaluée: Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+7 de Trèfle
+10 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+8 de Pique
+10 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+K de Coeur
+7 de Carreau
+8 de Carreau
+
+Joueur 1:
+7 de Trèfle
+10 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+8 de Pique
+10 de Trèfle
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+K de Coeur
+7 de Carreau
+8 de Carreau
+8 de Trèfle
+
+Joueur 1:
+7 de Trèfle
+10 de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+8 de Pique
+10 de Trèfle
+Main évaluée: Brelan
+
+River:
+(press enter to continue)
+K de Coeur
+7 de Carreau
+8 de Carreau
+8 de Trèfle
+A de Carreau
+
+Joueur 1:
+7 de Trèfle
+10 de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+8 de Pique
+10 de Trèfle
+Main évaluée: Brelan
+Le joueur gagnant est:  2
+
+Joueur 1:
+4 de Trèfle
+10 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+Q de Coeur
+4 de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+6 de Carreau
+5 de Pique
+K de Coeur
+
+Joueur 1:
+4 de Trèfle
+10 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+Q de Coeur
+4 de Coeur
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+6 de Carreau
+5 de Pique
+K de Coeur
+5 de Coeur
+
+Joueur 1:
+4 de Trèfle
+10 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+Q de Coeur
+4 de Coeur
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+6 de Carreau
+5 de Pique
+K de Coeur
+5 de Coeur
+7 de Carreau
+
+Joueur 1:
+4 de Trèfle
+10 de Trèfle
+Main évaluée: Paire
+
+Joueur 2:
+Q de Coeur
+4 de Coeur
+Main évaluée: Paire
+Function meilleure_carte, cards:  [10, 4, 5, 5, 6, 7, 13]
+Function meilleure_carte, meilleure carte:  5
+Function meilleure_carte, cards:  [4, 5, 5, 6, 7, 13, 12]
+Function meilleure_carte, meilleure carte:  5
+Function meilleure_carte, cards:  [10, 4, 6, 7, 13]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [4, 6, 7, 13, 12]
+Function meilleure_carte, meilleure carte:  13
+Function meilleure_carte, cards:  [10, 4, 6, 7]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  [4, 6, 7, 13]
+Function meilleure_carte, meilleure carte:  13
+Best_card : [10, 13]
+Le joueur gagnant est:  2
+
+Joueur 1:
+8 de Pique
+8 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+7 de Carreau
+4 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+K de Coeur
+A de Carreau
+9 de Pique
+
+Joueur 1:
+8 de Pique
+8 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+7 de Carreau
+4 de Trèfle
+Main évaluée: Carte Haute
+
+Turn:
+(press enter to continue)
+K de Coeur
+A de Carreau
+9 de Pique
+7 de Trèfle
+
+Joueur 1:
+8 de Pique
+8 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+7 de Carreau
+4 de Trèfle
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+K de Coeur
+A de Carreau
+9 de Pique
+7 de Trèfle
+5 de Trèfle
+
+Joueur 1:
+8 de Pique
+8 de Coeur
+Main évaluée: Paire
+
+Joueur 2:
+7 de Carreau
+4 de Trèfle
+Main évaluée: Paire
+Function meilleure_carte, cards:  [5, 7, 8, 8, 9, 14, 13]
+Function meilleure_carte, meilleure carte:  8
+Function meilleure_carte, cards:  [4, 5, 7, 7, 9, 14, 13]
+Function meilleure_carte, meilleure carte:  7
+Best_card : [8, 7]
+Le joueur gagnant est:  1
+
+Joueur 1:
+7 de Trèfle
+3 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+A de Pique
+7 de Pique
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+J de Trèfle
+5 de Carreau
+5 de Coeur
+
+Joueur 1:
+7 de Trèfle
+3 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+A de Pique
+7 de Pique
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+J de Trèfle
+5 de Carreau
+5 de Coeur
+Q de Coeur
+
+Joueur 1:
+7 de Trèfle
+3 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+A de Pique
+7 de Pique
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+J de Trèfle
+5 de Carreau
+5 de Coeur
+Q de Coeur
+Q de Pique
+
+Joueur 1:
+7 de Trèfle
+3 de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+A de Pique
+7 de Pique
+Main évaluée: Double Paire
+Function meilleure_carte, cards:  [3, 5, 5, 7, 11, 12, 12]
+Function meilleure_carte, meilleure carte:  12
+Function meilleure_carte, cards:  [5, 5, 7, 14, 11, 12, 12]
+Function meilleure_carte, meilleure carte:  12
+Function meilleure_carte, cards:  [3, 5, 5, 7, 11]
+Function meilleure_carte, meilleure carte:  5
+Function meilleure_carte, cards:  [5, 5, 7, 14, 11]
+Function meilleure_carte, meilleure carte:  5
+Function meilleure_carte, cards:  [3, 7, 11]
+Function meilleure_carte, meilleure carte:  11
+Function meilleure_carte, cards:  [7, 14, 11]
+Function meilleure_carte, meilleure carte:  14
+Best_card : [11, 14]
+Le joueur gagnant est:  2
+
+Joueur 1:
+A de Trèfle
+2 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+K de Carreau
+6 de Trèfle
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+5 de Coeur
+Q de Pique
+K de Coeur
+
+Joueur 1:
+A de Trèfle
+2 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+K de Carreau
+6 de Trèfle
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+5 de Coeur
+Q de Pique
+K de Coeur
+10 de Carreau
+
+Joueur 1:
+A de Trèfle
+2 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+K de Carreau
+6 de Trèfle
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+5 de Coeur
+Q de Pique
+K de Coeur
+10 de Carreau
+4 de Pique
+
+Joueur 1:
+A de Trèfle
+2 de Trèfle
+Main évaluée: Carte Haute
+
+Joueur 2:
+K de Carreau
+6 de Trèfle
+Main évaluée: Paire
+Le joueur gagnant est:  2
+
+Joueur 1:
+J de Pique
+Q de Carreau
+Main évaluée: Carte Haute
+
+Joueur 2:
+9 de Pique
+4 de Coeur
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+2 de Coeur
+9 de Carreau
+Q de Coeur
+
+Joueur 1:
+J de Pique
+Q de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+9 de Pique
+4 de Coeur
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+2 de Coeur
+9 de Carreau
+Q de Coeur
+A de Coeur
+
+Joueur 1:
+J de Pique
+Q de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+9 de Pique
+4 de Coeur
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+2 de Coeur
+9 de Carreau
+Q de Coeur
+A de Coeur
+7 de Coeur
+
+Joueur 1:
+J de Pique
+Q de Carreau
+Main évaluée: Paire
+
+Joueur 2:
+9 de Pique
+4 de Coeur
+Main évaluée: Flush
+Le joueur gagnant est:  2
+
+Joueur 1:
+4 de Carreau
+10 de Pique
+Main évaluée: Carte Haute
+
+Joueur 2:
+8 de Trèfle
+Q de Carreau
+Main évaluée: Carte Haute
+
+Flop:
+(press enter to continue)
+A de Trèfle
+A de Coeur
+K de Pique
+
+Joueur 1:
+4 de Carreau
+10 de Pique
+Main évaluée: Paire
+
+Joueur 2:
+8 de Trèfle
+Q de Carreau
+Main évaluée: Paire
+
+Turn:
+(press enter to continue)
+A de Trèfle
+A de Coeur
+K de Pique
+10 de Trèfle
+
+Joueur 1:
+4 de Carreau
+10 de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+8 de Trèfle
+Q de Carreau
+Main évaluée: Paire
+
+River:
+(press enter to continue)
+A de Trèfle
+A de Coeur
+K de Pique
+10 de Trèfle
+8 de Pique
+
+Joueur 1:
+4 de Carreau
+10 de Pique
+Main évaluée: Double Paire
+
+Joueur 2:
+8 de Trèfle
+Q de Carreau
+Main évaluée: Double Paire
+Function meilleure_carte, cards:  [10, 10, 4, 8, 14, 14, 13]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [10, 8, 8, 14, 14, 13, 12]
+Function meilleure_carte, meilleure carte:  14
+Function meilleure_carte, cards:  [10, 10, 4, 8, 13]
+Function meilleure_carte, meilleure carte:  10
+Function meilleure_carte, cards:  [10, 8, 8, 13, 12]
+Function meilleure_carte, meilleure carte:  8
+Best_card : [10, 8]
+Le joueur gagnant est:  1
