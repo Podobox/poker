@@ -150,33 +150,33 @@ def evaluer_deck(joueur, flop=""):
 
 # fonctions pour déterminer le gagnant entre les différents paquets
 # Pour les carte haute/paire/double paire/brelan/full/carré
-def meilleure_carte(deck : list):
-    doublon = []
-    cards = [value for value, color in deck]
-    cards = convert_values(cards)
-    print("Function meilleure_carte, cards: ", cards)
-    for c in cards:
-        count = cards.count(c)
-        if count > 1:
-            doublon.append(count)
+def meilleure_carte(deck : list = []):
+    if not deck: # Les 2 joueurs ont les mêmes cartes
+        return 0
+    else:
+        cards = [value for value, color in deck]
+        cards = convert_values(cards)
+        doublon = []
+        for c in cards:
+            count = cards.count(c)
+            if count > 1:
+                doublon.append(count)
+        print("Function meilleure_carte, cards: ", cards)
 
-    if not doublon:
-        if not cards:
+        if not doublon:
             print("Function meilleure_carte, meilleure carte haute: ", max(cards))
             return max(cards)
-        else: # Les 2 joueurs ont les mêmes cartes
 
+        else:
+            doublon = max(doublon)
+            combi = []
+            for c in cards:
+                if cards.count(c) == doublon:
+                    combi.append(c)
+            print("Function meilleure_carte, meilleure carte: ", max(combi))
+            return max(combi)
 
-    else:
-        doublon = max(doublon)
-        combi = []
-        for c in cards:
-            if cards.count(c) == doublon:
-                combi.append(c)
-        print("Function meilleure_carte, meilleure carte: ", max(combi))
-        return max(combi)
-
-def troncate(deck : list):
+def troncate(deck : list = []):
     doublon = []
     cards = deck[:]
     value = [v for v, c in deck]
@@ -212,7 +212,7 @@ def troncate(deck : list):
 def affiche_gagnant(joueurs, combi_joueurs, cards):
     winner = []
     number_combi = []
-    deck = [] 
+    deck = [] # Même longueur que winner
     for i in range(len(combi_joueurs)):
         number_combi.append(Combinaison.trouver_numero(combi_joueurs[i])) # Fonction qui converti en nombre les combinaisons
     for i in range(len(combi_joueurs)):
@@ -225,7 +225,7 @@ def affiche_gagnant(joueurs, combi_joueurs, cards):
         best_card = [] # Même longueur que winner
 
         # On s'assure que les meilleurs joueurs n'aient pas les mêmes cartes
-        while not best_card or max(best_card) != 0  or best_card.count(max(best_card)) != 1:
+        while not best_card or best_card.count(max(best_card)) != 1:
             best_card = []
             for i in range(len(winner)):
                 # On traite le cas carte haute/paire/double paire/brelan/full/carré
@@ -234,11 +234,22 @@ def affiche_gagnant(joueurs, combi_joueurs, cards):
                 else:
                     return "To do"
 
+            # La variable deck est vide
+            if max(best_card) == 0:
+                break
+
             # On modifie les deck puisque les deux joueurs ont les mêmes meilleurs cartes
             for i in range(len(deck)):
+                print("While, deck: ", deck[i])
                 deck[i] = troncate(deck[i])
 
-        for i in range(len(best_card)):
-            if best_card[i] == max(best_card):
-                return winner[i]+1
+        if max(best_card) == 0:
+            w = [] # Semblable à winner
+            for i in range(len(winner)):
+                w.append(winner[i] + 1)
+            return w
+        else:
+            for i in range(len(best_card)):
+                if best_card[i] == max(best_card):
+                    return winner[i]+1
 
