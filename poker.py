@@ -1,27 +1,43 @@
 from constante import *
 from eval import evaluer_deck, affiche_gagnant
 from cards import *
+from jetons import *
 
-def afficher_joueur(joueurs, combi_joueurs, cards=""):
+NB_JOUEURS = 3
+
+def afficher_joueur(joueurs, combi_joueurs, cards : list = ""):
     for i in range(len(joueurs)):
         print(f"\nJoueur {i+1}:")
         afficher_cartes(joueurs[i])
         combi_joueurs[i] = evaluer_deck(joueurs[i] , cards)
         print("Main évaluée:", combi_joueurs[i])
 
-def poker_texas_holdem(nbJoueurs):
-    jetons = distribuer_jetons(nbJoueurs)
-    joueurs = distribuer_cartes(nbJoueurs)
-    combi_joueurs = init_combi(nbJoueurs)
+def poker_texas_holdem():
+    joueurs = distribuer_cartes(NB_JOUEURS)
+    combi_joueurs = init_combi(NB_JOUEURS)
     cards = distribuer_cards()
+    pot = 0
+    winner = []
+
     afficher_joueur(joueurs, combi_joueurs)
-    afficher_flop(cards)
-    afficher_joueur(joueurs, combi_joueurs, cards[:3])
-    afficher_turn(cards)
-    afficher_joueur(joueurs, combi_joueurs, cards[:4])
-    afficher_river(cards)
-    afficher_joueur(joueurs, combi_joueurs, cards[:5])
+    print("\nVous êtes le joueur 1:")
+    pot += mise(joueurs, pot)
+    for i in range(3,6):
+        afficher_street_card(cards[:i])
+        afficher_joueur(joueurs, combi_joueurs, cards[:i])
+        pot += mise(joueurs, pot)
 
-    print("Le joueur gagnant est: ", affiche_gagnant(joueurs, combi_joueurs, cards))
+        # test si un joueur est tout seul dans la partie
+        p = one_player_alive()
+        if p >= 0:
+            winner = p+1
+            break
+    
+    if not winner:
+        winner = affiche_gagnant(joueurs, combi_joueurs, cards)
 
-poker_texas_holdem(2)
+    print("Le joueur gagnant est: ", winner)
+    distrib_jetons(pot, winner)
+
+distribuer_jetons(NB_JOUEURS)
+poker_texas_holdem()
