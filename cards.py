@@ -40,17 +40,6 @@ def afficher_street_card(street_card : list):
     input()
     for i in range(len(street_card)):
         print(f"{street_card[i][0]} de {street_card[i][1]}")
-# def afficher_turn(flop):
-#     print("\nTurn:\n(press enter to continue)")
-#     input()
-#     for i in range(4):
-#         print(f"{flop[i][0]} de {flop[i][1]}")
-
-# def afficher_river(flop):
-#     print("\nRiver:\n(press enter to continue)")
-#     input()
-#     for i in range(5):
-#         print(f"{flop[i][0]} de {flop[i][1]}")
 
 def one_player_alive():
     player_alive = []

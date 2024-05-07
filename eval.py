@@ -164,7 +164,6 @@ def meilleure_carte(deck : list = []):
         print("Function meilleure_carte, cards: ", cards)
 
         if not doublon:
-            print("Function meilleure_carte, meilleure carte haute: ", max(cards))
             return max(cards)
 
         else:
@@ -173,7 +172,6 @@ def meilleure_carte(deck : list = []):
             for c in cards:
                 if cards.count(c) == doublon:
                     combi.append(c)
-            print("Function meilleure_carte, meilleure carte: ", max(combi))
             return max(combi)
 
 def troncate(deck : list = []):
@@ -201,7 +199,7 @@ def troncate(deck : list = []):
         value = convert_values(value)
         for c in cardRemove:
             # Pour ne pas retirer plusieurs paire d'un coup
-            if convert_values([c[0]])[0] == max(value): # Plus de problème 
+            if convert_values([c[0]])[0] == max(value): 
                 cards.remove(c)
 
         return cards
@@ -215,7 +213,7 @@ def affiche_gagnant(joueurs, combi_joueurs, cards):
     for i in range(len(joueurs)):
         number_combi.append(Combinaison.trouver_numero(combi_joueurs[i])) # Fonction qui converti en nombre les combinaisons
     for i in range(len(joueurs)):
-        if max(number_combi) == number_combi[i]:
+        if max(number_combi) == number_combi[i] and JETONS[i] >= 0:
             winner.append(i)
             deck.append(sorted(joueurs[i][:] + cards[:])) # Ajoute le deck entier trié dans une variable
     if len(winner) == 1:

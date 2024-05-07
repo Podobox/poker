@@ -2,10 +2,13 @@ from constante import *
 from random import randint
 
 def display_jetons():
+    print("")
     for i in range(len(JETONS)):
-        if JETONS[i] > 0:
+        if JETONS[i] >= 0:
             print(f"Jetons joueur {i+1}: {JETONS[i]}")
-    print("\n")
+        else:
+            print(f"Jetons joueur {i+1}: {-JETONS[i]} (couché)")
+    print("")
 
 def calcul_jetons(mise : list):
     for i in range(len(JETONS)):
@@ -77,8 +80,10 @@ def mise(joueurs : list, pot):
     display_jetons()
     while True:
         for i in ordre:
-            if JETONS[i] <= 0:
+            if JETONS[i] < 0:
                 print(f"Joueur {i+1} est couché")
+            elif JETONS[i] == 0:
+                print(f"Joueur {i+1} a fait tapis !")
             # si la mise du joueur est égale à la mise max on ne le compte pas
             elif mise[i] == 0 or mise[i] != max(mise):
                 # Au tour du joueur
@@ -94,7 +99,7 @@ def mise(joueurs : list, pot):
                             if max(mise) == 0:
                                 print(f"Joueur {i+1} check")
                                 pass # check
-                            elif JETONS[i] > max(mise):
+                            elif JETONS[i] >= max(mise):
                                 if randint(0,1) == 0:
                                     mise[i] = max(mise)
                                     print(f"Joueurs {i+1} a misé {mise[i]}")
@@ -104,14 +109,14 @@ def mise(joueurs : list, pot):
 
                         else:
                             if max(mise) == 0 and JETONS[i] >= 16:
-                                mise[i] = randint(BASE_STACK, int(JETONS[i]/4) + 1)
+                                mise[i] = randint(BASE_STACK, int(JETONS[i]/4))
                                 print(f"Joueurs {i+1} a misé {mise[i]}")
-                            elif JETONS[i]*3/4 > max(mise):
-                                mise[i] = randint(max(mise)+BASE_STACK, max(mise)+ int(JETONS[i]/4))
+                            elif JETONS[i]*3/4 >= max(mise) and JETONS[i] >= 16:
+                                mise[i] = max(mise) + randint(BASE_STACK, int(JETONS[i]/4))
                                 if mise[i] == JETONS[i]:
                                     print(f"Joueur {i+1} a fait tapis ! ({mise[i]} jetons)")
                                 else:
-                                    print(f"Joueurs {i+1} a misé {mise[i]}")
+                                    print(f"Joueur s {i+1} a misé {mise[i]}")
                             else: # tapis
                                 mise[i] = JETONS[i]
                                 print(f"Joueur {i+1} a fait tapis ! ({mise[i]} jetons)")
