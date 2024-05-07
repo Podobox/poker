@@ -199,7 +199,6 @@ def troncate(deck : list = []):
 
         value = [v for v,c in cardRemove]
         value = convert_values(value)
-        print("troncate, cardRemove: ", cardRemove)
         for c in cardRemove:
             # Pour ne pas retirer plusieurs paire d'un coup
             if convert_values([c[0]])[0] == max(value): # Plus de problème 
@@ -213,9 +212,9 @@ def affiche_gagnant(joueurs, combi_joueurs, cards):
     winner = []
     number_combi = []
     deck = [] # Même longueur que winner
-    for i in range(len(combi_joueurs)):
+    for i in range(len(joueurs)):
         number_combi.append(Combinaison.trouver_numero(combi_joueurs[i])) # Fonction qui converti en nombre les combinaisons
-    for i in range(len(combi_joueurs)):
+    for i in range(len(joueurs)):
         if max(number_combi) == number_combi[i]:
             winner.append(i)
             deck.append(sorted(joueurs[i][:] + cards[:])) # Ajoute le deck entier trié dans une variable
@@ -240,7 +239,6 @@ def affiche_gagnant(joueurs, combi_joueurs, cards):
 
             # On modifie les deck puisque les deux joueurs ont les mêmes meilleurs cartes
             for i in range(len(deck)):
-                print("While, deck: ", deck[i])
                 deck[i] = troncate(deck[i])
 
         if max(best_card) == 0:

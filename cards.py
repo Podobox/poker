@@ -7,11 +7,9 @@ def melanger_paquet():
 def init_combi(nbJoueurs):
     return [ [] for _ in range(nbJoueurs)]
 
-def distribuer_jetons(nb_joueurs):
-    jetons = []
-    for i in range(nb_joueurs):
-        jetons.append(100)
-    return jetons
+def distribuer_jetons(nbJoueurs):
+    for i in range(nbJoueurs):
+        JETONS.append(100)
 
 def distribuer_cartes(nb_joueurs):
     melanger_paquet()
@@ -28,21 +26,38 @@ def distribuer_cards():
     return [cartes.pop() for _ in range(5)] 
 
 
-def afficher_flop(flop):
-    print("\nFlop:\n(press enter to continue)")
+def afficher_street_card(street_card : list):
+    match len(street_card):
+        case 3:
+            print("\nFlop:\n(press enter to continue)")
+        case 4:
+            print("\nTurn:\n(press enter to continue)")
+        case 5:
+            print("\nRiver:\n(press enter to continue)")
+        case _:
+            print("Erreur de longueur de street_card")
+    
     input()
-    for i in range(3):
-        print(f"{flop[i][0]} de {flop[i][1]}")
-def afficher_turn(flop):
-    print("\nTurn:\n(press enter to continue)")
-    input()
-    for i in range(4):
-        print(f"{flop[i][0]} de {flop[i][1]}")
+    for i in range(len(street_card)):
+        print(f"{street_card[i][0]} de {street_card[i][1]}")
+# def afficher_turn(flop):
+#     print("\nTurn:\n(press enter to continue)")
+#     input()
+#     for i in range(4):
+#         print(f"{flop[i][0]} de {flop[i][1]}")
 
-def afficher_river(flop):
-    print("\nRiver:\n(press enter to continue)")
-    input()
-    for i in range(5):
-        print(f"{flop[i][0]} de {flop[i][1]}")
+# def afficher_river(flop):
+#     print("\nRiver:\n(press enter to continue)")
+#     input()
+#     for i in range(5):
+#         print(f"{flop[i][0]} de {flop[i][1]}")
 
-        
+def one_player_alive():
+    player_alive = []
+    for i in range(len(JETONS)):
+        if JETONS[i] > 0:
+            player_alive.append(i)
+    if len(player_alive) != 1:
+        return -1
+    else:
+        return player_alive[0]
