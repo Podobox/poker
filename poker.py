@@ -40,4 +40,5 @@ def poker_texas_holdem():
     distrib_jetons(pot, winner)
 
 distribuer_jetons(NB_JOUEURS)
-poker_texas_holdem()
+if __name__ == '__main__':
+    poker_texas_holdem()

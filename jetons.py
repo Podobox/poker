@@ -35,10 +35,10 @@ def mise_player(misePlayer, max):
     mise = 0
     while True:
         try:
-            if misePlayer < max:
-                mise = input(f"Quelle est votre mise ? (0 pour se coucher)\n")
-            else:
-                mise = input(f"Quelle est votre mise ? (0 pour check)\n")
+            if misePlayer < max: # se couche, mise ou relance
+                mise = input("Quelle est votre mise ? (0 pour se coucher)\n")
+            else: # check ou mise
+                mise = input("Quelle est votre mise ? (0 pour check)\n")
             mise = int(mise) 
 
             if mise == JETONS[0]:
@@ -78,6 +78,8 @@ def mise(joueurs : list, pot):
     ordre[:] = ordre[dealer+1:] + ordre[:dealer+1] # Changer l'orde de demande des mises
     # Affichage des jetons de chaque joueur
     display_jetons()
+    print(f"pot: {pot} jetons")
+    
     while True:
         for i in ordre:
             if JETONS[i] < 0:
@@ -116,7 +118,7 @@ def mise(joueurs : list, pot):
                                 if mise[i] == JETONS[i]:
                                     print(f"Joueur {i+1} a fait tapis ! ({mise[i]} jetons)")
                                 else:
-                                    print(f"Joueur s {i+1} a misé {mise[i]}")
+                                    print(f"Joueurs {i+1} a misé {mise[i]}")
                             else: # tapis
                                 mise[i] = JETONS[i]
                                 print(f"Joueur {i+1} a fait tapis ! ({mise[i]} jetons)")
