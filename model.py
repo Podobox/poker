@@ -24,12 +24,13 @@ def encode_carte(carte, valeurs_vocab, couleurs_vocab):
 
 # Function to simulate data generation for poker bets
 def simulate_bet_data(num_samples=1000):
-    # Example structure: [player_id, current_pot, player_stack, max_bet, action (0: fold, 1: check, 2: raise)]
+    # Example structure: [player_id, current_pot, player_bet, max_bet, action (0: fold, 1: check, 2: raise)]
     data = []
     for _ in range(num_samples):
         current_pot = np.random.randint(10, 1000)
-        player_stack = np.random.randint(10, 100)
-        max_bet = np.random.randint(0, player_stack // 2)
+        player_bet = np.random.randint(10, 100)
+        # max_bet = np.random.randint(0, player_bet // 2)
+        
 
         # Generate player cards and table cards
         player_cards = [encode_carte((np.random.choice(valeurs_vocab),
@@ -40,8 +41,11 @@ def simulate_bet_data(num_samples=1000):
         table_cards_flat = np.concatenate(table_cards)
 
         # Combine all features
-        features = np.concatenate([[current_pot, player_stack, max_bet], player_cards_flat, table_cards_flat])
-        data.append(np.concatenate([features]))
+        features = np.concatenate([[current_pot, player_bet], player_cards_flat, table_cards_flat])
+
+
+        win_loss = np.random.randint(0, 2)
+        data.append(np.concatenate([features, [win_loss]]))
 
     return np.array(data)
 
@@ -51,11 +55,13 @@ bet_data = simulate_bet_data()
 # Split the data into training and testing sets
 X = bet_data[:, :-1]
 y = bet_data[:, -1]
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# Normalisation des données
-X_train = X_train / np.max(X_train, axis=0)
-X_test = X_test / np.max(X_test, axis=0)
+# # Normalize the numeric data (excluding one-hot encoded cards and win/loss boolean)
+# numeric_features = X[:, 0:2]  # current_pot, player_bet, max_bet
+# numeric_features = numeric_features / np.max(numeric_features, axis=0)
+# X[:, 1:4] = numeric_features
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 # Define the RNN model
 model = Sequential()

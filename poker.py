@@ -2,6 +2,8 @@ from constante import *
 from eval import evaluer_deck, affiche_gagnant
 from cards import *
 from jetons import *
+from data import *
+
 
 NB_JOUEURS = 3
 
@@ -39,6 +41,10 @@ def poker_texas_holdem():
     print("Le joueur gagnant est: ", winner)
     distrib_jetons(pot, winner)
 
+def save():
+    with open("data.txt", "w") as f:
+	    f.read()
+
 def last_round():
     joueurs = distribuer_cartes(NB_JOUEURS)
     combi_joueurs = init_combi(NB_JOUEURS)
@@ -55,9 +61,19 @@ def last_round():
         winner = affiche_gagnant(joueurs, combi_joueurs, cards)
 
     print(f"Le joueur gagnant est: {winner} ({pot} jetons)")
+    
+    POT = pot
+    CARD_PLAYER = joueurs[0][:]
+    CARD_TABLE = cards[:]
+    write_data()
     # distrib_jetons(pot, winner)
 
 distribuer_jetons(NB_JOUEURS)
 if __name__ == '__main__':
     # poker_texas_holdem()
     last_round() # distribution de la dernière main seulement
+
+# pot
+# mise joueur
+# carte joueur
+# carte table

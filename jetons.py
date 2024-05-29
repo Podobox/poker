@@ -1,5 +1,6 @@
 from constante import *
 from random import randint
+from data import *
 
 def display_jetons():
     print("")
@@ -69,6 +70,7 @@ def mise_player(misePlayer, max):
             print("Veuillez entrer un nombre entier pour votre mise")
         except TypeError:
             print("La saisie n'est pas valide. Veuillez réessayer.")
+    BET_PLAYER = mise
     return mise
 
 def mise(joueurs : list, pot):
