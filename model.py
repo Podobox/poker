@@ -27,11 +27,9 @@ def simulate_bet_data(num_samples=1000):
     # Example structure: [player_id, current_pot, player_stack, max_bet, action (0: fold, 1: check, 2: raise)]
     data = []
     for _ in range(num_samples):
-        player_id = np.random.randint(0, NB_JOUEURS) 
         current_pot = np.random.randint(10, 1000)
-        player_stack = np.random.randint(10, 1000)
+        player_stack = np.random.randint(10, 100)
         max_bet = np.random.randint(0, player_stack // 2)
-        action = np.random.randint(0, 3)
 
         # Generate player cards and table cards
         player_cards = [encode_carte((np.random.choice(valeurs_vocab),
@@ -42,8 +40,8 @@ def simulate_bet_data(num_samples=1000):
         table_cards_flat = np.concatenate(table_cards)
 
         # Combine all features
-        features = np.concatenate([[player_id, current_pot, player_stack, max_bet], player_cards_flat, table_cards_flat])
-        data.append(np.concatenate([features, [action]]))
+        features = np.concatenate([[current_pot, player_stack, max_bet], player_cards_flat, table_cards_flat])
+        data.append(np.concatenate([features]))
 
     return np.array(data)
 

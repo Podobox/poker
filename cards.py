@@ -37,7 +37,6 @@ def afficher_street_card(street_card : list):
         case _:
             print("Erreur de longueur de street_card")
     
-    input()
     for i in range(len(street_card)):
         print(f"{street_card[i][0]} de {street_card[i][1]}")
 

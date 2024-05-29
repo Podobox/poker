@@ -56,10 +56,10 @@ def mise_player(misePlayer, max):
                 print("Veuillez entrer un nombre positif pour votre mise")
             elif mise > JETONS[0]:
                 print("Vous n'avez pas suffisamment de jetons pour cette mise")
-            elif mise < BASE_STACK + max and mise > max:
-                print(f"Votre est inférieur à la mise minimum ({BASE_STACK + max} jetons)")
-            elif mise < max:
-                print(f"Votre mise doit être supérieu à {max} jetons")
+            # elif mise < BASE_STACK + max and mise > max:
+            #     print(f"Votre est inférieur à la mise minimum ({BASE_STACK + max} jetons)")
+            # elif mise < max:
+            #     print(f"Votre mise doit être supérieu à {max} jetons")
             else:
                 # Si la mise est valide, sortir de la boucle
                 print(f"Vous avez misé {mise}")       
@@ -125,7 +125,7 @@ def mise(joueurs : list, pot):
                     else:
                         print(f"Joueur {i+1} ne peut pas miser plus")
                 
-        if end_round(mise): # si toutes les mises sont égales 
+        if i == ordre[-1]: # si on est au dernier joueur 
             break
     calcul_jetons(mise) # calcul les jetons en soustrayant les mises 
     print("Total à gagner: ", pot + sum(mise)) 

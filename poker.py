@@ -39,6 +39,25 @@ def poker_texas_holdem():
     print("Le joueur gagnant est: ", winner)
     distrib_jetons(pot, winner)
 
+def last_round():
+    joueurs = distribuer_cartes(NB_JOUEURS)
+    combi_joueurs = init_combi(NB_JOUEURS)
+    cards = distribuer_cards()
+    pot = 0
+    winner = []
+
+    print("\nVous êtes le joueur 1:")
+    afficher_street_card(cards[:5])
+    afficher_joueur(joueurs, combi_joueurs, cards[:5])
+    pot += mise(joueurs, pot)
+    
+    if not winner:
+        winner = affiche_gagnant(joueurs, combi_joueurs, cards)
+
+    print(f"Le joueur gagnant est: {winner} ({pot} jetons)")
+    # distrib_jetons(pot, winner)
+
 distribuer_jetons(NB_JOUEURS)
 if __name__ == '__main__':
-    poker_texas_holdem()
+    # poker_texas_holdem()
+    last_round() # distribution de la dernière main seulement
