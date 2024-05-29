@@ -15,5 +15,5 @@ def init_file_variable(pot=0, cardPlayer=[], cardTable=[], bet=0):
         BET_PLAYER = bet
 
 def write_data():
-    with open("data.txt", "w") as f:
+    with open("data.txt", "a") as f:
 	    f.write(f"{POT}\n{BET_PLAYER}\n{CARD_PLAYER}\n{CARD_TABLE}\n\n")
