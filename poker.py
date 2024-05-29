@@ -2,8 +2,6 @@ from constante import *
 from eval import evaluer_deck, affiche_gagnant
 from cards import *
 from jetons import *
-from data import *
-
 
 NB_JOUEURS = 3
 
@@ -62,9 +60,7 @@ def last_round():
 
     print(f"Le joueur gagnant est: {winner} ({pot} jetons)")
     
-    POT = pot
-    CARD_PLAYER = joueurs[0][:]
-    CARD_TABLE = cards[:]
+    init_file_variable(pot, joueurs[0], cards)
     write_data()
     # distrib_jetons(pot, winner)
 

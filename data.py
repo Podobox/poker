@@ -3,10 +3,16 @@ BET_PLAYER = 0
 CARD_PLAYER = []
 CARD_TABLE = []
 
-def init_variable(pot, cardPlayer, cardTable):
-    POT = pot
-    CARD_PLAYER = cardPlayer[:]
-    CARD_TABLE = cardTable[:]
+def init_file_variable(pot=0, cardPlayer=[], cardTable=[], bet=0):
+    global POT, CARD_PLAYER, CARD_TABLE, BET_PLAYER
+    if pot:
+        POT = pot
+    if cardPlayer:
+        CARD_PLAYER = cardPlayer[:]
+    if cardTable:
+        CARD_TABLE = cardTable[:]
+    if bet:
+        BET_PLAYER = bet
 
 def write_data():
     with open("data.txt", "w") as f:

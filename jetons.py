@@ -70,7 +70,7 @@ def mise_player(misePlayer, max):
             print("Veuillez entrer un nombre entier pour votre mise")
         except TypeError:
             print("La saisie n'est pas valide. Veuillez réessayer.")
-    BET_PLAYER = mise
+    init_file_variable(bet=mise)
     return mise
 
 def mise(joueurs : list, pot):

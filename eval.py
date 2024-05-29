@@ -161,7 +161,6 @@ def meilleure_carte(deck : list = []):
             count = cards.count(c)
             if count > 1:
                 doublon.append(count)
-        print("Function meilleure_carte, cards: ", cards)
 
         if not doublon:
             return max(cards)
