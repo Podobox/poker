@@ -43,7 +43,7 @@ def poker_texas_holdem():
             print(f"{pot} jetons à partager en {len(winner)}")
     else:
         print(f"Le joueur gagnant est: {winner +1} ({pot} jetons)") 
-        
+
     distrib_jetons(pot, winner)
 
 
@@ -78,8 +78,3 @@ distribuer_jetons(NB_JOUEURS)
 if __name__ == '__main__':
     # poker_texas_holdem()
     last_round() # distribution de la dernière main seulement
-
-# pot
-# mise joueur
-# carte joueur
-# carte table
