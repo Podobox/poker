@@ -134,4 +134,4 @@ def mise(joueurs : list, pot):
     return sum(mise[:])
 
 def distrib_jetons(pot, winner):
-    pass
+    pass # penser à prendre en compte où il y aurait plusieurs gagnants

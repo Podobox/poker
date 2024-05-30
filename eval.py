@@ -216,7 +216,7 @@ def affiche_gagnant(joueurs, combi_joueurs, cards):
             winner.append(i)
             deck.append(sorted(joueurs[i][:] + cards[:])) # Ajoute le deck entier trié dans une variable
     if len(winner) == 1:
-        return winner[0]+1
+        return winner[0]
     else: # Si les joueurs ont la même combinaison
         best_card = [] # Même longueur que winner
 
@@ -227,8 +227,9 @@ def affiche_gagnant(joueurs, combi_joueurs, cards):
                 # On traite le cas carte haute/paire/double paire/brelan/full/carré
                 if Combinaison.trouver_numero(combi_joueurs[winner[i]]) in [0, 1, 2, 3, 7]:
                     best_card.append(meilleure_carte(deck[i]))
-                else:
-                    return "To do"
+                else: # Si les joueurs ont les même suites/couleurs... On retourne tous les gagnants:
+                    # return "To do"
+                    return winner
 
             # La variable deck est vide
             if max(best_card) == 0:
@@ -241,10 +242,10 @@ def affiche_gagnant(joueurs, combi_joueurs, cards):
         if max(best_card) == 0:
             w = [] # Semblable à winner
             for i in range(len(winner)):
-                w.append(winner[i] + 1)
+                w.append(winner[i])
             return w
         else:
             for i in range(len(best_card)):
                 if best_card[i] == max(best_card):
-                    return winner[i]+1
+                    return winner[i]
 

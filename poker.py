@@ -36,12 +36,16 @@ def poker_texas_holdem():
     if not winner:
         winner = affiche_gagnant(joueurs, combi_joueurs, cards)
 
-    print("Le joueur gagnant est: ", winner)
+    if type(winner) is list:
+            print(f"Les gagnants sont:")
+            for w in winner:
+                print("Joueur", w+1)
+            print(f"{pot} jetons à partager en {len(winner)}")
+    else:
+        print(f"Le joueur gagnant est: {winner +1} ({pot} jetons)") 
+        
     distrib_jetons(pot, winner)
 
-def save():
-    with open("data.txt", "w") as f:
-	    f.read()
 
 def last_round():
     joueurs = distribuer_cartes(NB_JOUEURS)
@@ -58,13 +62,19 @@ def last_round():
     if not winner:
         winner = affiche_gagnant(joueurs, combi_joueurs, cards)
 
-    print(f"Le joueur gagnant est: {winner} ({pot} jetons)")
+    if type(winner) is list:
+        print(f"Les gagnants sont:")
+        for w in winner:
+            print("Joueur", w+1)
+        print(f"{pot} jetons à partager en {len(winner)}")
+    else:
+        print(f"Le joueur gagnant est: {winner +1} ({pot} jetons)")
     
-    init_file_variable(pot, joueurs[0], cards)
+    init_file_variable(pot, joueurs[0], cards, winner)
     write_data()
     # distrib_jetons(pot, winner)
 
-distribuer_jetons(NB_JOUEURS)
+distribuer_jetons(NB_JOUEURS) 
 if __name__ == '__main__':
     # poker_texas_holdem()
     last_round() # distribution de la dernière main seulement
