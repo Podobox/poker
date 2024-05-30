@@ -27,7 +27,7 @@ def write_data():
 	    f.write(f"{BET_PLAYER}\n{POT-BET_PLAYER}\n{CARD_PLAYER}\n{CARD_TABLE}\n{WINNER}\n\n")
 
 def load_data():
-    """ Renvoie un tuple ("mise du joueur", "pot", "carte du joueur", "carte sur la table", "joueur gagnant?")"""
+    """ Renvoie un tuple ("pot", "mise du joueur", "carte du joueur", "carte sur la table", "joueur gagnant?")"""
     
     pots = []
     bet_players = []
@@ -44,11 +44,12 @@ def load_data():
             card_players.append(literal_eval(data[2]))
             card_tables.append(literal_eval(data[3]))
             win.append(data[4].strip() == "True")
-    print("POTS:", pots)
-    print("BET_PLAYERS:", bet_players)
-    print("CARD_PLAYERS:", card_players)
-    print("CARD_TABLES:", card_tables)
-    print("GAME_STATUSES:", win)
+    return pots, bet_players, card_players, card_tables, win
+    # print("POTS:", pots)
+    # print("BET_PLAYERS:", bet_players)
+    # print("CARD_PLAYERS:", card_players)
+    # print("CARD_TABLES:", card_tables)
+    # print("GAME_STATUSES:", win)
 
 
 

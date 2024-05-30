@@ -4,6 +4,7 @@ import tensorflow as tf
 from tensorflow.keras.layers import SimpleRNN, Dense, Embedding
 from sklearn.model_selection import train_test_split
 from tensorflow.keras.models import Sequential  
+from data import load_data
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
