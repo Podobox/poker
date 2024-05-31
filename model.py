@@ -24,65 +24,38 @@ def encode_carte(carte, valeurs_vocab, couleurs_vocab):
     return np.concatenate((valeur_one_hot, couleur_one_hot))
 
 # Function to simulate data generation for poker bets
-def simulate_bet_data(num_samples=1000):
-    # Example structure: [player_id, current_pot, player_bet, max_bet, action (0: fold, 1: check, 2: raise)]
-    data = []
-    for _ in range(num_samples):
-        current_pot = np.random.randint(10, 1000)
-        player_bet = np.random.randint(10, 100)
-        # max_bet = np.random.randint(0, player_bet // 2)
-        
+pots, bet_players, card_players, card_tables, win = load_data()
 
-        # Generate player cards and table cards
-        player_cards = [encode_carte((np.random.choice(valeurs_vocab),
-            np.random.choice(couleurs_vocab)), valeurs_vocab, couleurs_vocab) for _ in range(2)]
-        table_cards = [encode_carte((np.random.choice(valeurs_vocab),
-            np.random.choice(couleurs_vocab)), valeurs_vocab, couleurs_vocab) for _ in range(5)]
-        player_cards_flat = np.concatenate(player_cards)
-        table_cards_flat = np.concatenate(table_cards)
+# Encode the card data
+encoded_card_players = [np.concatenate([encode_carte(card, valeurs_vocab, couleurs_vocab) for card in cards]) for cards in card_players]
+encoded_card_tables = [np.concatenate([encode_carte(card, valeurs_vocab, couleurs_vocab) for card in cards]) for cards in card_tables]
 
-        # Combine all features
-        features = np.concatenate([[current_pot, player_bet], player_cards_flat, table_cards_flat])
+# Combine all features
+X = np.array([
+    np.concatenate([[pot, bet], player_cards, table_cards])
+    for pot, bet, player_cards, table_cards in zip(pots, bet_players, encoded_card_players, encoded_card_tables)
+])
+y = np.array(win)
 
-
-        win_loss = np.random.randint(0, 2)
-        data.append(np.concatenate([features, [win_loss]]))
-
-    return np.array(data)
-
-# Generate the simulated bet data
-bet_data = simulate_bet_data()
+# Normalize the numeric data (excluding one-hot encoded cards and win/loss boolean)
+numeric_features = X[:, :2]  # pot, bet
+numeric_features = numeric_features / np.max(numeric_features, axis=0)
+X[:, :2] = numeric_features
 
 # Split the data into training and testing sets
-X = bet_data[:, :-1]
-y = bet_data[:, -1]
-
-# # Normalize the numeric data (excluding one-hot encoded cards and win/loss boolean)
-# numeric_features = X[:, 0:2]  # current_pot, player_bet, max_bet
-# numeric_features = numeric_features / np.max(numeric_features, axis=0)
-# X[:, 1:4] = numeric_features
-
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# Define the RNN model
+# Define the model
 model = Sequential()
-model.add(Embedding(input_dim=NB_JOUEURS, output_dim=10, input_length=X_train.shape[1] - len(valeurs_vocab)*2*2 - len(couleurs_vocab)*2*2))
-model.add(SimpleRNN(50, return_sequences=True))
-model.add(SimpleRNN(50))
-model.add(Dense(3, activation='softmax'))  # Output layer with 3 classes (fold, check, raise)
-
-# model = Sequential()
-# model.add(Embedding(input_dim=NB_JOUEURS, output_dim=10, input_length=X_train.shape[1] - len(valeurs_vocab)*2*2 - len(couleurs_vocab)*2*2))
-# model.add(Flatten())  # Flatten the embedding output
-# model.add(Dense(50, activation='relu'))
-# model.add(Dense(50, activation='relu'))
-# model.add(Dense(3, activation='softmax')) 
+model.add(Dense(50, activation='relu', input_shape=(X_train.shape[1],)))
+model.add(Dense(50, activation='relu'))
+model.add(Dense(1, activation='sigmoid'))  # Output layer for binary classification (win/loss)
 
 # Compile the model
-model.compile(loss='sparse_categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
 
 # Train the model
-history = model.fit(X_train, y_train, epochs=20, validation_data=(X_test, y_test), batch_size=32)
+history = model.fit(X_train, y_train, epochs=20, validation_data=(X_test, y_test), batch_size=8)
 
 # Evaluate the model
 loss, accuracy = model.evaluate(X_test, y_test)

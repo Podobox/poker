@@ -35,7 +35,7 @@ def load_data():
     card_tables = []
     win = []
 
-    with open("data.txt", "r") as file:
+    with open("data.txt", "r", encoding="utf-8") as file:
         data = file.readlines()
     for i in range(0, len(data), 6):
         if data[i].strip():
@@ -53,4 +53,4 @@ def load_data():
 
 
 
-load_data()
+# load_data()
