@@ -100,27 +100,33 @@ def mise(joueurs : list, pot):
                     if mise[i] < JETONS[i]:
                         # Mise minimum de l'ordinateur
                         if randint(0,1) == 0: 
+                            # check
                             if max(mise) == 0:
                                 print(f"Joueur {i+1} check")
-                                pass # check
+                                pass
                             elif JETONS[i] >= max(mise):
+                                # follow
                                 if randint(0,1) == 0:
                                     mise[i] = max(mise)
                                     print(f"Joueurs {i+1} a misé {mise[i]}")
+                                # se coucher
                                 else:
-                                    JETONS[i] = -JETONS[i] # couché
+                                    JETONS[i] = -JETONS[i]
                                     print(f"Joueur {i+1} s'est couché")
 
                         else:
+                            # miser
                             if max(mise) == 0 and JETONS[i] >= 16:
                                 mise[i] = randint(BASE_STACK, int(JETONS[i]/4))
                                 print(f"Joueurs {i+1} a misé {mise[i]}")
+                            # relancer
                             elif JETONS[i]*3/4 >= max(mise) and JETONS[i] >= 16:
                                 mise[i] = max(mise) + randint(BASE_STACK, int(JETONS[i]/4))
                                 if mise[i] == JETONS[i]:
                                     print(f"Joueur {i+1} a fait tapis ! ({mise[i]} jetons)")
                                 else:
                                     print(f"Joueurs {i+1} a misé {mise[i]}")
+                            # relancer
                             else: # tapis
                                 mise[i] = JETONS[i]
                                 print(f"Joueur {i+1} a fait tapis ! ({mise[i]} jetons)")
