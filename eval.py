@@ -232,7 +232,7 @@ def affiche_gagnant(joueurs, combi_joueurs, cards):
                     return winner
 
             # La variable deck est vide
-            if max(best_card) == 0:
+            if not best_card or max(best_card) == 0:
                 break
 
             # On modifie les deck puisque les deux joueurs ont les mêmes meilleurs cartes

@@ -34,6 +34,7 @@ def load_data():
     card_players = []
     card_tables = []
     win = []
+    gain = []
 
     with open("data.txt", "r", encoding="utf-8") as file:
         data = file.readlines()
@@ -44,13 +45,8 @@ def load_data():
             card_players.append(literal_eval(data[2]))
             card_tables.append(literal_eval(data[3]))
             win.append(data[4].strip() == "True")
-    return pots, bet_players, card_players, card_tables, win
-    # print("POTS:", pots)
-    # print("BET_PLAYERS:", bet_players)
-    # print("CARD_PLAYERS:", card_players)
-    # print("CARD_TABLES:", card_tables)
-    # print("GAME_STATUSES:", win)
-
-
-
-# load_data()
+            if data[4]:
+                gain.append(int(data[1]))
+            else:
+                gain.append(0)
+    return pots, bet_players, card_players, card_tables, win, gain

@@ -57,10 +57,10 @@ def mise_player(misePlayer, max):
                 print("Veuillez entrer un nombre positif pour votre mise")
             elif mise > JETONS[0]:
                 print("Vous n'avez pas suffisamment de jetons pour cette mise")
-            # elif mise < BASE_STACK + max and mise > max:
-            #     print(f"Votre est inférieur à la mise minimum ({BASE_STACK + max} jetons)")
-            # elif mise < max:
-            #     print(f"Votre mise doit être supérieu à {max} jetons")
+            elif mise < BASE_STACK + max and mise > max:
+                print(f"Votre est inférieur à la mise minimum ({BASE_STACK + max} jetons)")
+            elif mise < max:
+                print(f"Votre mise doit être supérieu à {max} jetons")
             else:
                 # Si la mise est valide, sortir de la boucle
                 print(f"Vous avez misé {mise}")       
@@ -73,6 +73,16 @@ def mise_player(misePlayer, max):
     init_file_variable(bet=mise)
     return mise
 
+def random_mise_player(misePlayer : int, max : int):
+    if randint(0,3) == 0:
+        mise = max
+    elif max+BASE_STACK <= 100:
+        mise = randint(max+BASE_STACK, JETONS[0])
+    else:
+        mise = randint(100, JETONS[0])
+    init_file_variable(bet=mise)
+    return mise
+    
 def mise(joueurs : list, pot):
     mise = [0 for _ in range(len(joueurs))]
     dealer = DEALER
@@ -93,7 +103,8 @@ def mise(joueurs : list, pot):
                 # Au tour du joueur
                 if i == 0:
                     if mise[0] < JETONS[0]:
-                        mise[i] = mise_player(mise[i], max(mise))
+                        # mise[i] = mise_player(mise[i], max(mise))
+                        mise[i] = random_mise_player(mise[i], max(mise))
                     else:
                         print("Vous ne pouvez pas miser plus")
                 else:
@@ -133,7 +144,7 @@ def mise(joueurs : list, pot):
                     else:
                         print(f"Joueur {i+1} ne peut pas miser plus")
                 
-        if i == ordre[-1]: # si on est au dernier joueur 
+        if end_round(mise): # si on est au dernier joueur 
             break
     calcul_jetons(mise) # calcul les jetons en soustrayant les mises 
     print("Total à gagner: ", pot + sum(mise)) 
