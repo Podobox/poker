@@ -1,4 +1,5 @@
 import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras.layers import Dense, Input, Concatenate
@@ -6,7 +7,6 @@ from tensorflow.keras.models import Model
 from sklearn.model_selection import train_test_split
 from data import load_data  # Import the load_data function from data.py
 
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 # Define the card values and suits
 valeurs_vocab = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A']
